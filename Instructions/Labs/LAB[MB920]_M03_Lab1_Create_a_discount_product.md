@@ -1,20 +1,25 @@
 ---
 lab:
-    title: 'Lab 1: Rabattprodukt erstellen'
-    module: 'Modul 3: Grundlagen von Microsoft Dynamics 365 Commerce erlernen'
+  title: 'Lab 1: Rabattprodukt erstellen'
+  module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
+ms.openlocfilehash: 2d3a61398c6184a9b43e2fd0da9d28cb55f55ee5
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137910012"
 ---
+## <a name="lab-1---create-a-discount-product"></a>Lab 1 – Rabattprodukt erstellen
 
-## Lab 1 – Rabattprodukt erstellen
-
-## Ziele
+## <a name="objectives"></a>Ziele
 
 Die Bostoner Filiale Ihres Unternehmens ist bereit, den Verkauf einiger Produkte zu fördern, die verkauft werden müssen, um Platz für die neue Position zu schaffen. Sie müssen einen neuen Produktrabatt erstellen und aktivieren.
 
-## Lab-Einrichtung
+## <a name="lab-setup"></a>Lab-Einrichtung
 
    - **Geschätzte Dauer**: 10 Minuten
 
-## Anweisungen
+## <a name="instructions"></a>Anweisungen
 
 1. Wählen Sie oben links auf der Finance and Operations-Seite das Hamburger-Menü **Navigationsbereich erweitern** aus.
 
@@ -32,10 +37,10 @@ Die Bostoner Filiale Ihres Unternehmens ist bereit, den Verkauf einiger Produkte
 
 1. Wählen Sie das Menü **Modus für Rabattparallelität** aus, überprüfen Sie die verfügbaren Optionen, und klicken Sie dann auf **Bester Preis**.
 
-    >[!Hinweis] Beachten Sie bei der Auswahl zwischen den Optionen für den Modus für Rabattparallelität Folgendes:
+    >[!NOTE] Beachten Sie bei der Auswahl zwischen den Optionen für den Modus für Rabattparallelität Folgendes:
     >
     >  - Wenn mehrere zusammengesetzte Rabatte gelten, wird immer zuerst der höchste Rabatt berechnet.  Der nächsthöhere Rabatt wird dann auf den Restbetrag berechnet.  Diese Berechnungshierarchie wird fortgesetzt, bis alle anwendbaren zusammengesetzten Rabatte angewendet wurden.  
-    >    **Richtig**: 40 % Rabatt + 20 % Rabatt = 52 % Rabatt  
+    >    **Richtig:** 40 % Rabatt + 20 % Rabatt = 52 % Rabatt  
     >      - (40 % Rabatt auf 100 $ = 40 $. Verbleibend = 60 $.  20 % Rabatt auf 60 $ = 12. Verbleibend = 48 $)  
     >
     >    **Nicht richtig**: 40 % Rabatt + 20 % Rabatt = 60 % Rabatt

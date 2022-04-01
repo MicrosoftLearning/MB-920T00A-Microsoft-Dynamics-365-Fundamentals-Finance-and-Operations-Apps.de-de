@@ -1,12 +1,17 @@
 ---
 lab:
-    title: 'Lab 2: Kreditorzahlungserfassung erstellen'
-    module: 'Modul 2: Grundlagen von Microsoft Dynamics 365 Finance erlernen'
+  title: 'Lab 2: Erstellen Sie eine Vendoren-Zahlungserfassung'
+  module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
+ms.openlocfilehash: cc38bf9c77d8b5d45e8a27f0a8f766d7834e065a
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137910085"
 ---
+## <a name="lab-2---create-a-vendor-payment-journal"></a>Lab 2 – Kreditorzahlungserfassung erstellen
 
-## Lab 2 – Kreditorzahlungserfassung erstellen
-
-## Ziele
+## <a name="objectives"></a>Ziele
 
 Organisationen, die regelmäßige Zahlungen an Kreditoren leisten, können den Prozess zum Generieren von Kreditorenzahlungsvorschlägen jetzt automatisieren. Beim Automatisieren von Kreditorenzahlungsvorschlägen werden folgende Details definiert:
 
@@ -18,11 +23,11 @@ Bei der Automatisierung von Zahlungsvorschlägen werden die Zahlungen nicht auto
 
 Erstellen Sie einen neuen Eintrag in der Kreditorenzahlungserfassung und einen Zahlungsvorschlag.
 
-## Lab-Einrichtung
+## <a name="lab-setup"></a>Lab-Einrichtung
 
    - **Geschätzte Dauer**: 10 Minuten
 
-## Anweisungen
+## <a name="instructions"></a>Anweisungen
 
 1. Überprüfen Sie auf der Finance and Operations-Startseite oben rechts, ob Sie mit dem USMF-Unternehmen zusammenarbeiten.
 
@@ -47,7 +52,7 @@ Erstellen Sie einen neuen Eintrag in der Kreditorenzahlungserfassung und einen Z
 
 1. Löschen Sie in den Feldern **Von Datum** und **Bis Datum** alle vorhandenen Werte. In dieser Übung bleiben diese Datumsbereiche leer.
 
-    >[!Hinweis] Möglicherweise wird ein Mindestzahlungsdatum als Zahlungsdatum verwendet. Das Mindestzahlungsdatum ist das früheste Datum, an dem Zahlungen erstellt werden. Angenommen, eine Rechnung weist ein Fälligkeitsdatum nach dem Mindestzahlungsdatum auf. In diesem Fall ist das spätestmögliche Zahlungsdatum zum Begleichen der Rechnung das Fälligkeitsdatum anstelle des Mindestzahlungsdatums.
+    >[!NOTE] Möglicherweise wird ein Mindestzahlungsdatum als Zahlungsdatum verwendet. Das Mindestzahlungsdatum ist das früheste Datum, an dem Zahlungen erstellt werden. Angenommen, eine Rechnung weist ein Fälligkeitsdatum nach dem Mindestzahlungsdatum auf. In diesem Fall ist das spätestmögliche Zahlungsdatum zum Begleichen der Rechnung das Fälligkeitsdatum anstelle des Mindestzahlungsdatums.
 
 1. Erweitern Sie **Einzuschließende Datensätze**, und überprüfen Sie die Optionen.  
     Der Filter wird häufig verwendet, um die zur Zahlung ausgewählten Rechnungen nach Kreditorengruppen oder Zahlungsmethoden einzuschränken. Sie können beispielsweise einen Filter hinzufügen, um in diesem Zahlungslauf Rechnungen nur per Scheck zu bezahlen.
@@ -55,7 +60,7 @@ Erstellen Sie einen neuen Eintrag in der Kreditorenzahlungserfassung und einen Z
 1. Erweitern Sie **Erweiterte Parameter**, und überprüfen Sie die verfügbaren Optionen.  
     Die zusätzlichen Parameter können verwendet werden, um die Zahlungswährung zu definieren oder um zentralisierte Zahlungen für diesen Zahlungslauf zu aktivieren.
 
-1. Wählen Sie **OK** aus.  
+1. Klicken Sie auf **OK**.  
     Nach dem Klicken auf „OK“ werden die Ergebnisse der Abfrage angezeigt. Wenn Sie die Liste der zur Zahlung ausgewählten Rechnungen nicht in der Vorschau anzeigen möchten, kehren Sie zum Inforegister „Parameter“ zurück, und ändern Sie **Zahlungen ohne Rechnungsvorschau erstellen** in **Ja**.
 
 1. Wählen Sie im Fenster Kreditorenzahlungsvorschlag **Zahlungsübersicht anzeigen** aus, um die Zahlungen anzuzeigen, die für den Kreditor für die ausgewählten Rechnung erstellt werden.
@@ -72,7 +77,7 @@ Erstellen Sie einen neuen Eintrag in der Kreditorenzahlungserfassung und einen Z
 
     ![Screenshot mit der Seite „Kreditorenzahlung“, „Zahlungsvorschlag“ mit ausgewählten Elementen und hervorgehobener Menüoption zum Entfernen](./media/lp2-m4-vendor-payment-proposal-remove-selected-invoices.png)
 
-1. Wählen Sie im Dialogfeld die Option **Ja** aus.
+1. Klicken Sie im Dialogfeld auf **Ja**.
 
 1. Überprüfen Sie die verbleibenden drei Rechnungen.
 

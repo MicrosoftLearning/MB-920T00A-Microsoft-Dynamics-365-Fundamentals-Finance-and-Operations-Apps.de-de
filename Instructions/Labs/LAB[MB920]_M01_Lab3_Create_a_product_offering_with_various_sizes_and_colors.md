@@ -1,22 +1,27 @@
-﻿---
-lab:
-    title: 'Lab 3: Produktangebot mit verschiedenen Größen und Farben erstellen'
-    module: 'Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen'
 ---
+lab:
+  title: 'Lab 3: Produktangebot mit verschiedenen Größen und Farben erstellen'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 268432a06fab68b219e68d0748b959aa089045c4
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909940"
+---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
 
-# Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
+## <a name="lab-3---create-a-new-product"></a>Lab 3 – Neues Produkt erstellen
 
-## Lab 3 – Neues Produkt erstellen
-
-## Ziele
+## <a name="objectives"></a>Ziele
 
 Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen Artikel für eine neue Gehäusekonfiguration erstellen, die Sie bei einem Kreditor erwerben können.
 
-## Lab-Einrichtung
+## <a name="lab-setup"></a>Lab-Einrichtung
 
    - **Geschätzte Dauer**: 10 Minuten
 
-## Anweisungen
+## <a name="instructions"></a>Anweisungen
 
 1. Überprüfen Sie auf der Finance and Operations-Startseite oben rechts, ob Sie mit dem USMF-Unternehmen zusammenarbeiten.
 
@@ -34,7 +39,7 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Wählen Sie das Menü **Rückverfolgungsgruppe** und dann **Keine** aus.
 
-1. Geben Sie unter **IDENTIFIZIERUNG** in den Feldern **Produktnummer** und **Artikelnummer** die Nummer **GTL007** ein.
+1. Geben Sie unter **IDENTIFIZIERUNG** in den Feldern **Produktnummer** und **Artikelnummer** die Nummer **GTL007** ein.
 
 1. Geben Sie im Feld **Produktname** die Bezeichnung **Gehäuse 2** ein.
 
@@ -51,15 +56,15 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
     | Bestandseinheit| in Stück|
     | Bestelleinheit| in Stück|
     | Verkaufseinheit| in Stück|
-    | BOM-Einheit| in Stück|
+    | Stücklisteneinheit| in Stück|
 
 1. Wählen Sie unter **MEHRWERTSTEUER** das Menü **Artikel-Mehrwertsteuergruppe** und dann **ALLE** aus.
 
 1. Wählen Sie unter **BESTEUERUNG VON EINKÄUFEN** das Menü **Artikel-Mehrwertsteuergruppe** und dann **ALLE** aus.
 
-1. Geben Sie unter „PREISE“ im Feld „Einkaufspreis“ „30,00“ ein.
+1. Geben Sie unter PREISE im Feld „Einkaufspreis“ den Wert 30,00 ein.
 
-1. Geben Sie im Feld „Verkaufspreis“ „30,00“ ein.
+1. Geben Sie im Feld „Verkaufspreis“ den Wert 30,00 ein.
 
 1. Ihre neue Produktfreigabe sollte folgendermaßen aussehen:
 

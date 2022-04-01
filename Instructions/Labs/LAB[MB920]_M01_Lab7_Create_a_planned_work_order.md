@@ -1,10 +1,15 @@
 ---
 lab:
-    title: 'Lab 7: Arbeitsauftrag aus einer Wartungsanfrage erstellen'
-    module: 'Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen'
+  title: 'Lab 7: Arbeitsauftrag aus einer Wartungsanfrage erstellen'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: ae848333194143720a6f5ebb598d5d566bc2260f
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137910000"
 ---
-
-## Lab 7 – Arbeitsauftrag aus einer Wartungsanfrage erstellen
+## <a name="lab-7---create-a-maintenance-work-order"></a>Lab 7 – Arbeitsauftrag aus einer Wartungsanfrage erstellen
 
 **Ziele**
 
@@ -32,19 +37,19 @@ Geschätzte Dauer: 15 Minuten
 
 8. Geben Sie die folgenden Werte in den Feldern des Dialogfensters ein, und klicken Sie auf die Schaltfläche **OK**.
 
-	- Wartungsanfragentyp: Corrective
+    - Wartungsanfragentyp: Korrigierend
 
-	- Beschreibung: Noise in the metal detector
+    - Beschreibung: Noise in the metal detector
 
-	- Funktionaler Standort PP-02-02
+    - Funktionaler Standort: PP-02-02
 
-	- Anlage: MD-201
+    - Anlage: MD-201
 
-	- Serviceebene 4
+    - Servicelevel: 4
 
-	- Fehlersymptom: Excessive noise
+    - Fehlersymptom: Excessive noise
 
-	- Fehlerbereich: Electrical 
+    - Fehlerbereich: Electrical 
 
 9. Schließen Sie das Formular **Wartungsanfrage**, und kehren Sie zum Arbeitsbereich **Wartungsanfragenverwaltung** zurück.
 
@@ -65,7 +70,7 @@ Geschätzte Dauer: 15 Minuten
 
 15. Geben Sie die folgenden Werte in den Feldern des Dialogfensters ein, und klicken Sie auf die Schaltfläche **OK**.
 
-	- Wartungsauftragstyp: Inspektion
+    - Wartungsauftragstyp: Inspektion
 
 16. Es wird ein neuer Arbeitsauftrag erstellt, und der Arbeitsauftrag wird im ausgewählten Datensatz für die Wartungsanfrage aktualisiert.
 
@@ -75,9 +80,9 @@ Geschätzte Dauer: 15 Minuten
 
 19. Geben Sie die folgenden Werte in den Feldern des Dialogfensters ein, und klicken Sie auf die Schaltfläche **OK**.
 
-	- Verantwortlicher: Ted Howard
+    - Verantwortlicher: Ted Howard
 
-20. Navigieren Sie im Aktionsmenü zu **Arbeitsauftrag &gt; Lebenszyklusstatus &gt; Arbeitsauftragsstatus aktualisieren.**
+20. Navigieren Sie im Aktionsmenü zu **Arbeitsauftrag &gt; Lebenszyklusstatus &gt; Arbeitsauftragsstatus aktualisieren**.
 
 21. Aktivieren Sie im Dialogfenster das Kontrollkästchen neben „InProgress“, und klicken Sie auf **OK**.
 
@@ -85,7 +90,7 @@ Geschätzte Dauer: 15 Minuten
 
 22. Legen Sie im Dialogfenster im Feld **Tatsächlicher Start** das Datum und die Uhrzeit aus, und klicken Sie auf **OK.**
 
-23. Navigieren Sie dann vom Aktionsmenü „Arbeitsauftrag“ erneut zu **Arbeitsauftrag &gt; Lebenszyklusstatus &gt; Arbeitsauftragsstatus aktualisieren.**
+23. Navigieren Sie dann im Aktionsmenü „Arbeitsauftrag“ erneut zu **Arbeitsauftrag &gt; Lebenszyklusstatus &gt; Arbeitsauftragsstatus aktualisieren**.
 
 24. Aktivieren Sie im Dialogfenster das Kontrollkästchen neben „Abgeschlossen“, und klicken Sie auf **OK**.
 

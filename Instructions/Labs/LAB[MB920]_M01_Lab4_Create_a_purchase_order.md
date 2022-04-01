@@ -1,22 +1,27 @@
 ---
 lab:
-    title: 'Lab 4: Bestellung erstellen'
-    module: 'Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen'
+  title: 'Lab 4: Bestellung erstellen'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 04c349859896368763e172203a4bec80073c35bf
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909976"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
 
-# Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
+## <a name="lab-4---create-a-purchase-order"></a>Lab 4 – Bestellung erstellen
 
-## Lab 4 – Bestellung erstellen
-
-## Ziele
+## <a name="objectives"></a>Ziele
 
 Typischer ist es, dass Bestellungen automatisch als Ergebnis von Produktprogrammplanung, Direktlieferung und anderen Prozessen erstellt werden. Bei der manuellen Erstellung einer Bestellung wird sie normalerweise von einem Einkaufsvertreter erstellt. Erstellen Sie eine Bestellung unter Verwendung des USMF-Unternehmens.
 
-## Lab-Einrichtung
+## <a name="lab-setup"></a>Lab-Einrichtung
 
    - **Geschätzte Dauer**: 10 Minuten
 
-## Anweisungen
+## <a name="instructions"></a>Anweisungen
 
 1. Überprüfen Sie auf der Finance and Operations-Startseite oben rechts, ob Sie mit dem USMF-Unternehmen zusammenarbeiten.
 
@@ -46,7 +51,7 @@ Typischer ist es, dass Bestellungen automatisch als Ergebnis von Produktprogramm
 
 1. Dies kann zweckmäßig sein, um es dem Kreditor mitzuteilen, falls er diese Person kontaktieren muss. Der Wert kann automatisch zugewiesen werden, wenn das aktuelle Benutzerkonto einem Namen auf der Seite Benutzer zugeordnet ist.
 
-1. Wählen Sie **OK** aus.
+1. Klicken Sie auf **OK**.
 
 1. Der Auftragskopf wurde nun erstellt. Wenn Sie mit Bestellpositionen arbeiten, wird nur eine Zusammenfassung der Kopfzeileninformationen angezeigt. Wenn Sie den Rest der Informationen anzeigen möchten, wählen Sie **Kopfzeile** aus.
 
@@ -64,7 +69,7 @@ Typischer ist es, dass Bestellungen automatisch als Ergebnis von Produktprogramm
 
 1. Optional: Wenn Sie den Umschalter „Einstellungen speichern“ auswählen, werden die von Ihnen ausgewählten Dimensionen beim nächsten Öffnen der Bestellseite auch im Raster der Bestellposition angezeigt.
 
-1. Wählen Sie **OK** aus.
+1. Klicken Sie auf **OK**.
 
 1. Wählen Sie das Zellenmenü **Artikelnummer** und dann **T0004** aus.
 
@@ -84,7 +89,7 @@ Typischer ist es, dass Bestellungen automatisch als Ergebnis von Produktprogramm
 
 1. Weitere Informationen:
 
-    - **Einheit**: Zeigt die Maßeinheit für die bestellte Menge an. Normalerweise wird die Einheit automatisch von der Einkaufseinheit in den Produktstammdaten bereitgestellt.
+    - **Einheit:** Zeigt die Maßeinheit für die bestellte Menge an. Normalerweise wird die Einheit automatisch von der Einkaufseinheit in den Produktstammdaten bereitgestellt.
 
     - **Preis je Einheit**: Enthält einen Wert aus einem Kaufvertrag oder einem Handelsvertrag. Es ist möglich, den Stückpreis in einzelnen Bestellpositionen zu ändern – beispielsweise wenn mit dem Kreditor ein eindeutiger Preis ausgehandelt wird.
 

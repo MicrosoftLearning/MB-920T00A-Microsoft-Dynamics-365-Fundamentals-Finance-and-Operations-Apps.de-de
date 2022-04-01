@@ -1,22 +1,27 @@
 ---
 lab:
-    title: 'Lab 2: Arbeitsbereich und Filterung erkunden'
-    module: 'Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen'
+  title: 'Lab 2: Erkunden Sie Arbeitsbereiche und Filtern'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 0a2815e312b9798dcf93ec6cee669eb65a1f9942
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909928"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
 
-# Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
+## <a name="lab-2---explore-workspaces-and-filtering"></a>Lab 2 – Arbeitsbereich und Filterung erkunden
 
-## Lab 2 – Arbeitsbereich und Filterung erkunden
-
-## Ziele
+## <a name="objectives"></a>Ziele
 
 Bei der ersten Anmeldung bei Finance and Operations stehen Ihnen viele Arbeitsbereiche zur Verfügung. Sie können auch einen eigenen Arbeitsbereich mit Inhalten erstellen, die auf Ihre Bedürfnisse zugeschnitten sind. Arbeitsbereiche sind eine der vielen Funktionen von Dynamics 365, aber Sie sollten wissen, dass das Filtern der Weg ist, um wirklich zu den spezifischen Elementen zu gelangen, nach denen Sie möglicherweise suchen. Sie müssen einen neuen personalisierten Arbeitsbereich erstellen und mithilfe der Filterung verschiedene Elemente identifizieren, die Sie benötigen.
 
-## Lab-Einrichtung
+## <a name="lab-setup"></a>Lab-Einrichtung
 
    - **Geschätzte Dauer**: 10 Minuten
 
-## Anweisungen
+## <a name="instructions"></a>Anweisungen
 
 1. Klicken Sie auf der Finance and Operations-Startseite rechts neben den Arbeitsbereichskacheln mit der rechten Maustaste in einen leeren Bereich, um das Menü aufzurufen, oder klicken und halten Sie.
 
@@ -45,7 +50,7 @@ Bei der ersten Anmeldung bei Finance and Operations stehen Ihnen viele Arbeitsbe
 
 1. Wählen Sie Ihre Kachel **Mein Arbeitsbereich** aus und verschieben Sie sie dann an eine andere Position auf der Startseite.
 
-    >[!Hinweis] Wenn Sie die Kachel nicht verschieben können, aktualisieren Sie die Seite und wiederholen Sie die vorherigen Schritte, um die Kachel zu verschieben.
+    >[!Note] Wenn Sie die Kachel nicht verschieben können, aktualisieren Sie die Seite und wiederholen Sie die vorherigen Schritte, um die Kachel zu verschieben.
 
 1. Schließen Sie die Symbolleiste.
 

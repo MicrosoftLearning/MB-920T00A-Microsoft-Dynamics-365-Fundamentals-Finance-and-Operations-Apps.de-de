@@ -1,20 +1,25 @@
 ---
 lab:
-    title: 'Lab 2: Produktsortiment erstellen'
-    module: 'Modul 3: Grundlagen von Microsoft Dynamics 365 Commerce erlernen'
+  title: 'Lab 2: Produktsortiment erstellen'
+  module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
+ms.openlocfilehash: d6c414c266f0403139dc31de38f602b5a0290ef5
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137910130"
 ---
+## <a name="lab-2---create-a-product-assortment"></a>Lab 2 – Produktsortiment erstellen
 
-## Lab 2 – Produktsortiment erstellen
-
-## Ziele
+## <a name="objectives"></a>Ziele
 
 Sie müssen eine Auswahl zugehöriger Produkte erstellen, die einem bestimmten Commerce-Kanal zugeordnet sind und zu einem späteren Zeitpunkt verfügbar sein werden.
 
-## Lab-Einrichtung
+## <a name="lab-setup"></a>Lab-Einrichtung
 
    - **Geschätzte Dauer**: 10 Minuten
 
-## Anweisungen
+## <a name="instructions"></a>Anweisungen
 
 1. Wählen Sie oben links auf der Finance and Operations-Seite das Hamburger-Menü **Navigationsbereich erweitern** aus.
 
@@ -40,7 +45,7 @@ Sie müssen eine Auswahl zugehöriger Produkte erstellen, die einem bestimmten C
 
 1. Wählen Sie unter „Organisationsknoten auswählen“ das Menü **Organisationshierarchie** und dann **Einzelhandelsgeschäfte nach Typ (Fabrikam)** aus.
 
-1. Wählen Sie unter VERFÜGBARE ORGANISATIONSKNOTEN die Option? „Online“ und dann das Nach-rechts-Pfeilsymbol ![Hinzufügen](./media/d365-fo-add-org-node-icon.png) aus, um es zu **AUSGEWÄHLTE ORGANISATIONSKNOTEN** hinzuzufügen.  
+1. Wählen Sie unter VERFÜGBARE ORGANISATIONSKNOTEN die Option „Online“ und dann das Nach-rechts-Pfeilsymbol ![Hinzufügen](./media/d365-fo-add-org-node-icon.png) aus, um es zu **AUSGEWÄHLTE ORGANISATIONSKNOTEN** hinzuzufügen.  
   Dadurch werden der übergeordnete Knoten und alle untergeordneten Knoten hinzugefügt.
 
 1. Ergänzen Sie den übergeordneten Knoten **Einkaufszentrum**, und wählen Sie dann **OK** aus.
@@ -57,7 +62,7 @@ Sie müssen eine Auswahl zugehöriger Produkte erstellen, die einem bestimmten C
 
 1. Überprüfen Sie die letzte Spalte **Zeilenart**. Standardmäßig werden alle Elemente eingeschlossen.
 
-1. Wählen Sie **+ Zeile hinzufügen** und das Menü **Kategorie** aus, erweitern Sie **Mannschaftssport (Mannschaftssport)**, und klicken Sie dann auf **Baseball** und **OK**.
+1. Wählen Sie **+ Zeile hinzufügen** und das Menü **Kategorie** aus, erweitern Sie **Mannschaftssport (Mannschaftssport)** , und klicken Sie dann auf **Baseball** und **OK**.
 
 1. Um einen Artikel aus einer bereits enthaltenen größeren Kategorie auszuschließen, in diesem Fall Mannschaftsport, ändern Sie in der Spalte „Zeilenart“ den Wert in **Ausschließen**.
 

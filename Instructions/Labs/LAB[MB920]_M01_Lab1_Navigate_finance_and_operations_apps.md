@@ -1,40 +1,45 @@
 ---
 lab:
-    title: 'Lab 1: In den Finance and Operations-Apps navigieren'
-    module: 'Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen'
+  title: 'Lab 1: In den Finance and Operations-Apps navigieren'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: b0202a22e00a6fb2d561179ed1d6006f13d871f9
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909475"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
 
-# Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
+## <a name="lab-1---navigate-finance-and-operations-apps"></a>Lab 1 – In den Finance and Operations-Apps navigieren
 
-## Lab 1 – In den Finance and Operations-Apps navigieren
-
-## Ziele
+## <a name="objectives"></a>Ziele
 
 Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, nehmen Sie sich etwas Zeit, um die Benutzeroberfläche zu erkunden.
 
-## Lab-Einrichtung
+## <a name="lab-setup"></a>Lab-Einrichtung
 
 - **Geschätzte Dauer**: 10 Minuten
 
-## Anweisungen
+## <a name="instructions"></a>Anweisungen
 
-### Melden Sie sich beim Lab-Computer an
+### <a name="sign-in-to-the-lab-computer"></a>Melden Sie sich beim Lab-Computer an
 
 1. Melden Sie sich mit den folgenden Anmeldeinformationen beim Lab-Computer an
 
-    - Benutzername:
+    - User Name (Benutzername):
 
         Inhalt einfügen
 
         Administrator
 
-    - Kennwort:
+    - Password (Kennwort):
 
         Inhalt einfügen
 
         pass@word1
 
-    >[!Hinweis] Möglicherweise wird Internet Explorer automatisch auf dem Desktop geöffnet. Wenn Sie die Schritte 2 bis 5 noch nicht ausgeführt haben, schließen Sie sie bitte ab, bevor Sie zu Internet Explorer zurück navigieren.
+    >[!Note] Möglicherweise wird Internet Explorer automatisch auf dem Desktop geöffnet. Wenn Sie die Schritte 2 bis 5 noch nicht ausgeführt haben, schließen Sie sie bitte ab, bevor Sie zu Internet Explorer zurück navigieren.
 
 1. Wählen Sie die Datei **AdminUserProvisioning** auf dem Desktop aus.
 
@@ -51,7 +56,7 @@ Ihre Anmeldeinformationen finden Sie im Menü **Ressourcen** in der oberen recht
 
 1. Melden Sie sich mit den Anmeldeinformationen an, die im Menü **Ressourcen** bereitgestellt werden.
 
-### In den Finance and Operations-Apps navigieren
+### <a name="navigate-finance-and-operations-apps"></a>In den Finance and Operations-Apps navigieren
 1. Auf der Finance and Operations-Startseite wird Ihnen Folgendes angezeigt, soweit konfiguriert:
 
     - Das Navigationsmenü auf der linken Seite, das standardmäßig reduziert ist
@@ -79,7 +84,7 @@ Ihre Anmeldeinformationen finden Sie im Menü **Ressourcen** in der oberen recht
 
 1. Wählen Sie unter **Einrichtung** **Clientleistungsoptionen** aus.
 
-1. Wählen Sie im Bereich „Clientleistungsoptionen“ unter **Funktionslegenden aktiviert** die Umschalttaste aus, und legen Sie sie auf **Ja** fest.
+1. Wählen Sie im Bereich „Clientleistungsoptionen“ unter **Funktionslegenden aktiviert** den Umschalter aus, und vergewissern Sie sich, dass sie auf **Ja** festgelegt ist.
 
 1. Überprüfen Sie die anderen verfügbaren Optionen, scrollen Sie zum unteren Rand des Fensters, und wählen Sie dann **OK** aus.
 

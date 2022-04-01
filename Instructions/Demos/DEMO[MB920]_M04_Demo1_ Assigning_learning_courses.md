@@ -1,10 +1,15 @@
 ---
 demo:
-    title: 'Demo 1: Zuweisen von Lernkursen'
-    module: 'Modul 4: Grundlagen von Microsoft Dynamics 365 Human Resources erlernen'
+  title: 'Demo 1: Zuweisen von Lernkursen'
+  module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Human Resources'
+ms.openlocfilehash: 06483c659174e77391b0181963299d51f2011d35
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909439"
 ---
-
-## Demo 1 – Zuweisen von Lernkursen
+## <a name="demo-1---assigning-learning-courses"></a>Demo 1 – Zuweisen von Lernkursen
 
 1. Navigieren Sie zur Startseite von **Microsoft Dynamics 365 Human Resources**.  
     In Microsoft Dynamics 365 Human Resources können Personalleiter den Mitarbeitern Schulungskurse zuweisen. In diesem Beispiel muss der neuen Mitarbeiterin Alicia die Schulung zugewiesen werden, die den Mitarbeitern innerhalb der ersten dreißig Tage zur Verfügung steht.

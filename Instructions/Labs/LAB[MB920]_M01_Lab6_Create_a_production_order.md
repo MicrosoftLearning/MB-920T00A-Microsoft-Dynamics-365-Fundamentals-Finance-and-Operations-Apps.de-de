@@ -1,28 +1,33 @@
 ---
 lab:
-    title: 'Lab 6: Erstellen eines Produktionsauftrags'
-    module: 'Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen'
+  title: 'Lab 6: Erstellen eines Produktionsauftrags'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 222c557f935bc0dcfaa4f2e96049774f141ea028
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909446"
 ---
+## <a name="lab-6---create-a-production-order"></a>Lab 6 – Erstellen eines Produktionsauftrags
 
-## Lab 6 – Erstellen eines Produktionsauftrags
-
-## Ziele
+## <a name="objectives"></a>Ziele
 
 Der Produktionsauftrag enthält Informationen darüber, was produziert werden soll, die zu produzierende Menge und das geplante Enddatum. Er enthält auch Informationen darüber, welche Materialien verbraucht werden müssen und welcher Prozess zur Herstellung des Artikels erforderlich ist.
 
 Sie müssen einen neuen Produktionsauftrag für Ihr Unternehmen erstellen.
 
-## Lab-Einrichtung
+## <a name="lab-setup"></a>Lab-Einrichtung
 
    - **Geschätzte Dauer**: 5 Minuten
 
-## Anweisungen
+## <a name="instructions"></a>Anweisungen
 
 1. Überprüfen Sie auf der Finance and Operations-Startseite oben rechts, ob Sie mit dem USMF-Unternehmen zusammenarbeiten.
 
 1. Wählen Sie bei Bedarf das Unternehmen und im Menü **USMF** aus.
 
-1. Wählen Sie im linken Navigationsbereich **Module** > **Produktionssteuerung** > **Produktionsaufträge** > **Alle Produktionsaufträge** aus.
+1. Wählen Sie im linken Navigationsbereich **Module** > **Produktionssteuerung** > **Produktionsaufträge** > **Alle Produktionsaufträge** aus.
 
 1. Wählen Sie im oberen Menü **Neuer Fertigungsauftrag** aus.
 
@@ -37,4 +42,4 @@ Sie müssen einen neuen Produktionsauftrag für Ihr Unternehmen erstellen.
 
     ![Bildschirmbild mit der vollständigen Anzeige des Bereichs „Produktionsauftrag erstellen“](./media/lp1-m4-new-production-order-pane.png)
 
-1. Wählen Sie **Erstellen** aus.
+1. Klicken Sie auf **Erstellen**.

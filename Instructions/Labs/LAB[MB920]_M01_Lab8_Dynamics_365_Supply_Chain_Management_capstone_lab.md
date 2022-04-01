@@ -1,22 +1,27 @@
 ---
 lab:
-    title: 'Lab 8: Dynamics 365 Supply Chain Management – Capstone-Lab'
-    module: 'Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen'
+  title: 'Lab 8: Dynamics 365 Supply Chain Management – Capstone-Lab'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 05fc7cf7a81164c2cabf3637e307dcae2ca5d3f7
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137910036"
 ---
+## <a name="lab-8---dynamics-365-supply-chain-management-capstone-lab"></a>Lab 8 – Dynamics 365 Supply Chain Management – Capstone-Lab
 
-## Lab 8 – Dynamics 365 Supply Chain Management – Capstone-Lab
-
-## Ziel
+## <a name="objective"></a>Ziel
 
 In diesem Lab erkunden Sie das Erstellen eines Produkts und die Pflege der Preisgestaltung. Darüber hinaus erfahren Sie mehr über wichtige Geschäftsprozesse bei Lieferketten, wie zum Beispiel die Bestandsverwaltung, Beschaffung und Sourcing.
 
-## Lab-Einrichtung
+## <a name="lab-setup"></a>Lab-Einrichtung
 
-- **Geschätzte Dauer**: 45 Minuten 
+- **Geschätzte Dauer**: 45 Minuten 
 
-## Übung 1: Produktverwaltung erkunden
+## <a name="exercise-1-explore-product-management"></a>Übung 1: Produktverwaltung erkunden
 
-### Produkt erstellen
+### <a name="create-a-product"></a>Erstellen eines Produkts
 
 Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen Artikel für eine neue Gehäusekonfiguration eines Lautsprechers erstellen, die Sie bei einem Kreditor erwerben können.
 
@@ -24,7 +29,7 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Wenn nicht, wählen Sie das aktuell ausgewählte Unternehmen aus, und ändern Sie das Unternehmen dann in **USMF**.
 
-1. Wählen Sie im Navigationsbereich **Module** > **Produktinformationsmanagement** > **Produkte** > **Freigegebene Produkte** aus.
+1. Wählen Sie im Navigationsbereich **Module** > **Produktinformationsverwaltung** > **Produkte** > **Freigegebene Produkte** aus.
 
 1. Wählen Sie auf der Detailseite für freigegebene Produkte im Aktionsbereich die Option **+ Neu** aus.
 
@@ -56,10 +61,10 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
     | **Einstellung**| **Wert**|
     | :--- | :--- |
-    | Bestandseinheit| ea|
-    | Bestelleinheit| ea|
-    | Verkaufseinheit| ea|
-    | BOM-Einheit| ea|
+    | Bestandseinheit| jeder|
+    | Bestelleinheit| jeder|
+    | Verkaufseinheit| jeder|
+    | Stücklisteneinheit| jeder|
 
 1. Klicken Sie auf **OK**.
 
@@ -69,9 +74,9 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Schließen Sie alle Seiten, und kehren Sie zur Startseite zurück.
 
-## Übung 2: Lagerverwaltung erkunden
+## <a name="exercise-2-explore-warehouse-management"></a>Übung 2: Lagerverwaltung erkunden
 
-### Lager erstellen
+### <a name="create-a-warehouse"></a>Lager erstellen
 
 1. Wählen Sie im Navigationsbereich **Module** > **Bestandsverwaltung** > **Einrichtung** > **Bestandsaufschlüsselung** > **Lager** aus.
 
@@ -81,7 +86,7 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Geben Sie im Feld **Name** die Bezeichnung **Lager Außenstelle** ein.
 
-1. Wählen Sie das Menü **Site** und dann **1 Heimlautsprecherproduktion**.
+1. Wählen Sie das Menü **Site** und dann **1 Heimlautsprecherproduktion** aus.
 
 1. Wählen Sie das Inforegister **Lagerplatznamen** aus.
 
@@ -95,7 +100,7 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Wählen Sie im Aktionsbereich **Lager** aus.
 
-1. Wählen Sie unter **Verwalten** die Option **Standort-Assistent** aus.
+1. Wählen Sie unter **Verwalten** die Option **Lagerplatz-Assistent** aus.
 
 1. Überprüfen Sie auf der Begrüßungsseite die Informationen, und wählen Sie dann in der unteren rechten Ecke **Weiter** aus.
 
@@ -107,21 +112,21 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Schließen Sie die Seite, und kehren Sie zur Startseite zurück.
 
-### Handelsvereinbarung für Verkaufspreis erstellen
+### <a name="create-a-trade-agreement-for-sales-price"></a>Handelsvereinbarung für Verkaufspreis erstellen
 
-1. Wählen Sie im Navigationsbereich **Module** > **Produktinformationsverwaltung** > **Produkte** > **Freigegebene Produkte**.
+1. Wählen Sie im Navigationsbereich **Module** > **Produktinformationsverwaltung** > **Produkte** > **Freigegebene Produkte** aus.
 
 1. Suchen Sie auf der Detailseite „Freigegebene Produkte“ nach der Produktnummer **GTL201**.
 
-1. Aktivieren Sie links neben **GTL201** das Kontrollkästchen zum Auswählen bzw. **Aufheben der Auswahl einer Zeile**.
+1. Aktivieren Sie links neben **GTL201** das Kontrollkästchen zum **Auswählen bzw. Aufheben der Auswahl einer Zeile**.
 
 1. Wählen Sie im Aktionsbereich **Verkaufen** und dann unter **HANDELSVEREINBARUNGEN** die Option **Handelsvereinbarungen erstellen** aus.
 
-1. Wählen Sie im Aktionsbereich **+Neu** aus.
+1. Wählen Sie im Aktionsbereich  **+Neu** aus.
 
 1. Wählen Sie in der Spalte **Name** das Menü und dann **S_Price** aus.
 
-1. Wählen Sie im Aktionsbereich **Positionen** aus.
+1. Wählen Sie im Aktionsbereich **Positionen** aus.
 
 1. Wählen Sie in den Erfassungspositionen auf der Seite „Handelsvereinbarung“ in der Spalte **Artikelrelation** das Menü und dann **GTL201** aus.
 
@@ -155,9 +160,9 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Schließen Sie die Seiten, und kehren Sie zur Startseite zurück.
 
-## Übung 3: Produktionsverwaltung erkunden
+## <a name="exercise-3-explore-production-management"></a>Übung 3: Produktionsverwaltung erkunden
 
-### Produktionsauftrag für ein Produkt erstellen
+### <a name="create-a-production-order-for-a-product"></a>Produktionsauftrag für ein Produkt erstellen
 
 1. Wählen Sie im Navigationsbereich **Module** > **Produktionssteuerung** > **Produktionsaufträge** > **Alle Produktionsaufträge** aus.
 
@@ -171,21 +176,21 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Geben Sie im Feld **Menge** den Wert **30** ein.
 
-1. Wählen Sie **Erstellen** aus.
+1. Klicken Sie auf **Erstellen**.
 
 1. Schließen Sie alle Seiten, und kehren Sie zur Startseite zurück.
 
-## Übung 4: Bestandsverwaltung erkunden
+## <a name="exercise-4-explore-inventory-management"></a>Übung 4: Bestandsverwaltung erkunden
 
-### Anzahlerfassung mit dem Produkt für das erstellte Lager erstellen
+### <a name="create-a-count-journal-with-the-product-for-the-created-warehouse"></a>Anzahlerfassung mit dem Produkt für das erstellte Lager erstellen
 
 1. Wählen Sie im Navigationsbereich **Module** > **Bestandsverwaltung** > **Journaleinträge** > **Artikelinventur > Inventur** aus.
 
-1. Wählen Sie im Aktionsbereich **+Neu** aus.
+1. Wählen Sie im Aktionsbereich  **+Neu** aus.
 
 1. Wählen Sie im Bereich **Bestandserfassung erstellen** unter **Inventur von** für den Umschalter **Lager** die Einstellung **Ja**.
 
-1. Wählen Sie **OK** aus.
+1. Klicken Sie auf **OK**.
 
 1. Wählen Sie auf der Seite „Bestandsinventurerfassung“ im Inforegister **Erfassungskopfdetails** auf der Symbolleiste unter **Erfassungspositionen** die Option **+Neu** aus.
 
@@ -197,7 +202,7 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Hiermit wird die Anzahl der im Lager befindlichen Artikel dieses Produkts angegeben.
 
-1. Wählen Sie im Aktionsbereich **Überprüfen** aus.
+1. Wählen Sie im Aktionsbereich **Überprüfen** aus.
 
 1. Wählen Sie im Bereich **Erfassung prüfen** die Option **OK** aus.
 
@@ -207,7 +212,7 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Schließen Sie alle Seiten, und kehren Sie zur Startseite zurück.
 
-### Verfügbaren Bestand des Produkt prüfen
+### <a name="check-on-hand-inventory-for-the-product"></a>Verfügbaren Bestand des Produkt prüfen
 
 1. Wählen Sie im Navigationsbereich **Module** > **Bestandsverwaltung** > **Abfragen und Berichte** > **Bestandsliste** aus.
 
@@ -221,9 +226,9 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Schließen Sie alle Seiten, und kehren Sie zur Startseite zurück.
 
-## Übung 5: Beschaffung erkunden
+## <a name="exercise-5-explore-procurement-and-sourcing"></a>Übung 5: Beschaffung erkunden
 
-### Bestellung mit einem Produkt erstellen
+### <a name="create-a-purchase-order-with-a-product"></a>Bestellung mit einem Produkt erstellen
 
 1. Wählen Sie im Navigationsbereich **Module** > **Beschaffung** > **Bestellungen** > **Alle Bestellungen** aus.
 
@@ -249,13 +254,13 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 
 1. Wählen Sie im Anzeigebereich **Dimensionen** unter **PRODUKTDIMENSIONEN** das Kontrollkästchen **Farbe** aus.
 
-1. Wählen Sie **OK** aus.
+1. Klicken Sie auf **OK**.
 
 1. Wählen Sie in der Spalte **Artikelnummer** das Menü und dann **T0005** aus.
 
 1. Wählen Sie in der Spalte **Variantennummer** das Menü und dann eine der Farben aus.
 
-1. Geben Sie im Feld **Menge** **15** ein.
+1. Geben Sie im Feld **Menge** den Wert **15** ein.
 
 1. Wählen Sie unter den **Bestellpositionen** unten auf der Seite das Inforegister **Positionsdetails** aus.
 
@@ -264,7 +269,7 @@ Im Unternehmen Contoso Entertainment System USA (USMF) müssen Sie einen neuen A
 1. Wählen Sie die Registerkarte **Lieferung** aus, und übernehmen Sie das im Feld ausgewählte **Lieferdatum**, oder geben Sie ein künftiges Datum an.  
     Jeder Bestellposition kann eine eindeutige Auftragsposition zugewiesen werden. Das Datum wird vom Feld im Bestellkopf übernommen, Sie können dies jedoch ändern.
 
-1. Notieren Sie sich die Bestellnummer. Sie werden sie später benötigen.
+1. Notieren Sie sich die Bestellnummer. Sie benötigen sie später.
 
 1. Wählen Sie im Aktionsbereich **Speichern** aus.
 

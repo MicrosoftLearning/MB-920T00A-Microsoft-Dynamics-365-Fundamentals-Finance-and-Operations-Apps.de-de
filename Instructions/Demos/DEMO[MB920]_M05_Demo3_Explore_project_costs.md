@@ -1,10 +1,15 @@
 ---
 demo:
-    title: 'Demo 3: Projektkosten erkunden'
-    module: 'Modul 5: Grundlagen von Microsoft Dynamics 365 Project Operations erlernen'
+  title: 'Demo 3: Projektkosten erkunden'
+  module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
+ms.openlocfilehash: ca5f0816e2d018c01ab7e24b43219ff32c0e693e
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909415"
 ---
-
-## Demo 3 – Projektkosten erkunden
+## <a name="demo-3---explore-project-costs"></a>Demo 3 – Projektkosten erkunden
 
 In dieser Demo gehen wir durch die Erstellung eines Aufwandseintrags, der dem Contoso Consulting-Projekt in Rechnung gestellt wird. Wir werden die Einträge in Formaten erkunden, die für die Darstellung im Web und auf Mobilgeräten optimiert sind. Zudem werden wir erfahren, wie ein Workflow zum Verwalten des Genehmigungsprozess verwendet wird.
 
@@ -45,10 +50,10 @@ In dieser Demo gehen wir durch die Erstellung eines Aufwandseintrags, der dem Co
 
     ![Screenshot der Seite „Zeiterfassung“.](./media/projops_costs_2_mon_box.png)
 
-1. Fügen Sie im Feld **Interner Kommentar** einen Kommentar hinzu. Beispiel: **Vielleicht Gespräch über neue Fahrräder führen**.  
+1. Fügen Sie im Feld **Interner Kommentar** einen Kommentar hinzu. Beispiele: **Vielleicht Gespräch über neue Fahrräder führen**.  
     Sie können auch interne und externe Kommentare zum Projekt eingeben, um sicherzustellen, dass alle Beteiligten die Art der erfassten Stunden verstehen.
 
-1. Fügen Sie im Feld **Externer Kommentar** einen Kommentar hinzu. Beispiel: **Ketten wurden eingestellt und die Vorderräder des Fuhrparks ausgerichtet**.
+1. Fügen Sie im Feld **Externer Kommentar** einen Kommentar hinzu. Beispiele: **Ketten wurden eingestellt und die Vorderräder des Fuhrparks ausgerichtet**.
 
 1. Wählen Sie in der Navigationsleiste die Option **Speichern** aus.
 
@@ -69,7 +74,7 @@ In dieser Demo gehen wir durch die Erstellung eines Aufwandseintrags, der dem Co
 
 1. Fügen Sie im Bereich **Workflow für Arbeitszeitnachweis prüfen – Übermitteln** mögliche weitere Kommentare hinzu.
 
-1. Wählen Sie **Übermitteln** aus.
+1. Klicken Sie auf **Senden**.
 
 1. Navigieren Sie zur Seite **Stundenbuchungen**. Wenn die Registerkarte **Stundenbuchungen** abgeblendet dargestellt ist, navigieren Sie zur Seite **Meine Arbeitszeitnachweise**, und wählen Sie den zuvor erstellten Arbeitszeitnachweis aus.
 
@@ -91,7 +96,7 @@ Lassen Sie uns jetzt einen Aufwandseintrag für dasselbe Contoso Consulting-Proj
 
 1. Geben Sie im Bereich **Neue Spesenabrechnung** im Feld **Zweck** einen Titel ein. Beispiel: **Contoso – Feb2021**.
 
-1. Wählen Sie **OK** aus.
+1. Klicken Sie auf **OK**.
 
 1. Wählen Sie auf der Seite **Ausgaben** die Option **+ Neue Ausgaben** aus.  
 Es wird eine neue Ausgabenposition angezeigt.
@@ -103,7 +108,7 @@ Hier können wir die neue Ausgabe mit entsprechenden Details eingeben.
 
 1. Wählen Sie in der Spalte **Währung** die Option **USD** aus.
 
-1. Wählen Sie in der Spalte **Buchungsdatum** ein Datum aus. Beispiel: **1.02.2021**.  
+1. Wählen Sie in der Spalte **Buchungsdatum** ein Datum aus. Ein Beispiel hierfür ist **2/1/2021**.  
     Wenn Sie alle Details eingegeben haben, können Sie die Ausgabe speichern.
 
 1. Wählen Sie **Speichern** aus.
@@ -124,7 +129,7 @@ Als nächstes können wir angeben, dass der Kraftstoff dem Contoso Consulting-Pr
 
 1. Fügen Sie im Feld **Kommentar** mögliche weitere Kommentare hinzu.
 
-1. Wählen Sie **Übermitteln** aus.
+1. Klicken Sie auf **Senden**.
 
 1. Zeigen Sie auf der Seite **Ausgabenverwaltung** auf die Spalte **Genehmigungsstatus**.  
     Zu diesem Zeitpunkt werden Reiserichtlinien und der Spesengenehmigungsfluss aktiviert. Die Kosten wurden gebucht und auf das Contoso Consulting-Projekt angewendet und stehen später für die Rechnungsstellung zur Verfügung, falls sie fakturierbar sind.

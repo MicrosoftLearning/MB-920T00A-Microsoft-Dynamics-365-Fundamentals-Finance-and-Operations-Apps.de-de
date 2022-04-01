@@ -1,14 +1,19 @@
 ---
 lab:
-    title: 'Lab 5: Lager erstellen'
-    module: 'Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen'
+  title: 'Lab 5: Lager erstellen'
+  module: 'Module 1: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+ms.openlocfilehash: 919ea602b0768683acd845dd184b3bf5a0364fd0
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909464"
 ---
+# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
 
-# Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
+## <a name="lab-5---create-a-warehouse"></a>Lab 5 – Lager erstellen
 
-## Lab 5 – Lager erstellen
-
-## Ziele
+## <a name="objectives"></a>Ziele
 Das Lagerverwaltungssystem in Supply Chain Management bietet flexible Möglichkeiten zur Definition Ihres Lagerortlayouts, um den sich ändernden Anforderungen gerecht zu werden und eine optimale Lagerorteffizienz zu erzielen.
 
 - Sie können Lagerortbereiche zur optimalen Platzierung von Waren mit hoher und niedriger Priorität einrichten.
@@ -19,17 +24,17 @@ Das Lagerverwaltungssystem in Supply Chain Management bietet flexible Möglichke
 
 Damit Sie die Lagerortverwaltung im Supply Chain Management verwenden können, müssen Sie einen Lagerort erstellen und ihn für erweiterte oder spezialisierte Lagerortverwaltungsaktivitäten aktivieren.
 
-## Lab-Einrichtung
+## <a name="lab-setup"></a>Lab-Einrichtung
 
    - **Geschätzte Dauer**: 10 Minuten
 
-## Anweisungen
+## <a name="instructions"></a>Anweisungen
 
 1. Überprüfen Sie auf der Finance and Operations-Startseite oben rechts, ob Sie mit dem USMF-Unternehmen zusammenarbeiten.
 
 1. Wählen Sie bei Bedarf das Unternehmen und im Menü **USMF** aus.
 
-1. Wählen Sie im linken Navigationsbereich **Module** > **Bestandsverwaltung** > **Einrichtung** > **Bestandsaufschlüsselung** > **Lager** aus.
+1. Wählen Sie im linken Navigationsbereich **Module** > **Lagerverwaltung** > **Einrichtung** > **Lageraufschlüsselung** > **Lager** aus.
 
     ![Bildschirmbild mit der Navigation im Lagermodul](./media/lp1-m3-warehouses-module-navigation.png)
 
@@ -41,7 +46,7 @@ Damit Sie die Lagerortverwaltung im Supply Chain Management verwenden können, m
 
 1. Wählen Sie das Menü **Site** und dann **3 Schaumproduktion Bau** aus.
 
-1. Erweitern Sie **Lagerplatznamen**.  
+1. Erweitern Sie **Standortnamen**.  
     Die Optionen in diesem Abschnitt definieren das Standardformat für Standortnamen.
 
 1. Legen Sie die Optionen **Gang einbeziehen** und **Regal einbeziehen** auf **Ja** fest.
