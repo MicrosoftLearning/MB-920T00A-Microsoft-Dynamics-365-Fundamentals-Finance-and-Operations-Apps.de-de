@@ -1,15 +1,15 @@
 ---
 lab:
-  title: 'Lab 1: Produktangebot mit verschiedenen Größen und Farben erstellen'
+  title: 'Lab 1: Erstellen eines neuen Produkts'
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
-ms.openlocfilehash: 5e32371aea8a73c04c6aee60953ff9c344b3a533
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
+ms.openlocfilehash: e8fad0a9ddf0787c57ee7b98ddc6ef8363832ffc
+ms.sourcegitcommit: f825cf821d4b03ce60261e296c85eabbc643cc17
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116299"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "147425862"
 ---
-# <a name="module-1-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modul 1: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
+# <a name="module-3-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modul 3: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
 
 ## <a name="lab-1---create-a-new-product"></a>Lab 1: Erstellen eines neuen Produkts
 
