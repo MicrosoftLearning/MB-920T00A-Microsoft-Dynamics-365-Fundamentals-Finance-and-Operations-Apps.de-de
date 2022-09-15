@@ -2,13 +2,8 @@
 lab:
   title: 'Lab 1: Produktsortiment erstellen'
   module: 'Module 4: Learn the Fundamentals of Microsoft Dynamics 365 Commerce'
-ms.openlocfilehash: 7a1764cacfbf92ca50cda3baf9c8f374bf99bacd
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116304"
 ---
+
 ## <a name="lab-1---create-a-product-assortment"></a>Lab 1: Erstellen eines Produktsortiments
 
 ## <a name="objectives"></a>Ziele
@@ -33,7 +28,7 @@ Sie müssen eine Auswahl zugehöriger Produkte erstellen, die einem bestimmten C
 
 1. Wählen Sie das Feld **Datum des Inkrafttretens** und dann ein Datum in der Zukunft aus.
 
-1. Geben Sie im Feld **Sortimentsnamen** einen Namen für das neue Sortiment ein. Beispielsweise **Neue Frühlingssaison**.
+1. In the <bpt id="p1">**</bpt>Assortment name<ept id="p1">**</ept> box, enter a name for the new assortment. For example, <bpt id="p1">**</bpt>New Spring Season<ept id="p1">**</ept>.
 
 1. Stellen Sie die **Ablaufdatum** auf **Nie**.
 
@@ -60,7 +55,7 @@ Sie müssen eine Auswahl zugehöriger Produkte erstellen, die einem bestimmten C
 
 1. Dadurch werden alle untergeordneten Elemente der übergeordneten Kategorie hinzugefügt.
 
-1. Überprüfen Sie die letzte Spalte **Zeilenart**. Standardmäßig werden alle Elemente eingeschlossen.
+1. Review the last column named <bpt id="p1">**</bpt>Line type<ept id="p1">**</ept>. By default, all items will be included.
 
 1. Wählen Sie **+ Zeile hinzufügen** und das Menü **Kategorie** aus, erweitern Sie **Mannschaftssport (Mannschaftssport)** , und klicken Sie dann auf **Baseball** und **OK**.
 
@@ -68,7 +63,7 @@ Sie müssen eine Auswahl zugehöriger Produkte erstellen, die einem bestimmten C
 
 1. Wählen Sie in der Zeile Baseballkategorie das Menü **Produkte** aus.
 
-1. Wenn Produkte innerhalb einer Kategorie definiert sind, können Sie ein bestimmtes Produkt zum Einschließen oder Ausschließen auswählen. Wählen Sie **AdultBaseballInfield** aus.
+1. When products within a category are defined, you can select a specific product to include or exclude. Select <bpt id="p1">**</bpt>AdultBaseballInfield<ept id="p1">**</ept>.
 
 1. Um ein hinzugefügtes Produkt zu entfernen, löschen Sie den Inhalt des Produktfelds, und drücken Sie dann die Tabulatortaste auf Ihrer Tastatur oder wählen Sie einen anderen Bereich der Seite aus.
 

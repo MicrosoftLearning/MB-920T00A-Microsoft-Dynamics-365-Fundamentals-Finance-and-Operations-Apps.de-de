@@ -1,21 +1,16 @@
 ---
 lab:
-  title: 'Lab 2: Bestellung erstellen'
+  title: "Lab\_2: Bestellung erstellen"
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
-ms.openlocfilehash: 3fe707e54f1fe2e84b773f92ca75ba0e025e7f4e
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116291"
 ---
+
 # <a name="module-3-learn-the-fundamentals-of-microsoft-dynamics-365-supply-chain-management"></a>Modul 3: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
 
 ## <a name="lab-2---create-a-purchase-order"></a>Lab 2: Erstellen einer Bestellung
 
 ## <a name="objectives"></a>Ziele
 
-Typischer ist es, dass Bestellungen automatisch als Ergebnis von Produktprogrammplanung, Direktlieferung und anderen Prozessen erstellt werden. Bei der manuellen Erstellung einer Bestellung wird sie normalerweise von einem Einkaufsvertreter erstellt. Erstellen Sie eine Bestellung unter Verwendung des USMF-Unternehmens.
+It's more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes. When created manually, a purchase order is usually created by a purchasing agent. Create a purchase order using the the USMF company.
 
 ## <a name="lab-setup"></a>Lab-Einrichtung
 
@@ -35,25 +30,25 @@ Typischer ist es, dass Bestellungen automatisch als Ergebnis von Produktprogramm
 
 1. Wählen Sie im Bereich „Bestellung anlegen“ das Menü **Kreditorenkonto** und dann **US-101** aus.
 
-1. Wenn Sie einen Kreditor auswählen, werden Details aus dem Kreditorendatensatz wie Adresse, Rechnungskonto, Lieferbedingungen und Lieferart als Standardwerte in den Auftragskopf kopiert. Sie können diese Werte jederzeit ändern.
+1. When you select a vendor, details from the vendor record, such as address, invoice account, delivery terms, and delivery mode, will be copied as default values into the order header. You can change these values at any time.
 
 1. Erweitern Sie den Abschnitt **Allgemein**.
 
 1. Wählen Sie unter **LAGERDIMENSIONEN** das Menü **Standort** aus und überprüfen Sie die Liste der Standorte.
 
-1. Das Feld „Standort“ gibt zusammen mit dem Feld „Lager“ an, wohin die beschafften Waren oder Dienstleistungen geliefert werden müssen. Die Standardlieferadresse ist der Standort. Beide Felder können mit Werten gefüllt werden, die für den ausgewählten Kreditor eingerichtet wurden, oder Sie können sie manuell angeben.
+1. The Site field, together with the Warehouse field, specifies where the procured goods or services must be delivered. The default delivery address is the site. Both fields can be populated with values set up for the selected vendor, or you can specify them manually.
 
 1. Unter **TERMINE** wird das Feld Lieferdatum verwendet, um festzulegen wann beschaffte Waren und Dienstleistungen geliefert werden müssen.
 
-1. Sie können einen einzelnen Liefertermin für den Auftrag angeben, oder den einzelnen Auftragspositionen können eindeutige Liefertermine zugewiesen werden. Wenn das hier angegebene Lieferdatum für bestimmte Produkte oder Dienstleistungen nicht eingehalten werden kann, weil sie längere Vorlaufzeiten haben, werden diese Zeilen mit einem späteren Lieferdatum erstellt, um dies zu berücksichtigen.
+1. You can specify a single delivery date for the order, or the individual order lines can be given unique delivery dates. If the delivery date specified here cannot be met for specific products or services because they have longer lead times, then those lines will be created with a later delivery date to accommodate for this.
 
-1. Erweitern Sie den Abschnitt **Verwaltung**. Im Feld **Besteller** können Sie angeben, wer den Auftrag erteilt.
+1. Expand the <bpt id="p1">**</bpt>Administration<ept id="p1">**</ept> section. The <bpt id="p1">**</bpt>Orderer<ept id="p1">**</ept> box can be used to specify who is placing the order.
 
-1. Dies kann zweckmäßig sein, um es dem Kreditor mitzuteilen, falls er diese Person kontaktieren muss. Der Wert kann automatisch zugewiesen werden, wenn das aktuelle Benutzerkonto einem Namen auf der Seite Benutzer zugeordnet ist.
+1. Typischer ist es, dass Bestellungen automatisch als Ergebnis von Produktprogrammplanung, Direktlieferung und anderen Prozessen erstellt werden.
 
 1. Klicken Sie auf **OK**.
 
-1. Der Auftragskopf wurde nun erstellt. Wenn Sie mit Bestellpositionen arbeiten, wird nur eine Zusammenfassung der Kopfzeileninformationen angezeigt. Wenn Sie den Rest der Informationen anzeigen möchten, wählen Sie **Kopfzeile** aus.
+1. Bei der manuellen Erstellung einer Bestellung wird sie normalerweise von einem Einkaufsvertreter erstellt.
 
     ![Bildschirmbild mit der Position des Kopfzeilenmenüs](./media/lp1-m3-purchase-order-header-option.png)
 
@@ -63,7 +58,7 @@ Typischer ist es, dass Bestellungen automatisch als Ergebnis von Produktprogramm
 
 1. Wählen Sie unter **DISPLAY** **Dimensionen** aus.
 
-1. Produkte können in Varianten vorliegen, die sich nach Dimensionen wie Farbe, Größe oder Stil unterscheiden. Produkte können auch so eingerichtet werden, dass sie Lagerdimensionen wie Standort und Lager verwenden. Es gibt auch optionale Rückverfolgungsangaben wie Chargen- und Seriennummern. Um die Effizienz der Auftragserfassung zu verbessern, können Sie die üblicherweise verwendeten Dimensionsfelder direkt zum Auftragsraster hinzufügen.
+1. Erstellen Sie eine Bestellung unter Verwendung des USMF-Unternehmens.
 
 1. Wählen Sie im Anzeigebereich Dimensionen unter **PRODUKTDIMENSIONEN** das Kontrollkästchen **Farbe** aus.
 
@@ -77,7 +72,7 @@ Typischer ist es, dass Bestellungen automatisch als Ergebnis von Produktprogramm
 
 1. Bestellpositionen werden für Produkte und Dienstleistungen durch Angabe einer Artikelnummer oder als Aufwand durch Angabe einer Beschaffungskategorie angelegt.
 
-1. Die Beschaffungskategorie wird zum Hinzufügen von Zeilen verwendet, in denen beschaffte Artikel direkt als Aufwand erfasst werden, anstatt in den Bestand aufgenommen zu werden. Dies bedeutet, dass Sie, wenn Sie einen Einkauf verrechnen müssen, eine Bestellposition erstellen können, in der eine Beschaffungskategorie angegeben ist, anstatt eine Zeile mit einer Artikelnummer zu erstellen. Artikel können auch einer Beschaffungskategorie zugeordnet werden. In diesem Fall wird die Beschaffungskategorie nur zu Informationszwecken angezeigt.
+1. Procurement category is used for adding lines where procured items are expensed directly, rather than going into inventory. This means that if you need to expense a purchase, you can do this by creating a purchase order line that specifies a procurement category, rather than creating a line with an item number. Items can also be associated with a procurement category and in this case, the procurement category is shown as informational only.
 
 1. Öffnen Sie das Menü **Farbe**, überprüfen Sie im Menü die verfügbaren Optionen und wählen Sie dann eine der Farben oder Farbkombinationen aus.
 
@@ -89,21 +84,21 @@ Typischer ist es, dass Bestellungen automatisch als Ergebnis von Produktprogramm
 
 1. Weitere Informationen:
 
-    - **Einheit:** Zeigt die Maßeinheit für die bestellte Menge an. Normalerweise wird die Einheit automatisch von der Einkaufseinheit in den Produktstammdaten bereitgestellt.
+    - <bpt id="p1">**</bpt>Unit<ept id="p1">**</ept>: Indicates the unit of measure for the ordered quantity. Normally, the unit is automatically provided from the purchasing unit on the product master data.
 
-    - **Preis je Einheit**: Enthält einen Wert aus einem Kaufvertrag oder einem Handelsvertrag. Es ist möglich, den Stückpreis in einzelnen Bestellpositionen zu ändern – beispielsweise wenn mit dem Kreditor ein eindeutiger Preis ausgehandelt wird.
+    - <bpt id="p1">**</bpt>Unit price<ept id="p1">**</ept>: Contains a value from either a purchase agreement or a trade agreement. It is possible to change the unit price on individual order lines—for example, if a unique price is negotiated with the vendor.
 
-    - **Rabatt**: Stellt einen Rabattbetrag pro Einheit dar. Dieser Rabatt reduziert daher den Stückpreis um den Rabatt. Dieser Rabatt wird normalerweise automatisch aus Kaufverträgen oder Handelsvereinbarungen geliefert. Es ist jedoch möglich, einzelne Zeilen zu überschreiben, wenn mit dem Kreditor eindeutige Rabatte ausgehandelt wurden.
+    - <bpt id="p1">**</bpt>Discount<ept id="p1">**</ept>: Represents a discount amount per unit. This discount therefore reduces the unit price by the discount. This discount is commonly supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if unique discounts have been negotiated with the vendor.
 
-    - **Rabattprozentsatz**: Bei Eingabe wird der Nettobetrag für die Zeile entsprechend reduziert. Der Rabattprozentsatz wird normalerweise automatisch aus Kaufverträgen oder Handelsvereinbarungen geliefert. Es ist jedoch möglich, einzelne Zeilen zu überschreiben, wenn mit dem Kreditor ein eindeutiger Rabattprozentsatz ausgehandelt wurde.
+    - <bpt id="p1">**</bpt>Discount percentage<ept id="p1">**</ept>: When entered, this reduces the net amount for the line accordingly. The discount percent is often supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if a unique discount percentage has been negotiated with the vendor.
 
-    - **Nettobetrag**: Berechnet aus anderen Feldern in der Zeile, einschließlich Menge, Stückpreis, Rabatt und Rabattprozentsatz. Es ist möglich, den Nettobetrag zu ändern, aber dann sind die Felder „Einstandspreis“, „Rabatt“ und „Rabattprozentsatz“ leer und wenn Sie zur Zeile buchen, ist der gebuchte Betrag proportional zum Nettobetrag. Im Allgemeinen wird das Feld „Nettobetrag“ nur zur Anzeige des Nettobetrags der Zeile verwendet.
+    - <bpt id="p1">**</bpt>Net amount<ept id="p1">**</ept>: Calculated from other fields on the line, including quantity, unit price, discount, and discount percent. It is possible to change the Net amount, but then the Unit Price, Discount, and Discount percent fields will be blank, and when you post toward the line, the amount posted will be proportional to the net amount. Generally, the Net Amount field is only used for displaying the net amount of the line.
 
 1. Wählen Sie unter den Bestellpositionen unten auf der Seite die Option **Positionsdetails** aus.
 
 1. Wählen Sie die Registerkarte **Lieferung** aus.
 
-1. Jeder Bestellposition kann eine eindeutige Auftragsposition zugewiesen werden. Das Datum wird vom Feld im Bestellkopf übernommen, Sie können dies jedoch ändern.
+1. A unique delivery date can be assigned to each order line. The date is inherited from the field on the purchase order header, but you can change this.
 
 1. Schließen Sie die Seite „Bestellposition“.
 

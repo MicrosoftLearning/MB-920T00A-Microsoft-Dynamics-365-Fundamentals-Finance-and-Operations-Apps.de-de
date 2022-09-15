@@ -1,19 +1,14 @@
 ---
 lab:
-  title: 'Lab 4: Erstellen eines Produktionsauftrags'
+  title: "Lab\_4: Erstellen eines Produktionsauftrags"
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
-ms.openlocfilehash: 527cbbf9cb2265d48ab2b2ba8fb6516632b46cf1
-ms.sourcegitcommit: 8e5a278c6e08abdcc3fb719796f79842e868606b
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "147116328"
 ---
+
 ## <a name="lab-4---create-a-production-order"></a>Lab 4: Erstellen eines Produktionsauftrags
 
 ## <a name="objectives"></a>Ziele
 
-Der Produktionsauftrag enthält Informationen darüber, was produziert werden soll, die zu produzierende Menge und das geplante Enddatum. Er enthält auch Informationen darüber, welche Materialien verbraucht werden müssen und welcher Prozess zur Herstellung des Artikels erforderlich ist.
+The production order contains information about what will be produced, the quantity to produce, and the planned finish date. It also contains information about which materials to consume and which process to follow to produce the item.
 
 Sie müssen einen neuen Produktionsauftrag für Ihr Unternehmen erstellen.
 
@@ -27,18 +22,18 @@ Sie müssen einen neuen Produktionsauftrag für Ihr Unternehmen erstellen.
 
 1. Wählen Sie bei Bedarf das Unternehmen und im Menü **USMF** aus.
 
-1. Wählen Sie im linken Navigationsbereich **Module** > **Produktionssteuerung** > **Produktionsaufträge** > **Alle Produktionsaufträge** aus.
+1. Wählen Sie im linken Navigationsbereich **Module** > **Produktionssteuerung** > **Produktionsaufträge** > **Alle Produktionsaufträge** aus.
 
 1. Wählen Sie im oberen Menü **Neuer Fertigungsauftrag** aus.
 
 1. Geben Sie unter **IDENTIFIZIERUNG** im Feld **Artikelnummer** **D0001** ein und wählen Sie dann das identifizierte Element aus.
 
 1. Wählen Sie unter **PRODUKTION** im Feld **Lieferung** ein Datum einen Monat nach dem heutigen Datum aus.  
-    Das Lieferdatum gibt an, wann der Fertigungsauftrag enden soll, um pünktlich zu liefern. Dieses Datum kann im Planungsprozess verwendet werden. Beispielsweise können Sie die Bestellung ab dem Lieferdatum rückwärts planen.
+    The delivery date indicates when the production order should end in order to deliver on time. This date can be used in the scheduling process. For example, you can schedule the order backward from the delivery date.
 
 1. Geben Sie im Feld **Menge** **20** ein.
 
-1. Unter **Stückliste/Route** zeigt das Feld „Stücklistennummer“ automatisch die Nummer einer aktiven Stückliste für die aktuelle Position an. Sie können die Stückliste für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Stückliste aus der Liste der genehmigten Stücklistenversionen auswählen. Das Feld „Routennummer“ zeigt automatisch die Nummer einer aktiven Route für die aktuelle Position an. Sie können die Route für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Route aus der Liste der genehmigten Routenversionen auswählen.
+1. Under <bpt id="p1">**</bpt>BOM/ROUTE<ept id="p1">**</ept>, the BOM number field automatically displays the number of any active BOM for the current item, but you can change the BOM for the production order by selecting an active BOM from the list of approved BOM versions. The Route number field automatically displays the number of any active Route for the current item, but you can change the Route for the production order by selecting an active Route from the list of approved Route versions.
 
     ![Bildschirmbild mit der vollständigen Anzeige des Bereichs „Produktionsauftrag erstellen“](./media/lp1-m4-new-production-order-pane.png)
 
