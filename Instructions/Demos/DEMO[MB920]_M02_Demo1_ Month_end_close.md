@@ -1,10 +1,15 @@
 ---
 demo:
-    title: 'Demo 1: Monatsabschluss'
-    module: 'Modul 2: Grundlagen von Microsoft Dynamics 365 Finance erlernen'
+  title: 'Demo 1: Monatsabschluss'
+  module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
+ms.openlocfilehash: 64e058508083538795592815e4657ac905000ded
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909409"
 ---
-
-## Demo 1 – Monatsabschluss
+## <a name="demo-1---month-end-close"></a>Demo 1 – Monatsabschluss
 
 1. Navigieren Sie zur Startseite von **Microsoft 365 for Finance and Operations**.  
     Um einen neuen Finanzperiodenabschluss in Microsoft Dynamics 365 for Finance and Operations zu erstellen, z. B. einen Monatsabschluss, navigieren Sie zunächst zum Modul **Hauptbuch**.
@@ -28,7 +33,7 @@ demo:
 
 1. Geben Sie im Feld **Periodenstartdatum** das Startdatum ein. Beispiel: **16.01.2021**.
 
-1. Geben Sie im Feld **Periodenenddatum** das Enddatum ein. Beispiel: **15.02.2021**.  
+1. Geben Sie im Feld **Periodenenddatum** das Enddatum ein. Ein Beispiel hierfür ist **2/15/2021**.  
     Wählen Sie mithilfe des Menüs **Vorlagen** aus zuvor erstellten Vorlagen aus.
 
 1. Wählen Sie das Feld **Vorlage** aus.
@@ -45,7 +50,7 @@ Als nächstes müssen Sie die Unternehmen oder juristischen Personen auswählen,
 
 1. Wählen Sie oben links im Dropdownmenü **Unternehmen** das **Häkchen** aus, um alle Unternehmen auszuwählen.
 
-1. Wählen Sie **Erstellen** aus.  
+1. Klicken Sie auf **Erstellen**.  
     Wir haben jetzt einen Zeitplan für den Monatsabschluss erstellt. In diesem Beispiel sind viele Elemente des Zeitplans bereits von der Gruppe erstellt worden, die für die Verwaltung des Finanzsystems zuständig ist. Die Vorlage für das Monatsende spiegelt z. B. bereits die verschiedenen Aufgabenbereiche wider.
 
 1. Wählen Sie auf der Seite **Finanzperiodenabschluss-Konfiguration** die Registerkarte **Vorlagen** aus.
@@ -54,7 +59,7 @@ Als nächstes müssen Sie die Unternehmen oder juristischen Personen auswählen,
 
 1. Zeigen Sie auf die Spalte **Aufgabe**, um Beschreibungen von Aufgaben anzuzeigen.
 
-1. Zeigen Sie auf die Spalte **Fälligkeitsdatum in Relation zum Periodenenddatum (+ / - Tage)**, um das Fälligkeitsdatum anzuzeigen.
+1. Zeigen Sie auf die Spalte **Fälligkeitsdatum in Relation zum Periodenenddatum (+ / - Tage)** , um das Fälligkeitsdatum anzuzeigen.
 
 1. Zeigen Sie auf die Spalte **Abschlussrolle**, um die Abschlussrollenzuweisungen anzuzeigen.
 
@@ -65,7 +70,7 @@ Als nächstes müssen Sie die Unternehmen oder juristischen Personen auswählen,
 1. Wählen Sie auf der Registerkarte **Kalender** die Option **Bearbeiten** aus.  
     Dieser Kalender wurde so eingerichtet, dass jeder Wochentag als Werktag zählt und dies nicht für Wochenendtage gilt.
 
-1. Wählen Sie **Abbrechen** aus.
+1. Klicken Sie auf **Abbrechen**.
 
 1. Wählen Sie auf der Seite **Finanzperiodenabschluss-Konfiguration** die Registerkarte **Aufgabenbereiche** aus.  
     Hier wurden die übergeordneten Aufgabenbereiche definiert. In diesem Fall handelt es sich bei diesen Bereichen nicht um Sicherheitsrollen.

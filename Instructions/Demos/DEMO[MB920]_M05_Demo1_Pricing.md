@@ -1,10 +1,15 @@
 ---
 demo:
-    title: 'Demo 1: Preise für Project Operations'
-    module: 'Modul 5: Grundlagen von Microsoft Dynamics 365 Project Operations erlernen'
+  title: 'Demo 1: Preise für Project Operations'
+  module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
+ms.openlocfilehash: bbe3de969557591700be5874c7c709b74d1d286a
+ms.sourcegitcommit: 252458fca8e71b6e5e8b99ae4c2b47cd85461a30
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137909470"
 ---
-
-## Demo 1 – Preise für Project Operations
+## <a name="demo-1---project-operations-pricing"></a>Demo 1 – Preise für Project Operations
 
 1. Navigieren Sie zum Arbeitsbereich **Projektverwaltung**.  
     In dieser Demo werden wir die Verkaufs- und Einstandspreise innerhalb von Project Operations einrichten. Und wir werden sehen, wie Kosten und Preise aus einer zuvor gebuchten Rechnung abgeleitet werden.
@@ -66,6 +71,6 @@ In dieser Ansicht können wir erkennen, wo der Verkaufspreis von Aaron Con von 3
 
 1. Navigieren Sie zum Arbeitsbereich **Projektverwaltung**.
 
-1. Zeigen Sie auf der rechten Seite des Bildschirms im Abschnitt **Verknüpfungen** im Untermenü **Einrichtung** auf **Einstandspreis (Stunde)** und **Verkaufspreis (Stunde)**.  
+1. Zeigen Sie auf der rechten Seite des Bildschirms im Abschnitt **Verknüpfungen** im Untermenü **Einrichtung** auf **Einstandspreis (Stunde)** und **Verkaufspreis (Stunde)** .  
 
 In dieser Demonstration haben wir untersucht, wie standardmäßige Verkaufs- und Einstandspreise in Project Operations eingerichtet werden. Wir haben ihre Auswirkungen auf eine gebuchte Rechnung überprüft, um zu erfahren, wie sich die Einrichtung dieser Preise direkt auf die vorgelegte Aufwandsrechnung auswirkt.
