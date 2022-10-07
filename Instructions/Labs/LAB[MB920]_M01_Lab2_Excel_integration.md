@@ -8,7 +8,7 @@ lab:
 
 ## <a name="objective"></a>Ziel
 
-In this lab, you will learn how to copy data from finance and operations to Excel using Dynamics office add-in app. You will also learn how the same app can be used to insert data into finance and operations apps.
+In diesem Lab erfahren Sie, wie Sie Daten aus der Finanzabteilung und dem Betrieb mithilfe der Office-Add-In-App von Dynamics nach Excel kopieren. Außerdem erfahren Sie, wie die gleiche App verwendet werden kann, um Daten in Finanz- und Betriebs-Apps einzufügen.
 
 ## <a name="lab-steps"></a>Übungsschritte
 
@@ -22,7 +22,7 @@ Nachdem Sie sich mit den Finanz- und Betriebs-Apps vertraut gemacht haben, nehme
 
 4. Wählen Sie **Anbietergruppen** (usmf) aus, und laden Sie die Excel-Vorlage herunter.
 
-5. Save and then open the downloaded Excel template, allow it if needed, close activation, and select <bpt id="p1">**</bpt>Enable editing<ept id="p1">**</ept>. Trust this add-in, and then sign in (using your same credentials, if asked).
+5. Speichern Sie die heruntergeladene Excel-Vorlage, und öffnen Sie sie dann. Erlauben Sie bei Bedarf die Aktion „Schließen“, und wählen Sie **Bearbeitung aktivieren** aus. Stufen Sie dieses Add-In als vertrauenswürdig ein, und melden Sie sich dann an (mit denselben Anmeldeinformationen, sofern Sie gefragt werden).
 
     Alle in der Tabelle „Kreditorengruppe“ enthaltenen Daten werden in der Excel-Tabelle angezeigt.
 

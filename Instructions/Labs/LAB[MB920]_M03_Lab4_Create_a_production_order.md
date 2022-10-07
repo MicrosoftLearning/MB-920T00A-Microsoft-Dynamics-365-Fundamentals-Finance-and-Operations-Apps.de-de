@@ -8,7 +8,7 @@ lab:
 
 ## <a name="objectives"></a>Ziele
 
-The production order contains information about what will be produced, the quantity to produce, and the planned finish date. It also contains information about which materials to consume and which process to follow to produce the item.
+Der Produktionsauftrag enthält Informationen darüber, was produziert werden soll, die zu produzierende Menge und das geplante Enddatum. Er enthält auch Informationen darüber, welche Materialien verbraucht werden müssen und welcher Prozess zur Herstellung des Artikels erforderlich ist.
 
 Sie müssen einen neuen Produktionsauftrag für Ihr Unternehmen erstellen.
 
@@ -29,11 +29,11 @@ Sie müssen einen neuen Produktionsauftrag für Ihr Unternehmen erstellen.
 1. Geben Sie unter **IDENTIFIZIERUNG** im Feld **Artikelnummer** **D0001** ein und wählen Sie dann das identifizierte Element aus.
 
 1. Wählen Sie unter **PRODUKTION** im Feld **Lieferung** ein Datum einen Monat nach dem heutigen Datum aus.  
-    The delivery date indicates when the production order should end in order to deliver on time. This date can be used in the scheduling process. For example, you can schedule the order backward from the delivery date.
+    Das Lieferdatum gibt an, wann der Fertigungsauftrag enden soll, um pünktlich zu liefern. Dieses Datum kann im Planungsprozess verwendet werden. Beispielsweise können Sie die Bestellung ab dem Lieferdatum rückwärts planen.
 
 1. Geben Sie im Feld **Menge** **20** ein.
 
-1. Under <bpt id="p1">**</bpt>BOM/ROUTE<ept id="p1">**</ept>, the BOM number field automatically displays the number of any active BOM for the current item, but you can change the BOM for the production order by selecting an active BOM from the list of approved BOM versions. The Route number field automatically displays the number of any active Route for the current item, but you can change the Route for the production order by selecting an active Route from the list of approved Route versions.
+1. Unter **Stückliste/Route** zeigt das Feld „Stücklistennummer“ automatisch die Nummer einer aktiven Stückliste für die aktuelle Position an. Sie können die Stückliste für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Stückliste aus der Liste der genehmigten Stücklistenversionen auswählen. Das Feld „Routennummer“ zeigt automatisch die Nummer einer aktiven Route für die aktuelle Position an. Sie können die Route für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Route aus der Liste der genehmigten Routenversionen auswählen.
 
     ![Bildschirmbild mit der vollständigen Anzeige des Bereichs „Produktionsauftrag erstellen“](./media/lp1-m4-new-production-order-pane.png)
 
