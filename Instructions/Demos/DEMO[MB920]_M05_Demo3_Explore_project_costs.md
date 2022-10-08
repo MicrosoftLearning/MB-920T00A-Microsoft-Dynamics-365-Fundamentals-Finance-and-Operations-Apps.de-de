@@ -6,7 +6,7 @@ demo:
 
 ## <a name="demo-3---explore-project-costs"></a>Demo 3 – Projektkosten erkunden
 
-In this demo, we will walk through the creation of a time and expense entry that will be charged to the Contoso Consulting project. We'll explore the entries in formats optimized for web and mobile presentation, and we'll see how a workflow is used to manage the approval process.
+In dieser Demo gehen wir durch die Erstellung eines Aufwandseintrags, der dem Contoso Consulting-Projekt in Rechnung gestellt wird. Wir werden die Einträge in Formaten erkunden, die für die Darstellung im Web und auf Mobilgeräten optimiert sind. Zudem werden wir erfahren, wie ein Workflow zum Verwalten des Genehmigungsprozess verwendet wird.
 
 1. Wählen Sie in **Dynamics 365 for Finance and Operations** im Navigationsbereich die Option **Module > Projektverwaltung und -verrechnung > Arbeitszeitnachweise > Meine Arbeitszeitnachweise (für Mobilgeräte optimiert)** aus.  
     Obwohl ich mich jetzt noch nicht auf einem Mobilgerät befinde, werden Sie die Formulare als für Mobilgeräte geeignet erkennen, nachdem wir die Option **Meine Arbeitszeitnachweise (für Mobilgeräte optimiert)** ausgewählt haben.
@@ -15,7 +15,7 @@ In this demo, we will walk through the creation of a time and expense entry that
 
     Diese Optimierung ist ein wichtiges Unterscheidungsmerkmal für Microsoft-Geschäftsanwendungen und trägt dazu bei, dass es eine minimale Lernkurve zwischen der Verwendung im Web und auf Mobilgeräten gibt.
 
-1. In the top right company picker, verify the legal entity you are connecting to is <bpt id="p1">**</bpt>USSI<ept id="p1">**</ept>. If it's not, change the legal entity to <bpt id="p1">**</bpt>USSI<ept id="p1">**</ept>.
+1. Stellen Sie in der Unternehmensauswahl oben rechts sicher, dass die juristische Person, mit der Sie eine Verbindung herstellen, **USSI** ist. Wenn das nicht der Fall ist, ändern Sie die juristische Person in **USSI**.
 
 1. Wählen Sie auf der Seite **Meine Arbeitszeitnachweise** die Option **Neu** aus.  
     Jetzt erstellen wir einen neuen Arbeitszeitnachweis, der auf den konfigurierten Einstellungen basiert.
@@ -31,7 +31,7 @@ In this demo, we will walk through the creation of a time and expense entry that
 1. Wählen Sie auf der Seite **Meine Arbeitsnachweisdetails** das Symbol **Neu +** aus.
 
 1. Zeigen Sie im Bereich **Neue Zeile im Arbeitszeitnachweis** auf das Feld **Juristische Person**.  
-    The new timesheet line will be opened, with details such as the customer, the project, the category, the line properties, and tax parameters. You can also select a different legal entity if the time entry is on behalf of another company within your organization.
+    Die neue Zeile im Arbeitszeitnachweis wird mit Details wie Kunde, Projekt, Kategorie, Zeileneigenschaften und Steuerparameter geöffnet. Sie können auch eine andere juristische Person auswählen, wenn die Zeiterfassung im Namen eines anderen Unternehmens innerhalb Ihrer Organisation erfolgt.
 
 1. Wählen Sie das Menü **Projektkennung** aus.
 
@@ -45,10 +45,10 @@ In this demo, we will walk through the creation of a time and expense entry that
 
     ![Screenshot der Seite „Zeiterfassung“.](./media/projops_costs_2_mon_box.png)
 
-1. In dieser Demo gehen wir durch die Erstellung eines Aufwandseintrags, der dem Contoso Consulting-Projekt in Rechnung gestellt wird.  
+1. Fügen Sie im Feld **Interner Kommentar** einen Kommentar hinzu. Beispiele: **Vielleicht Gespräch über neue Fahrräder führen**.  
     Sie können auch interne und externe Kommentare zum Projekt eingeben, um sicherzustellen, dass alle Beteiligten die Art der erfassten Stunden verstehen.
 
-1. Wir werden die Einträge in Formaten erkunden, die für die Darstellung im Web und auf Mobilgeräten optimiert sind. Zudem werden wir erfahren, wie ein Workflow zum Verwalten des Genehmigungsprozess verwendet wird.
+1. Fügen Sie im Feld **Externer Kommentar** einen Kommentar hinzu. Beispiele: **Ketten wurden eingestellt und die Vorderräder des Fuhrparks ausgerichtet**.
 
 1. Wählen Sie in der Navigationsleiste die Option **Speichern** aus.
 
@@ -57,13 +57,13 @@ In this demo, we will walk through the creation of a time and expense entry that
 1. Wählen Sie auf der Seite **Meine Arbeitszeitnachweise** die Zeiterfassung aus, die Sie zuvor erstellt haben.
 
 1. Zeigen Sie auf der Registerkarte **Arbeitszeitnachweis** auf die Spalte „Kategorie“.  
-    Now assume we've returned to a computer and are reviewing our time from within the web timesheet form. We can still see the same information, such as the category and the hours.
+    Nehmen wir jetzt an, dass wir zu einem Computer zurückgekehrt sind und unsere Zeit aus dem für das Web vorgesehene Arbeitszeitnachweisformular heraus überprüfen. Wir können immer noch dieselben Informationen sehen, z. B. die Kategorie und die Stunden.
 
 1. Zeigen Sie unter **Positionsdetails** auf **Interner Kommentar** und **Externer Kommentar**.  
-    We can also review the comments we entered earlier. The information is there, but the layout format is just a bit different. This format is often used for final review because it can be easier for people to review and validate their time, especially when someone is assigned to multiple projects or categories.
+    Wir können auch die Kommentare überprüfen, die wir zuvor eingegeben haben. Die Informationen sind vorhanden, aber das Layoutformat ist ein wenig anders. Dieses Format wird häufig für die abschließende Überprüfung verwendet, da es für die Mitarbeiter einfacher sein kann, ihre Zeit zu prüfen und zu validieren, besonders wenn einige Beteiligte mehreren Projekten oder Kategorien zugewiesen sind.
 
 1. Wählen Sie in der Navigationsleiste die Registerkarte **Workflow** aus.  
-    If we're satisfied with the timesheet, we can submit it. The approvals required will be determined by each organization during the implementation phase based on their own company policies.
+    Wenn wir mit dem Arbeitszeitnachweis zufrieden sind, können wir ihn übermitteln. Die erforderlichen Genehmigungen werden von jeder Organisation während der Implementierungsphase auf der Grundlage ihrer Unternehmensrichtlinien festgelegt.
 
 1. Wählen Sie im Bereich **Workflow für Arbeitszeitnachweis prüfen** die Option **Übermitteln** aus.
 
@@ -71,10 +71,10 @@ In this demo, we will walk through the creation of a time and expense entry that
 
 1. Klicken Sie auf **Senden**.
 
-1. Browse to the <bpt id="p1">**</bpt>Hour transactions<ept id="p1">**</ept> page. If the <bpt id="p1">**</bpt>Hour transactions<ept id="p1">**</ept> tab is grayed out, browse to the <bpt id="p2">**</bpt>My timesheets page<ept id="p2">**</ept>, and select the previously created timesheet.
+1. Navigieren Sie zur Seite **Stundenbuchungen**. Wenn die Registerkarte **Stundenbuchungen** abgeblendet dargestellt ist, navigieren Sie zur Seite **Meine Arbeitszeitnachweise**, und wählen Sie den zuvor erstellten Arbeitszeitnachweis aus.
 
 1. Überprüfen Sie auf der Seite **Stundenbuchungen** die Seite.  
-    Upon approval, the results will be posted and will be visible in the Hour transactions page. We can see all the relevant information, such as the legal entity, project, category, hours, and in this case, even a view of the cost price and the sales price.  
+    Nach der Genehmigung werden die Ergebnisse gebucht und auf der Seite „Stundenbuchungen“ angezeigt. Wir können alle relevanten Informationen sehen, z. B. die juristische Person, das Projekt, die Kategorie, die Stunden und in diesem Fall sogar eine Ansicht des Einstands- und des Verkaufspreises.  
 
 Als nächstes können wir Detailinformationen für die Belegbuchungen anzeigen.
 
@@ -89,7 +89,7 @@ Lassen Sie uns jetzt einen Aufwandseintrag für dasselbe Contoso Consulting-Proj
 
 1. Wählen Sie auf der Seite **Ausgabenverwaltung** auf der Registerkarte **Berichte** die Option **+ Neue Spesenabrechnung** aus.
 
-1. Stellen Sie in der Unternehmensauswahl oben rechts sicher, dass die juristische Person, mit der Sie eine Verbindung herstellen, **USSI** ist.
+1. Geben Sie im Bereich **Neue Spesenabrechnung** im Feld **Zweck** einen Titel ein. Beispiel: **Contoso – Feb2021**.
 
 1. Klicken Sie auf **OK**.
 
@@ -103,7 +103,7 @@ Hier können wir die neue Ausgabe mit entsprechenden Details eingeben.
 
 1. Wählen Sie in der Spalte **Währung** die Option **USD** aus.
 
-1. Wenn das nicht der Fall ist, ändern Sie die juristische Person in **USSI**.  
+1. Wählen Sie in der Spalte **Buchungsdatum** ein Datum aus. Ein Beispiel hierfür ist **2/1/2021**.  
     Wenn Sie alle Details eingegeben haben, können Sie die Ausgabe speichern.
 
 1. Wählen Sie **Speichern** aus.
@@ -127,6 +127,6 @@ Als nächstes können wir angeben, dass der Kraftstoff dem Contoso Consulting-Pr
 1. Klicken Sie auf **Senden**.
 
 1. Zeigen Sie auf der Seite **Ausgabenverwaltung** auf die Spalte **Genehmigungsstatus**.  
-    At this time, travel policies and expense approval flow will be activated. The costs have been posted and applied to the Contoso Consulting project and will be available later for invoicing if chargeable.
+    Zu diesem Zeitpunkt werden Reiserichtlinien und der Spesengenehmigungsfluss aktiviert. Die Kosten wurden gebucht und auf das Contoso Consulting-Projekt angewendet und stehen später für die Rechnungsstellung zur Verfügung, falls sie fakturierbar sind.
 
-In this demo, we have processed a time and expense entry that was charged to the Contoso Consulting project. We saw samples in web and mobile formats and were able to see how workflows are used to manage the approvals required by the USSI organization.
+In dieser Demo haben wir einen Aufwandseintrag verarbeitet, der dem Contoso Consulting-Projekt in Rechnung gestellt wurde. Wir haben Beispiele im Webformat und im Format für Mobilgeräte gesehen und konnten erkennen, wie Workflows verwendet werden, um die von der USSI-Organisation benötigten Genehmigungen zu verwalten.

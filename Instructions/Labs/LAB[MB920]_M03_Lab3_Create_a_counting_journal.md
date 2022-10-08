@@ -8,11 +8,11 @@ lab:
 
 ## <a name="lab-3---create-a-counting-journal"></a>Lab 3: Erstellen einer Inventurerfassung
 
-1. On the Finance and Operations home page, in the top right, verify you are working with the <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept> company. If necessary, select the company, and from the drop down, select <bpt id="p1">**</bpt>USMF<ept id="p1">**</ept>.
+1. Überprüfen Sie auf der Homepage von Finance and Operations rechts oben, ob Sie mit dem Unternehmen **USMF** arbeiten. Wählen Sie bei Bedarf das Unternehmen und dann im Dropdownmenü **USMF** aus.
 
 2. Wählen Sie im Navigationsbereich links **Module** > **Bestandsverwaltung** > **Journaleinträge** > **Artikelinventur** > **Inventur** aus.
 
-3. Select the <bpt id="p1">**</bpt>+New<ept id="p1">**</ept> button in the action pane. The <bpt id="p1">**</bpt>Create inventory journal<ept id="p1">**</ept> dialog form will appear with the <bpt id="p2">**</bpt>OK<ept id="p2">**</ept> button in the bottom. Select the <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> button.
+3. Wählen Sie im Aktionsbereich die Schaltfläche **+ Neu** aus. Das Dialogfeld **Bestandserfassung erstellen** wird mit der Schaltfläche **OK** (unten) angezeigt. Klicken Sie auf die Schaltfläche **OK**.
 
 4. Das Formular für die Inventurerfassung wird mit Kopfzeile und Detailinformationen angezeigt
 
@@ -24,13 +24,13 @@ lab:
 
 ![Screenshot des Dialogfelds „Inventurerfassung erstellen“ mit den Feldern, die wie beschrieben festgelegt sind](../media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
 
-7. Expand the <bpt id="p1">**</bpt>Record to include<ept id="p1">**</ept> section and select the <bpt id="p2">**</bpt>Filter<ept id="p2">**</ept> link. In the <bpt id="p1">**</bpt>Item number<ept id="p1">**</ept> field, select <bpt id="p2">**</bpt>A0001<ept id="p2">**</ept>, and then select <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.
+7. Erweitern Sie den Abschnitt **Einzuschließender Datensatz**, und wählen Sie den Link **Filter** aus. Wählen Sie im Feld **Artikelnummer** den Eintrag **A0001** und dann **OK** aus.
 
 8. Wählen Sie im unteren Bereich des Dialogfelds **Inventurerfassung erstellen** die Option **OK** aus.
 
 Die Bestandsmenge des Artikels A0001 wird im Abschnitt **Erfassungspositionen** mit der Aufschlüsselung für Standort, Lager, Lagerort und Ladungsträger angezeigt.
 
-9. In the <bpt id="p1">**</bpt>Counted<ept id="p1">**</ept> column of the <bpt id="p2">**</bpt>Journal line<ept id="p2">**</ept> section, enter the numbers counted in each Site/Warehouse/Location/License plate. Note the following:
+9. Geben Sie im Abschnitt **Erfassungsposition** in der Spalte **Gezählt** die Zahlen ein, die für jede Kombination aus Standort/Lager/Lagerort/Ladungsträger gezählt wurden. Beachten Sie Folgendes:
 
     - Wenn die **Bestandsmenge** mit der **gezählten** Menge übereinstimmt, ist das Feld **Menge** leer.
 
