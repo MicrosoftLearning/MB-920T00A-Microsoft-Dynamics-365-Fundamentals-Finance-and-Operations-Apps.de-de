@@ -31,3 +31,5 @@ lab:
     - DB/CR-Standard: **Debit**
 
  ![Screenshot der Seite „Hauptkonten“ > „Kontenplan“: „Freigegeben“ mit den in Schritt 5 ausgefüllten Feldern](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+
+6. Klicken Sie auf **Speichern**.

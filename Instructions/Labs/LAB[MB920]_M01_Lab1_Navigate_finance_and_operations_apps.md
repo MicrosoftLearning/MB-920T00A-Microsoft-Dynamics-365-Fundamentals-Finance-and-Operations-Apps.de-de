@@ -34,7 +34,7 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
         pass@word1
 
-    >[!Note] Möglicherweise wird Internet Explorer automatisch auf dem Desktop geöffnet. Wenn Sie die Schritte 2 bis 5 noch nicht ausgeführt haben, schließen Sie sie bitte ab, bevor Sie zu Internet Explorer zurück navigieren.
+    >[!Note] Microsoft Edge wird möglicherweise auf dem Desktop geöffnet. Wenn Sie die Schritte 2 bis 5 noch nicht ausgeführt haben, schließen Sie sie ab, bevor Sie zu Microsoft Edge zurücknavigieren.
 
 1. Wählen Sie die Datei **AdminUserProvisioning** auf dem Desktop aus.
 
@@ -45,7 +45,7 @@ Ihre Anmeldeinformationen finden Sie im Menü **Ressourcen** in der oberen recht
 
 1. Wählen Sie **OK** aus, um fortzufahren.
 
-1. Öffnen Sie **Internet Explorer**.
+1. Öffnen Sie **Microsoft Edge**.
 
 1. Öffnen Sie den angegebenen Link: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
