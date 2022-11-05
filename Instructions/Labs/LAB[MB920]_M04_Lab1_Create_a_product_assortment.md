@@ -20,17 +20,13 @@ Sie müssen eine Auswahl zugehöriger Produkte erstellen, die einem bestimmten C
 
 1. Wählen Sie im Navigationsbereich **Einzelhandel und Handel** > **Kataloge und Sortimente** > **Sortimente** aus.
 
-1. Warten Sie, bis die Seite geladen sind.
-
 1. Wählen Sie auf der Seite „Sortimente“ die Option **+ Neu** aus.
 
-1. Erweitern Sie **Allgemeines** im Bereich „Neuer Datensatz“.
+1. Erweitern Sie im Bereich „Neuer Datensatz“ gegebenenfalls **Allgemeines**.
 
 1. Wählen Sie das Feld **Datum des Inkrafttretens** und dann ein Datum in der Zukunft aus.
 
 1. Geben Sie im Feld **Sortimentsnamen** einen Namen für das neue Sortiment ein. Beispielsweise **Neue Frühlingssaison**.
-
-1. Stellen Sie die **Ablaufdatum** auf **Nie**.
 
 1. Das Ablaufdatum kann verwendet werden, um ein veröffentlichtes Sortiment automatisch zu deaktivieren.
 
