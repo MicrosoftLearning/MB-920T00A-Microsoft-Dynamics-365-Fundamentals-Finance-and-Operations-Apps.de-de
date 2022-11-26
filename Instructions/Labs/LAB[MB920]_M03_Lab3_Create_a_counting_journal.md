@@ -18,13 +18,13 @@ lab:
 
 ![Screenshot des Formulars für die Inventurerfassung mit Kopfzeile und ausgefüllten Detailinformationen](../media/lp-scm-m-002-warehouse-inventory-mgmt-06.png)
 
-5. Wählen Sie im Aktionsbereich **Zeilen erstellen &gt; Online** aus.
+5. Wählen Sie im Aktionsbereich **Zeilen erstellen &gt; On-hand** (vorrätig) aus.
 
-6. Legen Sie im Dialogfeld **Inventurerfassung erstellen** die Felder **Lager**, **Bestandsstatus**, „Standort“ und **Ladungsträger** auf **Ja** fest. 
+6. Legen Sie im Dialogfeld **Inventurerfassung erstellen** die Felder **Lager**, **Bestandsstatus**, **Standort** und **Ladungsträger** auf **Ja** fest. 
 
 ![Screenshot des Dialogfelds „Inventurerfassung erstellen“ mit den Feldern, die wie beschrieben festgelegt sind](../media/lp-scm-m-002-warehouse-inventory-mgmt-07.png)
 
-7. Erweitern Sie den Abschnitt **Einzuschließender Datensatz**, und wählen Sie den Link **Filter** aus. Wählen Sie im Feld **Artikelnummer** den Eintrag **A0001** und dann **OK** aus.
+7. Erweitern Sie den Abschnitt **Einzuschließende Datensätze**, und wählen Sie den Link **Filter** aus. Geben Sie für das Feld **Elementnummer** den Eintrag **A0001** in die Kriterien ein, und wählen Sie dann **OK** aus.
 
 8. Wählen Sie im unteren Bereich des Dialogfelds **Inventurerfassung erstellen** die Option **OK** aus.
 
