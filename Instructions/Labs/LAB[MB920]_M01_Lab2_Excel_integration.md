@@ -6,6 +6,8 @@ lab:
 
 # <a name="module-1-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps"></a>Modul 1: Erkunden der Kernfunktionen der Finanz- und Betriebs-Apps von Microsoft Dynamics 365
 
+## <a name="lab-2---excel-integration"></a>Lab 2: Excel-Integration
+
 ## <a name="objective"></a>Ziel
 
 In diesem Lab erfahren Sie, wie Sie Daten aus der Finanzabteilung und dem Betrieb mithilfe der Office-Add-In-App von Dynamics nach Excel kopieren. Außerdem erfahren Sie, wie die gleiche App verwendet werden kann, um Daten in Finanz- und Betriebs-Apps einzufügen.
