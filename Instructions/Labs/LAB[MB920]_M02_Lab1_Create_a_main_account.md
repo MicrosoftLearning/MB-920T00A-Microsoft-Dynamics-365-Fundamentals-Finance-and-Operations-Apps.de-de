@@ -24,7 +24,7 @@ lab:
 
     - Name: **International call expense** (Internationale Anrufkosten)
 
-    - Hauptkostentyp: **Expense**
+    - Hauptkontotyp: **Expense**
 
     - Hauptkontokategorie: **TANDEEXP**
 
