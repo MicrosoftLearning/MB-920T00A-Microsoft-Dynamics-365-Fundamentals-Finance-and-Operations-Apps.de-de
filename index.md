@@ -4,11 +4,11 @@ permalink: index.html
 layout: home
 ---
 
-# <a name="content-directory"></a>Inhaltsverzeichnis
+# Inhaltsverzeichnis
 
 Hyperlinks zu den Lab-Übungen und Demos sind nachfolgend aufgelistet.
 
-## <a name="labs"></a>Labs
+## Labs
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
 | Modul | Labor |
@@ -16,7 +16,7 @@ Hyperlinks zu den Lab-Übungen und Demos sind nachfolgend aufgelistet.
 {% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} – {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
 {% endfor %}
 
-## <a name="demos"></a>Demos
+## Demos
 
 {% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
 | Modul | Demo |
