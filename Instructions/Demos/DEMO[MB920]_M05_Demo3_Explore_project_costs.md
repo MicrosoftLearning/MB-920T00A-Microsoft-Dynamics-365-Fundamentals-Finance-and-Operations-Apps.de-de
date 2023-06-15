@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-3---explore-project-costs"></a>Demo 3 – Projektkosten erkunden
+## Demo 3 – Projektkosten erkunden
 
 In dieser Demo gehen wir durch die Erstellung eines Aufwandseintrags, der dem Contoso Consulting-Projekt in Rechnung gestellt wird. Wir werden die Einträge in Formaten erkunden, die für die Darstellung im Web und auf Mobilgeräten optimiert sind. Zudem werden wir erfahren, wie ein Workflow zum Verwalten des Genehmigungsprozess verwendet wird.
 
