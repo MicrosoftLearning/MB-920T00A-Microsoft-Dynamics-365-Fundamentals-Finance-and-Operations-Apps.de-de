@@ -4,7 +4,7 @@ demo:
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
 
-## <a name="demo-1---month-end-close"></a>Demo 1 – Monatsabschluss
+## Demo 1 – Monatsabschluss
 
 1. Navigieren Sie zur Startseite von **Microsoft 365 for Finance and Operations**.  
     Um einen neuen Finanzperiodenabschluss in Microsoft Dynamics 365 for Finance and Operations zu erstellen, z. B. einen Monatsabschluss, navigieren Sie zunächst zum Modul **Hauptbuch**.
