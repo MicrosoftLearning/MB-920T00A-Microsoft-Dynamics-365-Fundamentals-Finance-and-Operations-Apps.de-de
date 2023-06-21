@@ -4,30 +4,39 @@ lab:
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
 
-## <a name="lab-2---create-a-free-text-invoice"></a>Lab 2: Erstellen einer Freitextrechnung
+# Modul 2: Grundlagen von Microsoft Dynamics 365 Finance erlernen
 
-## <a name="instructions"></a>Anweisungen
+## Lab 2: Eine Freitextrechnung erstellen
 
-1. Überprüfen Sie auf der Homepage von **Finance and Operations** rechts oben, ob Sie mit dem Unternehmen USMF arbeiten.
+## Lab-Einrichtung
 
-2. Wählen Sie bei Bedarf das Unternehmen und im Menü **USMF** aus.
+   - **Geschätzte Dauer**: 5 Minuten
 
-3. Wählen Sie im Navigationsbereich links **Module** > **Debitoren** > **Rechnungen** > **Alle Freitextrechnungen** aus.
+## Anweisungen
 
-4. Wählen Sie oben im Menü **+ Neu** aus.
+1.  Überprüfen Sie auf der **Finance and Operations**-Startseite oben rechts, ob Sie mit dem **USMF**-Unternehmen arbeiten. 
 
-5. Wählen Sie im Feld **Debitorenkonto** den Eintrag **US-001** aus.
+2.  Wählen Sie bei Bedarf das Unternehmen und im Menü **USMF** aus. 
 
-6. Navigieren Sie zur Rechnungszeile, und wählen Sie im **Hauptkonto** den Eintrag **601510** aus.
+3.  Wählen Sie im Navigationsbereich links im Modul **Debitoren** **Rechnungen** > **Alle Freitextrechnungen** aus. 
 
-Die Felder für die Steuergruppe und die Artikelsteuergruppe sollten automatisch mit „CA“ bzw. „AU/VI“ aktualisiert werden.
+4.  Wählen Sie im Aktionsbereich **+ Neu** aus. 
 
-7. Geben Sie **10** im Feld **Menge** ein.
+5.  Wählen Sie im Feld **KUNDEN > Kundenkonto** `US-001` aus, oder geben Sie den Wert ein.
 
-8. Geben Sie **1.2** im Feld **Einheit** ein.
+6.  Ändern Sie das Jahr im Feld **RECHNUNG > Datum** in 2022. Überprüfen Sie, ob sich das **Fälligkeitsdatum** auf 10 Tage später aktualisiert, ebenfalls im Jahr 2022. 
 
-9. Wählen Sie im Menü **Buchhaltungsaktion** die Option **Verteilungen anzeigen** aus. 
+7.  Navigieren Sie zu den **Rechnungszeilen**, und wählen Sie im Feld **Hauptkonto** `601510` aus, oder geben Sie den Wert ein. 
 
-10. Schließen Sie die Seite „Verteilung anzeigen“.
+8.  Überprüfen Sie, ob die Felder **Mehrwertsteuergruppe** und **Artikel-Mehrwertsteuergruppe** automatisch mit **CA** bzw. **AU/VI** aufgefüllt werden. 
 
-11. Wählen Sie im Menü die Option **Nachfolgende Aktion** aus, um die Freitextrechnung zu veröffentlichen.
+9.  Geben Sie `10` im Feld **Menge** ein. 
+
+10. Geben Sie `1.2` im Feld **Preis je Einheit** ein. 
+
+11.  Wählen Sie im Aktionsbereich die Registerkarte **Buchhaltung** und unter **Buchhaltung** die Option **Verteilungen anzeigen** aus. Überprüfen Sie die Verteilungen. 
+
+12. **Schließen** Sie die Seite „Verteilungen anzeigen“. 
+
+13. Wählen Sie im Aktionsbereich die Schaltfläche **Buchen** aus, und wählen Sie im Dialogfeld **OK** aus. 
+

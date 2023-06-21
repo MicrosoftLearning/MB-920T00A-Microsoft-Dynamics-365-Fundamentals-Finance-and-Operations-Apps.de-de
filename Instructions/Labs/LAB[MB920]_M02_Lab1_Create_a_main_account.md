@@ -3,33 +3,38 @@ lab:
   title: 'Lab 1: Erstellen eines Hauptkontos'
   module: 'Module 2: Learn the Fundamentals of Microsoft Dynamics 365 Finance'
 ---
-    
-# <a name="module-2-learn-the-fundamentals-of-microsoft-dynamics-365-finance"></a>Modul 2: Grundlagen von Microsoft Dynamics 365 Finance erlernen
-    
-## <a name="lab-1---create-a-main-account"></a>Lab 1: Erstellen eines Hauptkontos
 
-## <a name="instructions"></a>Anweisungen
+# Modul 2: Grundlagen von Microsoft Dynamics 365 Finance erlernen
 
-1. Überprüfen Sie auf der Homepage von **Finance and Operations** rechts oben, ob Sie mit dem Unternehmen USMF arbeiten.
+## Lab 1: Erstellen eines Hauptkontos
 
-2. Wählen Sie bei Bedarf das Unternehmen und im Menü **USMF** aus.
+## Lab-Einrichtung
 
-3. Wählen Sie im Navigationsbereich links **Module** > **Hauptbuch** > **Kontenplan** > **Konten** > **Hauptkonten** aus.
+   - **Geschätzte Dauer**: 5 Minuten
 
-4. Wählen Sie oben im Menü **+ Neu** aus.
+## Anweisungen
 
-5. Geben Sie auf der Seite „Hauptkonto“ die folgenden Werte ein:
+1.  Überprüfen Sie auf der **Finance and Operations**-Startseite oben rechts, ob Sie mit dem **USMF**-Unternehmen arbeiten. 
 
-    - Hauptkonto: **601510**
+2.  Wählen Sie bei Bedarf die Unternehmensauswahl und dort **USMF** aus. 
 
-    - Name: **International call expense** (Internationale Anrufkosten)
+3.  Wählen Sie im linken Navigationsbereich im Modul **Hauptbuch** **Kontenplan** > **Konten** > **Hauptkonten** aus.
 
-    - Hauptkontotyp: **Expense**
+4.  Wählen Sie im Aktionsbereich **+ Neu** aus.
 
-    - Hauptkontokategorie: **TANDEEXP**
+5.  Geben Sie auf der Seite **Hauptkonto** die folgenden Werte ein: 
 
-    - DB/CR-Standard: **Debit**
+    - Hauptkonto: `601510`
 
- ![Screenshot der Seite „Hauptkonten“ > „Kontenplan“: „Freigegeben“ mit den in Schritt 5 ausgefüllten Feldern](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+    - Name: `International call expense`
 
-6. Klicken Sie auf **Speichern**.
+    - Hauptkontotyp: `Expense`
+
+    - Hauptkontokategorie: `TANDEEXP`
+
+    - DB/CR-Standard: `Debit`
+
+    ![Screenshot der Seite „Hauptkonten“ > „Kontenplan“: „Freigegeben“ mit den in Schritt 5 ausgefüllten Feldern](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+
+6.  Wählen Sie **Speichern** aus, und **schließen** Sie die Seite. 
+
