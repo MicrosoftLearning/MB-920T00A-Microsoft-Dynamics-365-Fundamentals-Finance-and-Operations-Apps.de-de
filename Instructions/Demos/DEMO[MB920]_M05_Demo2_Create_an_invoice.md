@@ -4,7 +4,7 @@ demo:
   module: 'Module 5: Learn the Fundamentals of Microsoft Dynamics 365 Project Operations'
 ---
 
-## <a name="demo-2---create-an-invoice"></a>Demo 2 – Rechnung erstellen
+## Demo 2 – Rechnung erstellen
 
 1. Navigieren Sie zum Arbeitsbereich **Projektverwaltung**.  
     In dieser Demo werden wir den Prozess der Rechnungsstellung für ein einzelnes Projekt innerhalb von Project Operations durchgehen. Obwohl es möglich ist, eine Massenrechnungsstellung durchzuführen, werden wir uns zu Demonstrationszwecken auf ein einzelnes Aufwandsprojekt konzentrieren.Wir werden auch die Buchungsergebnisse und Finanzeinblicke innerhalb der Projektaufstellung sehen. Lassen Sie uns mit der Projektrechnung beginnen. 
