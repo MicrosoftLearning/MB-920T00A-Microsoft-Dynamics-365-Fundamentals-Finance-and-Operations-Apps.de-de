@@ -18,23 +18,25 @@ In diesem Lab erfahren Sie, wie Sie Finanz- und Betriebsdaten mithilfe der Offic
 
 ## Anweisungen
 
-Nachdem Sie sich mit den Finanz- und Betriebs-Apps vertraut gemacht haben, nehmen Sie sich etwas Zeit, um das Szenario zur Excel-Integration zu erkunden. 
+Nachdem Sie sich mit den Finanz- und Betriebs-Apps vertraut gemacht haben, nehmen Sie sich etwas Zeit, um das Szenario zur Excel-Integration zu erkunden.
 
-1.  Überprüfen Sie auf der **Finance and Operations**-Startseite oben rechts, ob Sie mit dem **USMF**-Unternehmen arbeiten. 
+1.  Stellen Sie sicher, dass Sie sich in der **USMF**-Rechtseinheit befinden.
 
 2.  Navigieren Sie zu **Beschaffung** > **Einrichten** > **Kreditoren** > **Kreditorengruppen**.
 
-3.  Wählen Sie im Aktionsbereich **In Microsoft Office öffnen** und unter **In Excel öffnen** die Option **Kreditorengruppen (usmf)** aus.
+3.  Wählen Sie **In Microsoft Office öffnen** > **In Excel öffnen** aus.
 
-4.  Wählen Sie im Bereich **In Excel öffnen** die Option **Herunterladen** aus. 
+4.  Wählen Sie **Anbietergruppen** (usmf) aus, und laden Sie die Excel-Vorlage herunter.
 
-5.  Die Excel-Vorlagendatei wird heruntergeladen und gespeichert. **Öffnen** Sie die heruntergeladene Excel-Vorlagendatei, überspringen Sie bei Bedarf andere Standardsicherheitsaufforderungen, oder lassen Sie sie zu, schließen Sie die Aktivierung, und wählen Sie **Bearbeitung aktivieren** aus. Wählen Sie **Diesem Add-In vertrauen** aus, und melden Sie sich dann an (mit denselben Anmeldeinformationen, sofern Sie gefragt werden). 
+5.  Speichern Sie die heruntergeladene Excel-Vorlage, und öffnen Sie sie dann. Erlauben Sie bei Bedarf die Aktion „Schließen“, und wählen Sie **Bearbeitung aktivieren** aus. Stufen Sie dieses Add-In als vertrauenswürdig ein, und melden Sie sich dann an (mit denselben Anmeldeinformationen, sofern Sie gefragt werden).
 
-    Nach der Anmeldung aktualisiert die Datenconnector-App die vorhandenen Daten aus der **Kreditorengruppentabelle** und zeigt sie in der Excel-Kalkulationstabelle an. 
+    Alle in der Tabelle **Kreditorengruppe** enthaltenen Daten werden in der Excel-Tabelle angezeigt.
 
-6.  Geben Sie zum Erstellen eines neuen Datensatzes `100` im Feld **Kreditorengruppe**, `Insurance vendor` im Feld **Beschreibung** und `Net10` im Feld **Zahlungsbedingungen** ein. 
+6.  Geben Sie einen neuen Datensatz ein.
 
-7.  Wählen Sie im Aufgabenbereich Microsoft Dynamics-Datenconnector die Schaltfläche **Veröffentlichen** aus. 
+7.  Geben Sie **100** im Feld **Kreditorengruppe**, **Insurance Vendor** (Versicherungsanbieter) im Feld **Beschreibung** und **Net10** im Feld **Zahlungsbedingungen** ein.
 
-8.  Aktualisieren Sie die Liste der **Kreditorengruppen** in Dynamics 365 Finance and Operations, um sicherzustellen, dass der neue Datensatz erfolgreich hinzugefügt wurde. 
+8.  Wählen Sie die Schaltfläche **Veröffentlichen** in der Office-Add-In-App von Microsoft Dynamics aus.
+
+9.  Öffnen Sie das Formular **Kreditorengruppe**, um zu überprüfen, ob der neue Datensatz hinzugefügt wurde.
 

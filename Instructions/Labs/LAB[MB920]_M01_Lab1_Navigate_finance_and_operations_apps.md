@@ -35,87 +35,81 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
 ### In den Finance and Operations-Apps navigieren
 
-1.  Auf der **Finance and Operations-Startseite** wird Ihnen Folgendes angezeigt: 
+Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, nehmen Sie sich etwas Zeit, um die Benutzeroberflächen zu erkunden.
 
-    -  Das Navigationsmenü auf der linken Seite, das standardmäßig reduziert ist 
+1.  Auf der **Finance and Operations**-Startseite wird Ihnen Folgendes angezeigt, soweit konfiguriert:
 
-    - Das Standardbannerbild des Unternehmens. 
+    - Das Navigationsmenü auf der linken Seite, das standardmäßig reduziert ist
 
-    - Arbeitsbereichskacheln, die Ihnen basierend auf Ihrer Rolle in der Organisation zur Verfügung stehen 
+    - Logo Ihres Unternehmens
 
-    - Kalender und Arbeitselemente, die Ihnen zugewiesen wurden 
+    - Arbeitsbereichskacheln, die Ihnen basierend auf Ihrer Rolle in der Organisation zur Verfügung stehen
 
-    - Die Leiste **Nach Seite suchen**, die sehr nützlich ist, um schnell zu finden, was Sie brauchen. 
+    - Kalender und Arbeitselemente, die Ihnen zugewiesen wurden
 
-    - Oben rechts sehen Sie das Unternehmen, mit dem Sie gerade arbeiten, Benachrichtigungen, Einstellungen und Hilfelinks. 
+    -  Die Suchleiste, die nützlich ist, um schnell zu finden, was Sie brauchen
 
-    ![Dynamics 365 Finance and Operations-Startseite mit hervorgehobenen Bereichen.](./media/m1-common-home-page.png)
+    - Oben rechts sehen Sie das Unternehmen, mit dem Sie gerade arbeiten, Benachrichtigungen, Einstellungen und Hilfelinks. Überprüfen Sie, ob das aufgeführte Unternehmen **USMF** ist.
 
-1.  Überprüfen Sie, ob das aufgeführte Unternehmen **USMF** ist. 
+    ![Screenshot der auf der Dynamics 365 Finance and Operations-Startseite hervorgehobenen Bereiche](./media/lab-navigate-finance-and-operations-apps-04.png)
 
-1.  Wählen Sie oben links das Hamburger-Menü **Navigationsbereich erweitern** aus. 
+2.  Wählen Sie oben links das Hamburger-Menü **Navigationsbereich erweitern** aus.
 
-1.  Im Navigationsbereich finden Sie Sammlungen für Ihre **Favoriten**, **Aktuellen** Artikel, **Arbeitsbereiche** und **Module**. 
+3.  Im Navigationsbereich finden Sie Sammlungen für Ihre **Favoriten**, **Aktuellen** Artikel, **Arbeitsbereiche** und **Module**.
 
-1.  Wählen Sie im Navigationsbereich **Module** > **Systemadministration** aus. 
+4.  Wählen Sie im Navigationsbereich **Module** > **Systemadministration** aus.
 
-1.  **Überprüfen** Sie die im **Systemverwaltungsmodul** verfügbaren verschiedenen Bereiche. 
+5.  Überprüfen Sie die im Systemverwaltungsmodul verfügbaren Bereiche.
 
-1.  Wählen Sie unter **Einrichtung** **Clientleistungsoptionen** aus. 
+6.  Wählen Sie unter **Einrichtung** **Clientleistungsoptionen** aus.
 
-1.  Wählen Sie im Bereich „Clientleistungsoptionen“ unter **Funktionslegenden aktiviert** den Umschalter aus, und vergewissern Sie sich, dass sie auf **Ja** festgelegt ist. 
+7.  Wählen Sie im Bereich **Clientleistungsoptionen** unter **Funktionslegenden aktiviert** den Umschalter aus, und vergewissern Sie sich, dass er auf **Ja** festgelegt ist.
 
-1.  Überprüfen Sie die anderen verfügbaren Optionen, scrollen Sie zum unteren Rand des Fensters, und wählen Sie dann **OK** aus. 
+8.  Überprüfen Sie die anderen verfügbaren Optionen, scrollen Sie zum unteren Rand des Fensters, und wählen Sie dann **OK** aus.
 
-1.  Wählen Sie auf der Startseite in der oberen rechten Ecke das Symbol **Einstellungen** und dann **Benutzeroptionen** aus. 
+9.  Wählen Sie auf der **Startseite** in der oberen rechten Ecke das Symbol **Einstellungen** und dann **Benutzeroptionen** aus.
 
-    ![Screenshot mit dem Symbol „Einstellungen“ und der Dropdownliste „Benutzeroptionen“](./media/m1-common-settings-user-settings.png)
+    ![Screenshot mit dem Symbol „Einstellungen“ und der Dropdownliste „Benutzeroptionen“](./media/lab-navigate-finance-and-operations-apps-05.png)
 
-1.  Verwenden Sie auf der Seite **Benutzeroptionen** die Registerkarten, um verschiedene Einstellungen zu konfigurieren, die für Ihr Konto gelten sollen. 
+10. Verwenden Sie auf der Seite **Optionen** die Registerkarten, um verschiedene Einstellungen zu konfigurieren, die für Ihr Konto gelten.
 
-1.  Wählen Sie die Registerkarte **Einstellungen** aus. 
+11. Wählen Sie die Registerkarte **Einstellungen** aus.
 
-1.  Informieren Sie sich über die verfügbaren Einstellungen. Beachten Sie, dass Sie das **Standardunternehmen** und die **erste Seitenansicht** ändern können, die beim Anmelden angezeigt werden. 
+12. Informieren Sie sich über die verfügbaren Einstellungen. Beachten Sie, dass Sie das Standardunternehmen und die erste Seitenansicht ändern können, die beim Anmelden angezeigt werden.
 
-1.  Wählen Sie die Registerkarten **Konto** und **Workflow** aus, und überprüfen Sie sie. 
+13. Wählen Sie die Registerkarten **Konto** und **Workflow** aus, und überprüfen Sie sie.
 
-1.  Wählen Sie im linken Navigationsmenü das Symbol **Start** aus. 
+14. Wählen Sie im linken Navigationsmenü das Symbol **Start** aus.
 
-1.  Wählen Sie auf der Startseite in der oberen rechten Ecke der Seite das Feld **Nach einer Seite suchen** aus. 
+15. Wählen Sie auf der **Startseite** in der oberen rechten Ecke der Seite das Feld **Nach einer Seite suchen** aus.
 
-1.  Suchen Sie im Suchfeld nach `All vendors`. 
+16. Suchen Sie im Suchfeld nach **Alle Kreditoren**.
 
-1.  Möglicherweise müssen Sie bei der ersten Suche nach einer Seite warten.  Während der Suche wird rechts neben dem Suchfeld ein kleiner Kreis angezeigt. 
+17. Wählen Sie „**Alle Kreditoren** > Kreditorenkonten > Kreditoren“ aus.
 
-1.  Wählen Sie das erste Ergebnis **Alle Kreditoren** aus. Dies entspricht dem Navigieren zu **Module** > **Kreditoren** > **Kreditoren** > **Alle Kreditoren**. 
+18. Möglicherweise müssen Sie bei der ersten Suche nach einer Seite warten.  Während der Suche wird rechts neben dem Suchfeld ein kleiner Kreis angezeigt.
 
-1.  Die Seite **Alle Kreditoren** ist ein Beispiel für eine Listenseite. Die Listenseite enthält im allgemeinen Stammdaten, die gelesen, erstellt, gelöscht und aktualisiert werden können. Im Aktionsbereich oberhalb der Liste werden zusätzliche Funktionen angezeigt. 
+19. Die Seite **Alle Kreditoren** ist ein Beispiel für eine Listenseite. Die Listenseite enthält Stammdaten, die gelesen, erstellt, gelöscht und aktualisiert werden können.  Es gibt weitere Features, die das Menüband oberhalb der Liste verwenden.
 
-    ![Liste „Alle Kreditoren“ mit hervorgehobenen Menüfunktionen](./media/m1-common-all-vendor-list-page.png)
+    ![Screenshot der Liste „Alle Kreditoren“ mit hervorgehobenen Menüfeatures](./media/lab-navigate-finance-and-operations-apps-06.png)
 
-1.  Markieren Sie einen der Kreditoren in der Liste, und wählen Sie rechts die Infobox **Zugehörige Informationen** aus. Prüfen Sie die bereitgestellten zusätzlichen Informationen. 
+20. Markieren Sie einen der Kreditoren in der Liste, und wählen Sie rechts das Menü **Zugehörige Informationen** aus. Prüfen Sie die bereitgestellten zusätzlichen Informationen.
 
-1.  Öffnen Sie in der Kreditorenliste den **Acme Office Supplies**-Datensatz. 
+21. Wählen Sie in der Kreditorenliste **Acme Office Supplies** aus.
 
-1.  Wählen Sie im Aktionsbereich **Bearbeiten**, wählen Sie dann im Feld **Gruppe** das Dropdownmenü und schließlich den Spaltentitel **Kreditorengruppe** aus. 
+22. Wählen Sie das Menü **Gruppe** und dann den Spaltentitel **Kreditorengruppe** aus.
 
-    ![Screenshot des Spaltentitels „Kreditorengruppe“ für Acme Office Supplies](./media/m1-common-vendor-group-menu-24493345.png)
+    ![Screenshot des Spaltentitels „Kreditorengruppe“ für Acme Office Supplies](./media/lab-navigate-finance-and-operations-apps-07.png)
 
-1.  In vielen Menüs stehen **Sortier**- und **Filterfunktionen** zur Verfügung. Verwenden Sie die Filter, um den gesuchten Feldinhalt schnell zu finden. Wenn Sie den Wert bereits kennen, können Sie ihn einfach in das Feld eingeben, anstatt das Dropdownmenü zu verwenden. 
+23.  In vielen Menüs stehen Sortier- und Filterfunktionen zur Verfügung.  Verwenden Sie die Filter, um den gesuchten Feldinhalt schnell zu finden.
 
-1.  Beachten Sie die zusätzliche Funktionalität rechts neben dem Aktionsbereich. Zeigen Sie auf jedes Element, und überprüfen Sie die Feature-Legende. 
+24. Beachten Sie oben rechts die zusätzlichen Funktionen. Bewegen Sie Ihre Maus zu jedem Element und überprüfen Sie die Funktionsbeschriftung. Wählen Sie nach Abschluss das Symbol **Schließen** aus, um die Seite zu schließen und zur **Startseite** zurückzukehren.
 
-1.  Wählen Sie das Symbol **Schließen** aus, um diesen Datensatz zu schließen und zur Listenseite **Alle Kreditoren** zurückzukehren. 
+    ![Screenshot des Menüs oben rechts auf der Listenseite mit zusätzlichen Features zum Herstellen einer Verbindung zu Power Apps und Office-Apps und die Schaltflächen „Dokumentanlage“, „Seite aktualisieren“, „In neuem Fenster öffnen“ und „Schließen“](./media/lab-navigate-finance-and-operations-apps-08.png)
 
-    ![Menü oben rechts auf der Listenseite mit zusätzlichen Funktionen zum Herstellen einer Verbindung zu Power Apps, Office-Apps, Anhänge und die Schaltflächen „Seite aktualisieren“, „In neuem Fenster öffnen“ und „Schließen“](./media/m1-common-list-page-additional-features-menu.png)
+25. Wählen Sie in der rechten oberen Ecke das Fragezeichensymbol **Hilfe** und dann **Hilfe** aus.
 
-1.  Wählen Sie oben rechts das **?** Fragezeichensymbol und dann **Hilfe** aus. 
+26. Beachten Sie, dass sich die Hilfeinformationen auf die aktuelle Seite beziehen.
 
-1.  Beachten Sie, dass im Hilfeinformationsbereich Inhalte für die aktuelle Seite angezeigt werden. **Schließen**  Sie den Hilfebereich. 
-
-1.  Kehren Sie zum **Standarddashboard** zurück, indem Sie die Schaltfläche **Finance and Operations** oben links oder das **Startsymbol** im linken Navigationsmenü verwenden. 
-
-    > **Hinweis:** Tastenkombination: ALT+UMSCHALT+POS1. Dynamics 365 Finance and Operations unterstützt viele Tastenkombinationen, um den Zugriff auf das System zu beschleunigen: https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/shortcut-keys
-
-1.  Versuchen Sie, eine **Arbeitsbereichskachel** auszuwählen, und überprüfen Sie dann die Hilfeinformationen für diesen Arbeitsbereich. Kehren Sie nach Abschluss zum Standarddashboard zurück. 
+27. Versuchen Sie, eine Arbeitsbereichskachel auszuwählen und überprüfen Sie dann die Hilfeinformationen für diesen Arbeitsbereich. Kehren Sie zum Abschluss zur **Startseite** zurück.
 
