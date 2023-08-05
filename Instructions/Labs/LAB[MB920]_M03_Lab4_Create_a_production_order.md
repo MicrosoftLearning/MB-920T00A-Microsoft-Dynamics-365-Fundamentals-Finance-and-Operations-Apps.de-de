@@ -1,18 +1,16 @@
 ---
 lab:
-  title: "Lab\_4: Erstellen eines Produktionsauftrags"
+  title: "Lab\_3: Erstellen eines Produktionsauftrags"
   module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
 ---
 
 # Modul 3: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
 
-## Lab 4: Erstellen eines Produktionsauftrags
+## Lab 3: Erstellen eines Produktionsauftrags
 
 ## Ziel
 
-Der Produktionsauftrag enthält Informationen darüber, was produziert werden soll, die zu produzierende Menge und das geplante Enddatum. Er enthält auch Informationen darüber, welche Materialien verbraucht werden müssen und welcher Prozess zur Herstellung des Artikels erforderlich ist.
-
-Sie müssen einen neuen Produktionsauftrag für Ihr Unternehmen erstellen.
+Mit Produktionsaufträgen kann der Produktionsprozess in Supply Chain Management initiiert werden. In diesem Lab lernen Sie die Benutzeroberfläche und die Funktionen des Formulars für Produktionsaufträge kennen. Außerdem erfahren Sie am Ende dieser Übung, wie Sie einen Produktionsauftrag erstellen können.
 
 ## Lab-Einrichtung
 
@@ -20,27 +18,25 @@ Sie müssen einen neuen Produktionsauftrag für Ihr Unternehmen erstellen.
 
 ## Anweisungen
 
-1.  Überprüfen Sie auf der **Finance and Operations**-Startseite oben rechts, ob Sie mit dem **USMF**-Unternehmen arbeiten. 
+1.  Überprüfen Sie auf der **Finance and Operations**-Startseite oben rechts, ob Sie mit dem **USMF**-Unternehmen arbeiten.
 
-1.  Wählen Sie bei Bedarf das Unternehmen und im Menü **USMF** aus. 
+2.  Wählen Sie bei Bedarf das Unternehmen und im Menü **USMF** aus.
 
-1.  Wählen Sie im linken Navigationsbereich im Modul **Produktionssteuerung** **Fertigungsaufträge** > **Alle Fertigungsaufträge** aus. 
+3.  Wählen Sie im linken Navigationsbereich **Module** > **Produktionssteuerung** > **Produktionsaufträge** > **Alle Produktionsaufträge** aus.
 
-1.  Wählen Sie im Aktionsbereich **Neuer Fertigungsauftrag** aus. 
+4.  Wählen Sie im oberen Menü **Neuer Fertigungsauftrag** aus.
 
-1.  Geben Sie unter **KENNUNG** im Feld **Artikelnummer** `D0001` ein, und wählen Sie den Artikel **MidRangeSpeaker** aus. 
+5.  Geben Sie unter **IDENTIFIKATION** im Feld **Artikelnummer****D0001** ein.
 
-1.  Wählen Sie unter **PRODUKTION** im Feld **Lieferung** ein Datum aus, das einen Monat nach dem heutigen Datum liegt. 
-   
-    > **Hinweis:** Das **Lieferdatum** gibt an, wann der Fertigungsauftrag enden soll, um pünktlich zu liefern. Dieses Datum kann im Planungsprozess verwendet werden. Beispielsweise können Sie die Bestellung ab dem Lieferdatum rückwärts planen. 
+6.  Geben Sie im Feld **Menge** **20** ein.
 
-1.  Geben Sie im Feld **Menge** den Wert `20.00` ein. 
+7.  Wählen Sie unter **PRODUKTION** im Feld **Lieferung** ein Datum einen Monat nach dem heutigen Datum aus.
 
-    > **Hinweis:** Unter **Stückliste/Route** zeigt das Feld **Stücklistennummer** automatisch die Nummer einer aktiven Stückliste für die aktuelle Position an. Sie können die Stückliste für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Stückliste aus der Liste der genehmigten Stücklistenversionen auswählen. Das Feld **Routennummer** zeigt automatisch die Nummer einer aktiven Route für die aktuelle Position an. Sie können die Route für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Route aus der Liste der genehmigten Routenversionen auswählen. 
+    Das Lieferdatum gibt an, wann der Fertigungsauftrag enden soll, um eine pünktliche Lieferung zu garantieren. Dieses Datum kann im Planungsprozess verwendet werden. Beispielsweise können Sie die Bestellung ab dem Lieferdatum rückwärts planen.
 
-    ![Bildschirmbild mit der vollständigen Anzeige des Bereichs „Produktionsauftrag erstellen“](./media/lp1-m4-new-production-order-pane.png)
+8.  Unter Stückliste/Route zeigt das Feld **Stücklistennummer** automatisch die Nummer einer aktiven Stückliste für die aktuelle Position an. Sie können die Stückliste für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Stückliste aus der Liste der genehmigten Stücklistenversionen auswählen. Das Feld **Routennummer** zeigt automatisch die Nummer einer aktiven Route für die aktuelle Position an. Sie können die Route für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Route aus der Liste der genehmigten Routenversionen auswählen.
 
-1.  Klicken Sie auf **Erstellen**. 
+    ![Screenshot: Seite „Produktionsauftrag erstellen“. Die Felder „Artikelnummer“ und „Lieferung“ sind hervorgehoben.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-40.png)
 
-1.  **Schließen** Sie die Seite, und navigieren Sie zur Startseite zurück. 
+9.  Klicken Sie auf **Erstellen**.
 

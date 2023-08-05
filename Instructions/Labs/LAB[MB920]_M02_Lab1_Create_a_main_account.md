@@ -14,27 +14,51 @@ lab:
 
 ## Anweisungen
 
-1.  Überprüfen Sie auf der **Finance and Operations**-Startseite oben rechts, ob Sie mit dem **USMF**-Unternehmen arbeiten. 
 
-2.  Wählen Sie bei Bedarf die Unternehmensauswahl und dort **USMF** aus. 
+1.  Überprüfen Sie auf der **Finance and Operations**-Startseite oben rechts, ob Sie mit dem **USMF**-Unternehmen arbeiten.
 
-3.  Wählen Sie im linken Navigationsbereich im Modul **Hauptbuch** **Kontenplan** > **Konten** > **Hauptkonten** aus.
+2.  Wählen Sie bei Bedarf das Unternehmen und im Menü **USMF** aus.
+
+3.  Wählen Sie im Navigationsbereich links **Module** > **Hauptbuch** > **Kontenplan** > **Konten** > **Hauptkonten** aus.
 
 4.  Wählen Sie im Aktionsbereich **+ Neu** aus.
 
-5.  Geben Sie auf der Seite **Hauptkonto** die folgenden Werte ein: 
+5.  Geben Sie auf der Seite **Hauptkonto** die folgenden Werte ein:
 
-    - Hauptkonto: `601510`
+    - Hauptkonto: **601510**
 
-    - Name: `International call expense`
+    - Name: **International call expense** (Internationale Anrufkosten)
 
-    - Hauptkontotyp: `Expense`
+    - Hauptkostentyp: **Expense**
 
-    - Hauptkontokategorie: `TANDEEXP`
+    - Hauptkontokategorie: **TANDEEXP**
 
-    - DB/CR-Standard: `Debit`
+    - DB/CR-Standard: **Debit**
 
-    ![Screenshot der Seite „Hauptkonten“ > „Kontenplan“: „Freigegeben“ mit den in Schritt 5 ausgefüllten Feldern](./media/m-002-explore-general-ledgers-in-microsoft-dynamics-365-finance-03.png)
+    ![Screenshot: Hauptkonten – Diagramm mit Konten: Freigegebene Seite, auf der verschiedene Werte hinzugefügt werden müssen](./media/lab-create-a-main-account-01.png)
 
-6.  Wählen Sie **Speichern** aus, und **schließen** Sie die Seite. 
+6.  Navigieren Sie zu **Module &gt; Finanzbuchhaltung &gt; Journaleinträge &gt; Allgemeine Erfassungen**.
 
+7.  Wählen Sie im Aktionsbereich **+ Neu** aus.
+
+8.  Geben Sie auf der Seite **Allgemeine Erfassungen** den folgenden Wert ein, und wählen Sie im Aktionsbereich **Zeilen** aus:
+
+    - Name: GenJrn
+
+9.  Geben Sie auf der Seite **Vorerfasste Belege** die folgenden Werte ein:
+
+    - Kontotyp: **Ledger**
+
+    - Hauptkonto: **601510**
+
+    - Debit: **10.00** 
+
+    - Offsetkontotyp: **Ledger**
+
+    - Offsetkontonummer: **110180** 
+
+10. Wählen Sie im Aktionsbereich die Schaltfläche **Speichern** aus.
+
+11. Navigieren Sie zu **Überprüfen &gt; Buchung simulieren**. 
+
+12. Wählen Sie im Aktionsbereich die Schaltfläche **Buchen** aus. Das Journal sollte veröffentlicht werden.
