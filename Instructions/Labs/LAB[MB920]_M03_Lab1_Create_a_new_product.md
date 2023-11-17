@@ -10,7 +10,7 @@ lab:
 
 ## Ziel
 
-In Contoso Entertainment System USA (USMF) möchten Sie eine neue Konfiguration eines Gehäuse von einem Anbieter erwerben. Sie müssen einen Artikel erstellen, um die neue Konfiguration darzustellen. In diesem Lab lernen Sie, wie Sie einen neuen Artikel und neue Artikelkonfigurationen erstellen können.
+Im Unternehmen Contoso Entertainment System USA (USMF) planen Sie eine neue Konfiguration eines Gehäuses eines Kreditors. Sie müssen ein Element erstellen, um die neue Konfiguration darzustellen. In diesem Lab lernen Sie, wie Sie einen neuen Artikel und neue Artikelkonfigurationen erstellen können.
 
 ## Lab-Einrichtung
 
@@ -18,7 +18,7 @@ In Contoso Entertainment System USA (USMF) möchten Sie eine neue Konfiguration 
 
 ## Anweisungen
 
-In Contoso Entertainment System USA (USMF) möchten Sie eine neue Konfiguration eines Gehäuse von einem Anbieter erwerben. Sie müssen einen Artikel erstellen, um die neue Konfiguration darzustellen.
+In Contoso Entertainment System USA (USMF) möchten Sie eine neue Konfiguration eines Gehäuse von einem Anbieter erwerben. Sie müssen ein Element erstellen, um die neue Konfiguration darzustellen.
 
 1.  Überprüfen Sie auf der Finance and Operations-Startseite oben rechts, ob Sie mit dem **USMF**-Unternehmen arbeiten. Wählen Sie bei Bedarf im Dropdownmenü für Unternehmen **USMF** aus.
 
@@ -36,13 +36,13 @@ In Contoso Entertainment System USA (USMF) möchten Sie eine neue Konfiguration 
 
 8.  Geben Sie im Feld **Produktname** die Bezeichnung **Gehäuse 2** ein.
 
-    ![Screenshot: Standardansicht der Seite zur Erstellung eines neuen Produkts](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
+    ![Der Screenshot zeigt die Standardansicht der Seite zum Erstellen neuer Produkte.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
 
 9.  Klicken Sie auf die Schaltfläche **OK**.
 
 10. Wählen Sie im Aktionsbereich im Menü **Produkt** unter der Gruppe **Einrichten** die Option **Dimensionsgruppen** aus.
 
-    ![Screenshot: Option „Einrichten“ im Menü „Produkt“, in dem die verschiedenen Dimensionsgruppendetails hinzugefügt werden können](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
+    ![Der Screenshot zeigt die Einrichtungsoption im Produktmenü, mit der die verschiedenen Details der Dimensionsgruppe hinzugefügt werden können.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
 
 11. Wählen Sie das Dropdownmenü **Lagerdimensionsgruppe** und dann **SiteWH** aus.
 
@@ -54,7 +54,7 @@ In Contoso Entertainment System USA (USMF) möchten Sie eine neue Konfiguration 
 
 15. Eine Seite wird geöffnet, auf der der erste Schritt als **Zu veröffentlichende Produkte auswählen** angezeigt wird.
 
-    ![Screenshot: Standardansicht der Seite „Produkte freigeben“](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
+    ![Der Screenshot zeigt die Standardansicht der Seite zum Freigeben von Produkten.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
 
 16. Wählen Sie unten auf der Seite die Schaltfläche **Weiter** aus.
 
@@ -68,7 +68,7 @@ In Contoso Entertainment System USA (USMF) möchten Sie eine neue Konfiguration 
 
 21. Wählen Sie im Navigationsbereich Module und dann Produktinformationsverwaltung aus. Wählen Sie dann im Menü Produkte die Option **Freigegebene Produkte** aus.
 
-22. Suchen Sie auf der Seite **Releases** – **Produkte** den neuen Eintrag **GTL007** im Raster. 
+22. Suchen Sie auf der Seite **Freigegebene****Produkte** den neuen Eintrag **GTL007** im Raster. 
 
 23. Wählen Sie den Produktlink aus, und navigieren Sie zur Seite **Produktdetails**.
 
@@ -104,7 +104,7 @@ In Contoso Entertainment System USA (USMF) möchten Sie eine neue Konfiguration 
 
     - **Artikelgruppe**: Audio
 
-30. Wählen Sie zum Abschließen der Konfiguration im Aktionsbereich die Option Produkt aus. Wählen Sie die Schaltfläche Überprüfen unter der Gruppe Verwalten aus.
+30. Wählen Sie im Aktionsbereich Produkt aus, um die Konfiguration abzuschließen. Wählen Sie die Schaltfläche Überprüfen unter der Gruppe Verwalten aus.
 
     ![Screenshot: Gruppe Verwalten unter der Schaltfläche Produkt im Aktionsbereich. Die Schaltfläche Überprüfen in der Gruppe Verwalten ist ausgewählt.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
 
