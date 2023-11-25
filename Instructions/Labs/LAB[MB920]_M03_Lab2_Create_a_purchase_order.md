@@ -14,7 +14,7 @@ lab:
 
 ## Ziel
 
-In diesem Lab werden Sie mit der Benutzeroberfläche und den verschiedenen Feldern im Bestellformular vertraut gemacht. Außerdem erfahren Sie, wie Sie eine neue Bestellung erstellen können.
+In dieser Übung machen Sie sich mit der Benutzeroberfläche und den verschiedenen Feldern vertraut, die im Bestellformular verfügbar sind. Außerdem erfahren Sie, wie Sie eine neue Bestellung erstellen können.
 
 
 ## Lab-Einrichtung
@@ -58,11 +58,11 @@ Der Auftragskopf wurde nun erstellt. Wenn Sie mit Bestellpositionen arbeiten, wi
 
 11. Wählen Sie unter **Bestellpositionen** im Menü die Option **Bestellposition** aus.
 
-![Screenshot: Bestellpositionen](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-18.png)
+![Screenshot mit Einkaufsbestellpositionen](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-18.png)
 
 12. Wählen Sie unter **DISPLAY** **Dimensionen** aus.
 
-    Produkte können in Varianten vorliegen, die sich nach Dimensionen wie Farbe, Größe oder Stil unterscheiden. Produkte können auch so eingerichtet werden, dass sie Lagerdimensionen wie Standort und Lager verwenden. Es gibt auch optionale Rückverfolgungsangaben wie Chargen- und Seriennummern. Um die Effizienz der Auftragserfassung zu verbessern, können Sie die üblicherweise verwendeten Dimensionsfelder direkt zum Auftragsraster hinzufügen.
+    Produkte können in Varianten vorliegen, die sich nach Dimensionen wie Farbe, Größe oder Stil unterscheiden. Produkte können auch so eingerichtet werden, dass sie Lagerdimensionen wie Standort und Lager verwenden. Es gibt auch optionale Rückverfolgungsangaben wie Chargen‑ und Seriennummern. Um die Effizienz der Auftragserfassung zu verbessern, können Sie die üblicherweise verwendeten Dimensionsfelder direkt zum Auftragsraster hinzufügen.
 
 13. Aktivieren Sie im Anzeigebereich **Dimensionen** unter **PRODUKTDIMENSIONEN** das Kontrollkästchen **Farbe**.
 
@@ -76,7 +76,7 @@ Denken Sie daran, dass Sie auch das Filterfeld eingeben können, anstatt durch d
 
 Bestellpositionen werden für Produkte und Dienstleistungen durch Angabe einer Artikelnummer oder als Aufwand durch Angabe einer Beschaffungskategorie angelegt.
 
-Die Beschaffungskategorie wird zum Hinzufügen von Zeilen verwendet, in denen beschaffte Artikel direkt als Aufwand erfasst werden, anstatt in den Bestand aufgenommen zu werden. Wenn Sie einen Kauf tätigen müssen, können Sie eine Bestellposition erstellen, in der eine Beschaffungskategorie angegeben ist, anstatt eine Zeile mit einer Artikelnummer zu erstellen. Artikel können auch einer Beschaffungskategorie zugeordnet werden. In diesem Fall wird die Beschaffungskategorie nur zu Informationszwecken angezeigt.
+Die Beschaffungskategorie wird zum Hinzufügen von Zeilen verwendet, in denen beschaffte Artikel direkt als Aufwand erfasst werden, anstatt in den Lagerbestand aufgenommen zu werden. Wenn Sie einen Einkauf verrechnen müssen, können Sie eine Bestellposition erstellen, in der eine Beschaffungskategorie angegeben ist, anstatt eine Zeile mit einer Artikelnummer zu erstellen. Artikel können auch einer Beschaffungskategorie zugeordnet werden. In diesem Fall wird die Beschaffungskategorie nur zu Informationszwecken angezeigt.
 
 16. Öffnen Sie das Dropdownmenü **Farbe**, überprüfen Sie im Menü die verfügbaren Optionen, und wählen Sie dann eine der Farben oder Farbkombinationen aus.
 
@@ -86,9 +86,9 @@ Die Beschaffungskategorie wird zum Hinzufügen von Zeilen verwendet, in denen be
 
     Die **Menge** wird automatisch mit der Mindestbestellmenge für das Produkt aufgefüllt, wenn diese eingerichtet ist, oder mit dem Wert **1**.
 
-19. Weitere Informationen:
+19. Einige zusätzliche Informationen:
 
-- **Einheit:** Zeigt die Maßeinheit für die bestellte Menge an. Normalerweise wird die Einheit automatisch von der Einkaufseinheit in den Produktstammdaten bereitgestellt.
+- **Einheit:** Zeigt die Maßeinheit für die bestellte Menge an. Normalerweise wird die Einheit automatisch von der Einkaufseinheit in den Produktmasterdaten bereitgestellt.
 
 - **Preis je Einheit**: Enthält einen Wert aus einem Kaufvertrag oder einem Handelsvertrag. Es ist möglich, den Stückpreis in einzelnen Bestellpositionen zu ändern – beispielsweise wenn mit dem Kreditor ein eindeutiger Preis ausgehandelt wird.
 
@@ -96,13 +96,13 @@ Die Beschaffungskategorie wird zum Hinzufügen von Zeilen verwendet, in denen be
 
 - **Rabattprozentsatz**: Bei Eingabe wird der Nettobetrag für die Zeile entsprechend reduziert. Der Rabattprozentsatz wird normalerweise automatisch aus Kaufverträgen oder Handelsvereinbarungen geliefert. Es ist jedoch möglich, einzelne Zeilen zu überschreiben, wenn mit dem Kreditor ein eindeutiger Rabattprozentsatz ausgehandelt wurde.
 
-- **Nettobetrag**: Berechnet aus anderen Feldern in der Zeile, einschließlich Menge, Stückpreis, Rabatt und Rabattprozentsatz. Es ist möglich, den Nettobetrag zu ändern, aber dann sind die Felder Einzelpreis, Rabatt und Prozentualer Rabatt leer. Wenn Sie dann in Richtung der Zeile buchen, ist der gebuchte Betrag proportional zum Nettobetrag. Das Feld „Nettobetrag“ wird nur zur Anzeige des Nettobetrags der Zeile verwendet.
+- **Nettobetrag**: Berechnet aus anderen Feldern in der Zeile, einschließlich Menge, Stückpreis, Rabatt und Rabattprozentsatz. Es ist möglich, den Nettobetrag zu ändern, dann sind jedoch die Felder „Stückpreis“, „Rabatt“ und „Rabattprozentsatz“ leer. Wenn Sie dann zur Position buchen, ist der gebuchte Betrag proportional zum Nettobetrag. Das Feld „Nettobetrag“ wird nur zur Anzeige des Nettobetrags der Zeile verwendet.
 
 20. Wählen Sie unter den Bestellpositionen unten auf der Seite die Option **Positionsdetails** aus.
 
 21. Wählen Sie die Registerkarte **Lieferung** aus.
 
-    Jeder Bestellposition kann eine eindeutige Auftragsposition zugewiesen werden. Das Datum wird vom Feld im Bestellkopf übernommen, Sie können es jedoch ändern.
+    Jeder Bestellposition kann eine eindeutige Auftragsposition zugewiesen werden. Das Datum wird vom Feld im Bestellkopf übernommen, Sie können dieses jedoch ändern.
 
 22. Schließen Sie die Seite **Bestellposition**.
 

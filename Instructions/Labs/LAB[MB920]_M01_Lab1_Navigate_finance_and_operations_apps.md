@@ -47,7 +47,7 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
     - Kalender und Arbeitselemente, die Ihnen zugewiesen wurden
 
-    -  Die Suchleiste, die nützlich ist, um schnell zu finden, was Sie brauchen
+    - Die Suchleiste, die nützlich ist, um schnell zu finden, was Sie brauchen
 
     - Oben rechts sehen Sie das Unternehmen, mit dem Sie gerade arbeiten, Benachrichtigungen, Einstellungen und Hilfelinks. Überprüfen Sie, ob das aufgeführte Unternehmen **USMF** ist.
 
@@ -87,9 +87,9 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
 17. Wählen Sie „**Alle Kreditoren** > Kreditorenkonten > Kreditoren“ aus.
 
-18. Möglicherweise müssen Sie bei der ersten Suche nach einer Seite warten.  Während der Suche wird rechts neben dem Suchfeld ein kleiner Kreis angezeigt.
+18. Möglicherweise müssen Sie bei der ersten Suche nach einer Seite warten. Während der Suche wird rechts neben dem Suchfeld ein kleiner Kreis angezeigt.
 
-19. Die Seite **Alle Kreditoren** ist ein Beispiel für eine Listenseite. Die Listenseite enthält Stammdaten, die gelesen, erstellt, gelöscht und aktualisiert werden können.  Es gibt weitere Features, die das Menüband oberhalb der Liste verwenden.
+19. Die Seite **Alle Kreditoren** ist ein Beispiel für eine Listenseite. Die Listenseite enthält Stammdaten, die gelesen, erstellt, gelöscht und aktualisiert werden können. Es gibt weitere Features, die das Menüband oberhalb der Liste verwenden.
 
     ![Screenshot der Liste „Alle Kreditoren“ mit hervorgehobenen Menüfeatures](./media/lab-navigate-finance-and-operations-apps-06.png)
 
@@ -101,7 +101,7 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
     ![Screenshot des Spaltentitels „Kreditorengruppe“ für Acme Office Supplies](./media/lab-navigate-finance-and-operations-apps-07.png)
 
-23.  In vielen Menüs stehen Sortier- und Filterfunktionen zur Verfügung.  Verwenden Sie die Filter, um den gesuchten Feldinhalt schnell zu finden.
+23. In vielen Menüs stehen Sortier- und Filterfunktionen zur Verfügung. Verwenden Sie die Filter, um den gesuchten Feldinhalt schnell zu finden.
 
 24. Beachten Sie oben rechts die zusätzlichen Funktionen. Bewegen Sie Ihre Maus zu jedem Element und überprüfen Sie die Funktionsbeschriftung. Wählen Sie nach Abschluss das Symbol **Schließen** aus, um die Seite zu schließen und zur **Startseite** zurückzukehren.
 

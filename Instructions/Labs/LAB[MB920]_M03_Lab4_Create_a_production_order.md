@@ -10,7 +10,7 @@ lab:
 
 ## Ziel
 
-Mit Produktionsaufträgen kann der Produktionsprozess in Supply Chain Management initiiert werden. In diesem Lab lernen Sie die Benutzeroberfläche und die Funktionen des Formulars für Produktionsaufträge kennen. Außerdem erfahren Sie am Ende dieser Übung, wie Sie einen Produktionsauftrag erstellen können.
+Fertigungsaufträge helfen, den Fertigungsprozess in Supply Chain Management einzuleiten. In dieser Übung machen Sie sich mit der Benutzeroberfläche und den Funktionen des Fertigungsauftragsformulars vertraut. Außerdem erfahren Sie am Ende dieser Übung, wie Sie einen Produktionsauftrag erstellen können.
 
 ## Lab-Einrichtung
 
@@ -32,7 +32,7 @@ Mit Produktionsaufträgen kann der Produktionsprozess in Supply Chain Management
 
 7.  Wählen Sie unter **PRODUKTION** im Feld **Lieferung** ein Datum einen Monat nach dem heutigen Datum aus.
 
-    Das Lieferdatum gibt an, wann der Fertigungsauftrag enden soll, um eine pünktliche Lieferung zu garantieren. Dieses Datum kann im Planungsprozess verwendet werden. Beispielsweise können Sie die Bestellung ab dem Lieferdatum rückwärts planen.
+    Das Lieferdatum gibt an, wann der Fertigungsauftrag enden soll, um pünktlich zu liefern. Dieses Datum kann im Planungsprozess verwendet werden. Beispielsweise können Sie die Bestellung ab dem Lieferdatum rückwärts planen.
 
 8.  Unter Stückliste/Route zeigt das Feld **Stücklistennummer** automatisch die Nummer einer aktiven Stückliste für die aktuelle Position an. Sie können die Stückliste für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Stückliste aus der Liste der genehmigten Stücklistenversionen auswählen. Das Feld **Routennummer** zeigt automatisch die Nummer einer aktiven Route für die aktuelle Position an. Sie können die Route für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Route aus der Liste der genehmigten Routenversionen auswählen.
 
