@@ -103,7 +103,7 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
 23. In vielen Menüs stehen Sortier- und Filterfunktionen zur Verfügung. Verwenden Sie die Filter, um den gesuchten Feldinhalt schnell zu finden.
 
-24. Beachten Sie oben rechts die zusätzlichen Funktionen. Bewegen Sie Ihre Maus zu jedem Element und überprüfen Sie die Funktionsbeschriftung. Wählen Sie nach Abschluss das Symbol **Schließen** aus, um die Seite zu schließen und zur **Startseite** zurückzukehren.
+24. Oben rechts finden Sie die zusätzlichen Funktionen. Bewegen Sie den Cursor über die einzelnen Elemente und lesen Sie die Beschreibung der Funktionslegende. Wenn Sie fertig sind, wählen Sie das Symbol **Zurück** am anderen Ende der Symbolleiste, um die Seite zu schließen und zur vorherigen Seite zurückzukehren.
 
     ![Screenshot des Menüs oben rechts auf der Listenseite mit zusätzlichen Features zum Herstellen einer Verbindung zu Power Apps und Office-Apps und die Schaltflächen „Dokumentanlage“, „Seite aktualisieren“, „In neuem Fenster öffnen“ und „Schließen“](./media/lab-navigate-finance-and-operations-apps-08.png)
 
