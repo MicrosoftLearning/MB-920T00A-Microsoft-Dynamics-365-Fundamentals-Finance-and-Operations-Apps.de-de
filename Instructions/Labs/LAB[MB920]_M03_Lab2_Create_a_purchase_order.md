@@ -62,7 +62,7 @@ Der Auftragskopf wurde nun erstellt. Wenn Sie mit Bestellpositionen arbeiten, wi
 
 12. Wählen Sie unter **DISPLAY** **Dimensionen** aus.
 
-    Produkte können in Varianten vorliegen, die sich nach Dimensionen wie Farbe, Größe oder Stil unterscheiden. Produkte können auch so eingerichtet werden, dass sie Lagerdimensionen wie Standort und Lager verwenden. Es gibt auch optionale Rückverfolgungsangaben wie Chargen‑ und Seriennummern. Um die Effizienz der Auftragserfassung zu verbessern, können Sie die üblicherweise verwendeten Dimensionsfelder direkt zum Auftragsraster hinzufügen.
+    Produkte können in Varianten vorliegen, die sich nach Dimensionen wie Farbe, Größe oder Stil unterscheiden. Produkte können auch so eingerichtet werden, dass sie Lagerdimensionen wie Standort und Lager verwenden. Es gibt auch optionale Rückverfolgungsangaben, wie Chargen- und Seriennummern. Um die Effizienz der Auftragserfassung zu verbessern, können Sie die üblicherweise verwendeten Dimensionsfelder direkt zum Auftragsraster hinzufügen.
 
 13. Aktivieren Sie im Anzeigebereich **Dimensionen** unter **PRODUKTDIMENSIONEN** das Kontrollkästchen **Farbe**.
 
