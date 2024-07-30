@@ -1,12 +1,13 @@
 ---
 lab:
-  title: 'Lab 1: In den Finance and Operations-Apps navigieren'
-  module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
+  title: 'Lab 1.1: Navigieren in Finanz- und Betriebs-Apps'
+  module: 'Learning Path 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
 
-# Modul 1: Erkunden der Kernfunktionen der Finanz- und Betriebs-Apps von Microsoft Dynamics 365
+# Lernpfad 1: Erkunden der Kernfunktionen der Finanz- und Betriebs-Apps von Microsoft Dynamics 365
+# Modul 1: Beschreiben der Finanz- und Betriebs-Apps
 
-## Lab 1: In den Finance and Operations-Apps navigieren
+## Lab 1.1: Navigieren in Finanz- und Betriebs-Apps
 
 ## Ziel
 
@@ -51,8 +52,7 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
     - Oben rechts sehen Sie das Unternehmen, mit dem Sie gerade arbeiten, Benachrichtigungen, Einstellungen und Hilfelinks. Überprüfen Sie, ob das aufgeführte Unternehmen **USMF** ist.
 
-    ![Screenshot der auf der Dynamics 365 Finance and Operations-Startseite hervorgehobenen Bereiche](./media/lab-navigate-finance-and-operations-apps-04.png)
-
+    ![Screenshot der auf der Dynamics 365 Finance and Operations-Startseite hervorgehobenen Bereiche](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-14.svg)
 2.  Wählen Sie oben links das Hamburger-Menü **Navigationsbereich erweitern** aus.
 
 3.  Im Navigationsbereich finden Sie Sammlungen für Ihre **Favoriten**, **Aktuellen** Artikel, **Arbeitsbereiche** und **Module**.
@@ -69,7 +69,7 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
 9.  Wählen Sie auf der **Startseite** in der oberen rechten Ecke das Symbol **Einstellungen** und dann **Benutzeroptionen** aus.
 
-    ![Screenshot mit dem Symbol „Einstellungen“ und der Dropdownliste „Benutzeroptionen“](./media/lab-navigate-finance-and-operations-apps-05.png)
+    ![Screenshot mit dem Symbol „Einstellungen“ und der Dropdownliste „Benutzeroptionen“](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-15.svg)
 
 10. Verwenden Sie auf der Seite **Optionen** die Registerkarten, um verschiedene Einstellungen zu konfigurieren, die für Ihr Konto gelten.
 
@@ -83,29 +83,29 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
 15. Wählen Sie auf der **Startseite** in der oberen rechten Ecke der Seite das Feld **Nach einer Seite suchen** aus.
 
-16. Suchen Sie im Suchfeld nach **Alle Kreditoren**.
+16. Suchen Sie im Suchfeld nach **Alle Kunden**.
 
-17. Wählen Sie „**Alle Kreditoren** > Kreditorenkonten > Kreditoren“ aus.
+17. Wählen Sie die Seite **Debitorenkonten** > **Kunden** > **Alle Kunden**. 
 
-18. Möglicherweise müssen Sie bei der ersten Suche nach einer Seite warten. Während der Suche wird rechts neben dem Suchfeld ein kleiner Kreis angezeigt.
+18. Möglicherweise müssen Sie bei der ersten Suche nach einer Seite warten. Während des Suchvorgangs dreht sich ein kleiner Kreis rechts neben dem Suchfeld.
 
-19. Die Seite **Alle Kreditoren** ist ein Beispiel für eine Listenseite. Die Listenseite enthält Stammdaten, die gelesen, erstellt, gelöscht und aktualisiert werden können. Es gibt weitere Features, die das Menüband oberhalb der Liste verwenden.
+19. 19. Die Seite **Alle Kunden** ist ein Beispiel für eine Listenseite. Die Listenseite enthält Stammdaten, die gelesen, erstellt, gelöscht und aktualisiert werden können. Weitere Funktionen sind über das Menüband oberhalb der Liste verfügbar.
 
-    ![Screenshot der Liste „Alle Kreditoren“ mit hervorgehobenen Menüfeatures](./media/lab-navigate-finance-and-operations-apps-06.png)
+    ![Screenshot der Liste „Alle Kreditoren“ mit hervorgehobenen Menüfeatures](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-13.svg)
 
-20. Markieren Sie einen der Kreditoren in der Liste, und wählen Sie rechts das Menü **Zugehörige Informationen** aus. Prüfen Sie die bereitgestellten zusätzlichen Informationen.
+20. Markieren Sie eine Kundin oder einen Kunden aus der Liste und wählen Sie auf der rechten Seite das Menü **Zugehörige Informationen**, und überprüfen Sie die bereitgestellten Informationen.
 
-21. Wählen Sie in der Kreditorenliste **Acme Office Supplies** aus.
+21. 21. In der **Kundenliste** wählen Sie **Contoso Retail San Dieg**.
 
-22. Wählen Sie das Menü **Gruppe** und dann den Spaltentitel **Kreditorengruppe** aus.
+22. Wählen Sie das Menü **Gruppe**, und wählen Sie dann den Spaltentitel **Debitorengruppe**.
 
-    ![Screenshot des Spaltentitels „Kreditorengruppe“ für Acme Office Supplies](./media/lab-navigate-finance-and-operations-apps-07.png)
+    ![Screenshot der Debitorengruppe für ContosoRetail San Diego.](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-16.svg)
 
 23. In vielen Menüs stehen Sortier- und Filterfunktionen zur Verfügung. Verwenden Sie die Filter, um den gesuchten Feldinhalt schnell zu finden.
 
 24. Beachten Sie oben rechts die zusätzlichen Funktionen. Bewegen Sie Ihre Maus zu jedem Element und überprüfen Sie die Funktionsbeschriftung. Wählen Sie nach Abschluss das Symbol **Schließen** aus, um die Seite zu schließen und zur **Startseite** zurückzukehren.
 
-    ![Screenshot des Menüs oben rechts auf der Listenseite mit zusätzlichen Features zum Herstellen einer Verbindung zu Power Apps und Office-Apps und die Schaltflächen „Dokumentanlage“, „Seite aktualisieren“, „In neuem Fenster öffnen“ und „Schließen“](./media/lab-navigate-finance-and-operations-apps-08.png)
+    ![Screenshot des Menüs oben rechts auf der Listenseite mit zusätzlichen Features zum Herstellen einer Verbindung zu Power Apps und Office-Apps und die Schaltflächen „Dokumentanlage“, „Seite aktualisieren“, „In neuem Fenster öffnen“ und „Schließen“](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-17.svg)
 
 25. Wählen Sie in der rechten oberen Ecke das Fragezeichensymbol **Hilfe** und dann **Hilfe** aus.
 
