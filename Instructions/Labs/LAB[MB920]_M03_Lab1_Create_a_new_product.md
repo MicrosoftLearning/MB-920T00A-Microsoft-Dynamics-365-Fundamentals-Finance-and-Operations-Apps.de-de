@@ -1,115 +1,144 @@
 ---
 lab:
-  title: 'Lab 1: Erstellen eines neuen Produkts'
-  module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+  title: "Lab\_3.1: Erstellen eines neuen Produkts"
+  module: 'Learning Path 3: Learn the fundamentals of Microsoft Dynamics 365 Supply Chain Management'
 ---
 
-# Modul 3: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
+# Lernpfad 3: Grundlagen von Microsoft Dynamics 365 Supply Chain Management
+# Modul 2: Beschreiben der Vertriebs- und Beschaffungsprozesse
 
-## Lab 1: Erstellen eines neuen Produkts
+## Lab 3.1: Erstellen eines neuen Produkts
 
-## Ziel
+Sie planen in Ihrer Organisation die Herstellung eines neuen Artikels, eines Hemdes. Das Hemd wird unterschiedliche Farben und Größen haben. In diesem Lab erfahren Sie, wie Sie einen neuen Artikel mit mehreren Varianten erstellen und ihn in der juristischen Person USMF freigeben.
 
-Im Unternehmen Contoso Entertainment System USA (USMF) planen Sie eine neue Konfiguration eines Gehäuses eines Kreditors. Sie müssen ein Element erstellen, um die neue Konfiguration darzustellen. In diesem Lab lernen Sie, wie Sie einen neuen Artikel und neue Artikelkonfigurationen erstellen können.
+## Übungsschritte
 
-## Lab-Einrichtung
+1. Wählen Sie im Navigationsbereich von Dynamics 365 Supply Chain Management **Module** und wählen Sie dann **Produktinformationsmanagement** > **Setup** > **Dimensions- und Variantengruppen**. Öffnen Sie die Seite **Farbgruppen** und erstellen Sie einen neuen Datensatz.
 
-   - **Geschätzte Dauer**: 10 Minuten
+    - Farbgruppe: **ShirtColor**
 
-## Anweisungen
+    - Beschreibung: **Hemdfarbe**
 
-In Contoso Entertainment System USA (USMF) möchten Sie eine neue Konfiguration eines Gehäuse von einem Anbieter erwerben. Sie müssen ein Element erstellen, um die neue Konfiguration darzustellen.
+2. Geben Sie im Inforegister **Farbgruppenlinien** die folgenden drei Datensätze ein:
 
-1.  Überprüfen Sie auf der Finance and Operations-Startseite oben rechts, ob Sie mit dem **USMF**-Unternehmen arbeiten. Wählen Sie bei Bedarf im Dropdownmenü für Unternehmen **USMF** aus.
+| **Farbe**| **Farbname** |
+| - |
+| Blau| Blau |
+| White| Weiß |
+| Schwarz| Schwarz |
 
-2.  Wählen Sie oben links das Hamburger-Menü **Navigationsbereich erweitern** aus.
+3. Speichern Sie die Datensätze.
 
-3.  Wählen Sie im Navigationsbereich **Module** und dann **Produktinformationsverwaltung** aus. Wählen Sie dann im Menü **Produkte** die Option **Produkte** aus.
+4. Wählen Sie **Produktinformationsmanagement** > **Einrichten** > **Dimensions- und Variantengruppen**. Öffnen Sie die Seite **Größengruppen** und erstellen Sie einen neuen Datensatz.
 
-4.  Wählen Sie auf der Seite **Produkte** im oberen Menü die Option **+ Neu** aus.
+    - Größengruppe: **ShirtSize**
 
-5.  Überprüfen Sie im Bereich **Neues Produkt** im Feld **Produkttyp**, ob **Artikel** ausgewählt ist.
+    - Beschreibung: **Hemdgröße**
 
-6.  Vergewissern Sie sich im Feld **Produktuntertyp**, dass **Produkt** ausgewählt ist.
+5. Geben Sie im Inforegister **Größengruppenlinien** die folgenden drei Datensätze ein
 
-7.  Geben Sie unter **IDENTIFIZIERUNG** im Feld **Produktnummer** die Nummer **GTL007** ein.
+| **Größe**| **Name der Größe** |
+| - |
+| S| Klein |
+| M| Medium |
+| L| Groß |
 
-8.  Geben Sie im Feld **Produktname** die Bezeichnung **Gehäuse 2** ein.
+6. Speichern Sie die Datensätze.
 
-    ![Der Screenshot zeigt die Standardansicht der Seite zum Erstellen neuer Produkte.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-07.png)
+7. Wählen Sie im Navigationsbereich von Dynamics 365 Supply Chain Management **Module** und dann **Produktinformationsmanagement**. Wählen Sie dann im Menü **Produkte** den Eintrag **Produktmaster**.
 
-9.  Klicken Sie auf die Schaltfläche **OK**.
+8. Auf der Seite **Produktmaster**, wählen Sie im oberen Menü **+ Neu**.
 
-10. Wählen Sie im Aktionsbereich im Menü **Produkt** unter der Gruppe **Einrichten** die Option **Dimensionsgruppen** aus.
+9. Stellen Sie auf der Seite **Neues Produkt** im Feld **Produkttyp** sicher, dass **Artikel** ausgewählt ist.
 
-    ![Der Screenshot zeigt die Einrichtungsoption im Produktmenü, mit der die verschiedenen Details der Dimensionsgruppe hinzugefügt werden können.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-08.png)
+10. Überprüfen Sie im Feld **Produktuntertyp**, dass **Produktmaster****** ausgewählt ist.
 
-11. Wählen Sie das Dropdownmenü **Lagerdimensionsgruppe** und dann **SiteWH** aus.
+11. Geben Sie auf der Registerkarte **Identifikation** in das Feld **Produktnummer** **SH001** ein.
 
-12. Wählen Sie das Dropdownmenü **Rückverfolgungsgruppe** und dann **SiteWH** aus.
+12. In das Feld **Produktname** geben Sie **Hemd** ein.
 
-13. Klicken Sie auf die Schaltfläche **OK**.
+13. Geben Sie in das Feld **Produktabmessungsgruppe** **Farbgröße** ein.
 
-14. Wählen Sie im Aktionsbereich die Schaltfläche **Produkte freigeben** aus, um das Produkt in einer rechtlichen Einheit freizugeben.
+14. Klicken Sie auf die Schaltfläche **OK**.
 
-15. Eine Seite wird geöffnet, auf der der erste Schritt als **Zu veröffentlichende Produkte auswählen** angezeigt wird.
+15. Wählen Sie im Aktionsbereich im Menü **Produkt** unter der Gruppe **Einrichten** den Eintrag **Dimensionsgruppen**.
 
-    ![Der Screenshot zeigt die Standardansicht der Seite zum Freigeben von Produkten.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-09.png)
+16. Wählen Sie in der Dropdown-Liste **Lagerdimensionsgruppe** die Option **SiteWH**.
 
-16. Wählen Sie unten auf der Seite die Schaltfläche **Weiter** aus.
+17. Wählen Sie in der Dropdown-Liste **Rückverfolgungsgruppe** die Option **Keine**.
 
-17. Wählen Sie auf der Seite **Unternehmen für die Freigabe auswählen** den Rechtsträger **USMF** aus, für den das Produkt veröffentlicht werden soll.
+18. Wählen Sie die Schaltfläche **OK** aus.
 
-18. Wählen Sie unten auf dieser Seite die Schaltfläche **Weiter** aus.
+19. Wählen Sie **ShirtColor** in der Liste **Farbgruppe**.
 
-19. Legen Sie auf der Seite **Auswahl bestätigen** den Wert **Infolog bei Fehler anzeigen** auf **Ja** und **Als Batch ausführen** auf **Nein** fest.
+20. Wählen Sie **Hemdengröße** in der Liste **Größengruppe**.
 
-20. Wählen Sie unten auf dieser Seite die Schaltfläche **Fertigstellen** aus.
+21. Wählen Sie die Schaltfläche **Produktvarianten** im Aktionsbereich.
 
-21. Wählen Sie im Navigationsbereich Module und dann Produktinformationsverwaltung aus. Wählen Sie dann im Menü Produkte die Option **Freigegebene Produkte** aus.
+22. Wählen Sie auf der Seite **Produktvarianten** im Aktionsbereich die Schaltfläche **Variantenvorschläge**.
 
-22. Suchen Sie auf der Seite **Freigegebene****Produkte** den neuen Eintrag **GTL007** im Raster. 
+23. Wählen Sie die Schaltfläche **Alle vorschlagen** auf der Seite **Variantenvorschläge**.
 
-23. Wählen Sie den Produktlink aus, und navigieren Sie zur Seite **Produktdetails**.
+24. Wählen Sie die vorgeschlagenen Varianten aus, indem Sie die Schaltfläche **Alle auswählen** und anschließend die Schaltfläche **Erstellen** wählen.
 
-24. Geben Sie im Inforegister **Allgemein** die folgenden Informationen ein:
+Varianten werden auf der Seite „Produktvarianten“ erstellt.
 
-    - **Lagersteuerungsgruppe**: FIFO
+25. Wählen Sie die Schaltfläche **Produkte freigeben** im Aktionsbereich, um das Produkt in einer juristischen Person freizugeben.
 
-25. Geben Sie im Inforegister **Kauf** die folgenden Informationen ein:
+26. Eine Seite wird geöffnet, auf der der erste Schritt als **Zu veröffentlichende Produkte auswählen** angezeigt wird.
 
-    - **Einheit**: ea
+27. Wählen Sie unten auf dieser Seite die Schaltfläche **Weiter** aus.
 
-    - **Artikel-Mehrwertsteuergruppe**: ALLE
+28. Markieren Sie die Varianten, die Sie in der juristischen Person freigeben möchten, und wählen Sie die Schaltfläche **Weiter**.
 
-    - **Preis**: 30
+29. Auf der Seite **Unternehmen zur Freigabe auswählen** wählen Sie die juristische Person **USMF** aus, für die das Produkt freigegeben werden soll.
 
-26. Geben Sie im Inforegister **Verkauf** die folgenden Informationen ein:
+30. Wählen Sie unten auf dieser Seite die Schaltfläche **Weiter** aus.
 
-    - **Einheit**: ea
+31. Auf der Seite **Auswahl bestätigen** legen Sie den Wert von **Infolog bei Fehler anzeigen** auf **Ja** und **Als Batch ausführen** auf **Nein** fest.
 
-    - **Artikel-Mehrwertsteuergruppe**: ALLE
+32. Wählen Sie unten auf dieser Seite die Schaltfläche **Fertigstellen** aus.
 
-    - **Preis**: 35
+16. Wählen Sie im Navigationsbereich **Module** und dann **Produktinformationsverwaltung** aus. Wählen Sie dann im Menü **Produkte** die Option **Freigegebene Produkte** aus.
 
-27. Geben Sie im Inforegister **Bestandsverwaltung** die folgenden Informationen ein:
+33. Auf der Seite **Produkte freigeben** suchen Sie den neuen Artikel **SH001** im Raster.
 
-    - **Einheit**: ea
+34. Wählen Sie den Produktlink aus, und navigieren Sie zur Seite **Produktdetails**.
 
-28. Geben Sie im Inforegister **Techniker** die folgenden Informationen ein:
+35. Im Inforegister **Allgemein** geben Sie Folgendes ein:
 
-    - **Stücklisteneinheit**: ea
+    - Artikel Modellgruppe: **FIFO**
 
-29. Geben Sie im Inforegister **Kosten verwalten** die folgenden Informationen ein:
+36. Auf der Registerkarte **Kauf** FastTab geben Sie Folgendes ein:
 
-    - **Artikelgruppe**: Audio
+    - Einheit: **ea**
 
-30. Wählen Sie im Aktionsbereich Produkt aus, um die Konfiguration abzuschließen. Wählen Sie die Schaltfläche Überprüfen unter der Gruppe Verwalten aus.
+    - Artikel-Mehrwertsteuergruppe: **ALLE**
 
-    ![Screenshot: Gruppe Verwalten unter der Schaltfläche Produkt im Aktionsbereich. Die Schaltfläche Überprüfen in der Gruppe Verwalten ist ausgewählt.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-10.png)
+    - Preis: **30**
 
-31. Stellen Sie sicher, dass Ihnen das Informationsbanner angezeigt wird, das bestätigt, dass alle erforderlichen Feldwerte überprüft wurden.
+37. Im Inforegister **Verkauf** geben Sie Folgendes ein:
 
-    ![Screenshot mit dem Informationsbanner, das bestätigt, dass alle erforderlichen Feldwerte überprüft wurden ](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-11.png)
+    - Einheit: **ea**
 
-32. Schließen Sie alle Seiten, und kehren Sie zur Startseite zurück.
+    - Artikel-Mehrwertsteuergruppe: **ALLE**
+
+    - Preis: **35**
+
+38. Geben Sie im Inforegister **Bestandsverwaltung** die folgenden Informationen ein:
+
+    - Einheit: **ea**
+
+39. Geben Sie im Inforegister **Techniker** die folgenden Informationen ein:
+
+    - Stücklisteneinheit: **ea**
+
+40. Geben Sie im Inforegister **Kosten verwalten** die folgenden Informationen ein:
+
+    - Artikelgruppe: **Audio**
+
+41. Wählen Sie im Aktionsbereich **Produkt** aus, um die Konfiguration abzuschließen. Wählen Sie die Schaltfläche **Überprüfen** unter der Gruppe **Verwalten** aus.
+
+42. Schließen Sie alle Seiten, und kehren Sie zur **Startseite** zurück.
+
+ 

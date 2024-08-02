@@ -1,42 +1,108 @@
 ---
 lab:
-  title: "Lab\_3: Erstellen eines Produktionsauftrags"
-  module: 'Module 3: Learn the Fundamentals of Microsoft Dynamics 365 Supply Chain Management'
+  title: "Lab\_3.2: Erstellen eines Produktionsauftrags"
+  module: 'Learning Path 3: Learn the fundamentals of Microsoft Dynamics 365 Supply Chain Management'
 ---
 
-# Modul 3: Grundlagen von Microsoft Dynamics 365 Supply Chain Management erlernen
+# Lernpfad 3: Grundlagen von Microsoft Dynamics 365 Supply Chain Management
+# Modul 4: Beschreiben des Herstellungsprozesses
 
-## Lab 3: Erstellen eines Produktionsauftrags
+## Lab 3.2: Erstellen eines Produktionsauftrags
 
 ## Ziel
 
-Fertigungsaufträge helfen, den Fertigungsprozess in Supply Chain Management einzuleiten. In dieser Übung machen Sie sich mit der Benutzeroberfläche und den Funktionen des Fertigungsauftragsformulars vertraut. Außerdem erfahren Sie am Ende dieser Übung, wie Sie einen Produktionsauftrag erstellen können.
+Fertigungsaufträge helfen, den Fertigungsprozess in Supply Chain Management einzuleiten. In dieser Übung machen Sie sich mit der Benutzeroberfläche und den Funktionen des Fertigungsauftragsformulars vertraut. Außerdem erfahren Sie am Ende der Übung, wie Sie einen Produktionsauftrag erstellen und bearbeiten können.
 
-## Lab-Einrichtung
+## Übungsschritte
 
-   - **Geschätzte Dauer**: 5 Minuten
+1. Vergewissern Sie sich auf der Startseite von Dynamics 365 **Supply Chain Management** oben rechts, dass Sie mit dem Unternehmen **USMF** arbeiten.
 
-## Anweisungen
+2. Wählen Sie bei Bedarf das Unternehmen und im Menü **USMF** aus.
 
-1.  Überprüfen Sie auf der **Finance and Operations**-Startseite oben rechts, ob Sie mit dem **USMF**-Unternehmen arbeiten.
+3. Wählen Sie im linken Navigationsbereich **Module** > **Produktionssteuerung** > **Produktionsaufträge** > **Alle Produktionsaufträge** aus.
 
-2.  Wählen Sie bei Bedarf das Unternehmen und im Menü **USMF** aus.
+4. Wählen Sie im oberen Menü **Neuer Produktionsauftrag** und geben Sie folgende Daten ein.
 
-3.  Wählen Sie im linken Navigationsbereich **Module** > **Produktionssteuerung** > **Produktionsaufträge** > **Alle Produktionsaufträge** aus.
+    - Artikel Nummer: **D0002**
 
-4.  Wählen Sie im oberen Menü **Neuer Fertigungsauftrag** aus.
+    - Menge: **10**
 
-5.  Geben Sie unter **IDENTIFIKATION** im Feld **Artikelnummer****D0001** ein.
+    - Standort: **1**
 
-6.  Geben Sie im Feld **Menge** **20** ein.
+    - Lagerort: **11**
 
-7.  Wählen Sie unter **PRODUKTION** im Feld **Lieferung** ein Datum einen Monat nach dem heutigen Datum aus.
+    - Lieferung: [wählen Sie ein Datum einen Monat nach dem heutigen Datum]
 
-    Das Lieferdatum gibt an, wann der Fertigungsauftrag enden soll, um pünktlich zu liefern. Dieses Datum kann im Planungsprozess verwendet werden. Beispielsweise können Sie die Bestellung ab dem Lieferdatum rückwärts planen.
+    - Stücklistennummer: **D0002BOM**
 
-8.  Unter Stückliste/Route zeigt das Feld **Stücklistennummer** automatisch die Nummer einer aktiven Stückliste für die aktuelle Position an. Sie können die Stückliste für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Stückliste aus der Liste der genehmigten Stücklistenversionen auswählen. Das Feld **Routennummer** zeigt automatisch die Nummer einer aktiven Route für die aktuelle Position an. Sie können die Route für den Fertigungsauftrag jedoch ändern, indem Sie eine aktive Route aus der Liste der genehmigten Routenversionen auswählen.
+    - Routennummer: **000004**
 
-    ![Screenshot: Seite „Produktionsauftrag erstellen“. Die Felder „Artikelnummer“ und „Lieferung“ sind hervorgehoben.](./media/03-learn-the-fundamentals-of-dynamics-365-supply-chain-management-40.png)
+5. Wählen Sie die Schaltfläche **Erstellen**.
 
-9.  Klicken Sie auf **Erstellen**.
+Es wird ein neuer Produktionsauftrag für 10 Stück des Artikels D0002 erstellt.
 
+6. Wählen Sie **Produktionsauftrag (Menü des Aktionsfensters) &gt; Verarbeiten &gt; Schätzen.**
+
+7. Wählen Sie im Dialogfeld **Schätzung** im Feld **Gewinneinstellung** die Option **Standard**, markieren Sie das Feld **Referenzen** und wählen Sie die Schaltfläche **OK**.
+
+Der **Status** des Produktionsauftrags ändert sich in **Geschätzt**.
+
+8. Wählen Sie **Planen (Menü des Aktionsbereichs) &gt; Produktionsauftrag &gt; Vorgänge planen.**
+
+9. Wählen Sie im Dialogfenster **Vorgangsplanung** im Feld **Planungsrichtung** die Option **Ab heute** und wählen Sie die Schaltfläche **OK**.
+
+10. Wählen Sie **Ansicht (Menü des Aktionsbereichs) &gt;Zugehörige Informationen &gt;Kapazitätsreservierung**.
+
+11. Überprüfen Sie die neu erstellten Datensätze auf der Seite **Kapazitätsreservierung**.
+
+12. Navigieren Sie zurück zur Seite **Alle Produktionsaufträge**. Beachten Sie, dass sich der **Status** des Produktionsauftrags in **Geplant** ändert.
+
+13. Wählen Sie **Produktionsauftrag (Menü des Aktionsfensters) &gt; Bearbeiten &gt; Freigabe**.
+
+14. Im Dialogfeld **Freigabe** markieren Sie das Feld **Referenzen** und wählen die Schaltfläche **OK**.
+
+15. Der **Status** des Produktionsauftrags ändert sich in **Freigegeben**.
+
+16. Wählen Sie **Produktionsauftrag (Menü des Aktionsbereichs) &gt; Prozess &gt; Starten**.
+
+17. Wählen Sie im Dialogfeld **Starten** die Registerkarte **Allgemein**.
+
+18. Auf der Registerkarte **Allgemein** geben Sie Folgendes ein.
+
+    - Datum: **Heutiges Datum**
+
+    - Menge: **10**
+
+    - Produktion starten: **JA**
+
+    - Arbeitsplanliste jetzt buchen: **NEIN**
+
+    - Kommissionierliste jetzt buchen: **NEIN**
+
+19. Wählen Sie die Schaltfläche **OK** aus.
+
+Der **Status** des Produktionsauftrags ändert sich in **Gestartet**.
+
+20. Wählen Sie **Ansicht (Menü des Aktionsbereichs) &gt;Journale &gt;Kommissionierliste**.
+
+Es wird ein neues Kommissionierlistenjournal mit drei Zeilen erstellt.
+
+21. Buchen Sie das Kommissionierlistenjournal.
+
+22. Navigieren Sie zurück zur Seite **Alle Produktionsaufträge** und wählen Sie **Ansicht (Menü des Aktionsbereichs) &gt; Journale &gt; Arbeitsplanliste**.
+
+Ein neues Arbeitsplanlistenjournal wird mit drei Zeilen erstellt.
+
+23. Markieren Sie das Feld **Vorgang abgeschlossen** in allen drei Zeilen und buchen Sie das Arbeitsplanlistenjournal.
+
+24. Navigieren Sie zurück zur Seite **Alle Produktionsaufträge** und wählen Sie **Produktionsaufträge (Menü des Aktionsbereichs) &gt; Verarbeiten &gt; Als abgeschlossen melden**.
+
+25. Geben Sie im Dialogfeld **Als abgeschlossen melden** **10** in das Feld **Gutmenge** ein. Markieren Sie das Feld **Auftrag beenden** und wählen Sie **OK**.
+
+Der **Status** des Produktionsauftrags ändert sich in **Beendet**. Der Bestand des Artikels **D0002** erhöht sich um 10 in Betrieb 1 und Lager 11.
+
+26. Wählen Sie **Kosten verwalten (Menü des Aktionsbereichs) &gt;Berechnungen &gt;Berechnungsdetails anzeigen**.
+
+Notieren Sie sich die Endkalkulation des hergestellten Artikels auf der Registerkarte **Übersicht der Kalkulation**.
+
+ 
