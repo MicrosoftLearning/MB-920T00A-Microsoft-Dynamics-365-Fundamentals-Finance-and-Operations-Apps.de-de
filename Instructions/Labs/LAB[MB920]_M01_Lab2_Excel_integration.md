@@ -1,12 +1,12 @@
 ---
 lab:
-  title: "Lab\_2: Excel-Integration"
-  module: 'Module 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
+  title: "Lab\_1.2: Excel-Integration"
+  module: 'Learning Path 1: Explore the core capabilities of Dynamics 365 finance and operations apps'
 ---
+# Lernpfad 1: Erkunden der Kernfunktionen der Finanz- und Betriebs-Apps von Microsoft Dynamics 365
+# Modul 3: Beschreiben der Funktionen für die Berichterstellung und Integration in Finanz- und Betriebs-Apps
 
-# Modul 1: Erkunden der Kernfunktionen der Finanz- und Betriebs-Apps von Microsoft Dynamics 365
-
-## Lab 2: Excel-Integration
+## Lab 1.2: Excel-Integration
 
 ## Ziel
 
