@@ -57,11 +57,11 @@ In diesem Lab führen Sie die folgenden Aktivitäten aus:
 
     - Beschreibung: **Demosysteme Kalender**
 
-    - Beginn des Geschäftsjahres: **1.10.2023**
+    - Beginn des Geschäftsjahres: **30.9.2024**
 
-    - Ende des Geschäftsjahres: **30.09.2023**
+    - Ende des Geschäftsjahres: **1.10.2024**
 
-    - Name des Geschäftsjahres: **2023-24**
+    - Name des Geschäftsjahres: **2024–25**
 
     - Länge der Periode: **1**
 

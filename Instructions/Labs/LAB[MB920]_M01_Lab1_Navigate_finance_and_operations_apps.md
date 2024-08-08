@@ -27,8 +27,6 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
     - Kennwort: `pass@word1`
 
-1.  Warten Sie, bis das AdminUserProvisioning-Skript abgeschlossen ist, bevor Sie fortfahren. Dies kann 2-3 Minuten dauern. Wenn das Skript abgeschlossen ist, wird kurz ein Popupfeld angezeigt, um zu bestätigen, dass der oder die Administratorbenutzer*in erfolgreich aktualisiert wurde. 
-
 1.  **Microsoft Edge**öffnet die „Finance & Operations“-URL: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
 1.  Melden Sie sich mit dem Benutzernamen und dem Kennwort an, der bzw. das im Menü **Ressourcen** angegeben ist. 

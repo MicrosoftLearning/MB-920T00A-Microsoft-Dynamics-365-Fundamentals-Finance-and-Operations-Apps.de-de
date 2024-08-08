@@ -21,11 +21,12 @@ Sie planen in Ihrer Organisation die Herstellung eines neuen Artikels, eines Hem
 
 2. Geben Sie im Inforegister **Farbgruppenlinien** die folgenden drei Datensätze ein:
 
-| **Farbe**| **Farbname** |
-| - |
-| Blau| Blau |
-| White| Weiß |
-| Schwarz| Schwarz |
+    | **Farbe** | **Farbname** |
+    |-----------|----------------|
+    | Blau      | Blau           |
+    | White     | Weiß          |
+    | Schwarz     | Schwarz          |
+
 
 3. Speichern Sie die Datensätze.
 
@@ -37,11 +38,12 @@ Sie planen in Ihrer Organisation die Herstellung eines neuen Artikels, eines Hem
 
 5. Geben Sie im Inforegister **Größengruppenlinien** die folgenden drei Datensätze ein
 
-| **Größe**| **Name der Größe** |
-| - |
-| S| Klein |
-| M| Medium |
-| L| Groß |
+    | **Größe** | **Name der Größe** |
+    |----------|---------------|
+    | S        | Klein         |
+    | M        | Medium        |
+    | L        | Groß         |
+
 
 6. Speichern Sie die Datensätze.
 
