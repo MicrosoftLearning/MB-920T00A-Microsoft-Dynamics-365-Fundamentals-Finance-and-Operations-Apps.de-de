@@ -22,9 +22,9 @@ Nachdem Sie sich mit den Finanz- und Betriebs-Apps vertraut gemacht haben, nehme
 
 1.  Stellen Sie sicher, dass Sie sich in der **USMF**-Rechtseinheit befinden.
 
-2.  Navigieren Sie zu **Beschaffung** > **Einrichten** > **Kreditoren** > **Kreditorengruppen**.
+2.  Navigieren Sie zu **Beschaffung**> **Einrichten** > **Kreditoren** > **Kreditorengruppen**.
 
-3.  Wählen Sie **In Microsoft Office öffnen** > **In Excel öffnen** aus.
+3.  Wählen Sie in der oberen rechten Ecke **In Microsoft Office öffnen** > **In Excel öffnen** aus.
 
 4.  Wählen Sie **Anbietergruppen** (usmf) aus, und laden Sie die Excel-Vorlage herunter.
 
@@ -32,7 +32,7 @@ Nachdem Sie sich mit den Finanz- und Betriebs-Apps vertraut gemacht haben, nehme
 
     Alle in der Tabelle **Kreditorengruppe** enthaltenen Daten werden in der Excel-Tabelle angezeigt.
 
-6.  Geben Sie einen neuen Datensatz ein.
+6.  Geben Sie an der ersten Position der neuen Kreditorengruppe einen neuen Datensatz ein.
 
 7.  Geben Sie **100** im Feld **Kreditorengruppe**, **Insurance Vendor** (Versicherungsanbieter) im Feld **Beschreibung** und **Net10** im Feld **Zahlungsbedingungen** ein.
 
