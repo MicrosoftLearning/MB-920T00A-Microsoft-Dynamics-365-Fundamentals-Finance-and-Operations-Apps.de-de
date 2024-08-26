@@ -42,7 +42,7 @@ Sie planen in Ihrer Organisation die Herstellung eines neuen Artikels, eines Hem
     |----------|---------------|
     | S        | Klein         |
     | M        | Medium        |
-    | L        | Groß         |
+    | L        | Large         |
 
 
 6. Speichern Sie die Datensätze.
