@@ -89,6 +89,8 @@ Es wird ein neues Kommissionierlistenjournal mit drei Zeilen erstellt.
 
 21. Buchen Sie das Kommissionierlistenjournal.
 
+Wählen Sie bei Bedarf im Fenster „Journal buchen“ **OK** aus.
+
 22. Navigieren Sie zurück zur Seite **Alle Produktionsaufträge** und wählen Sie **Ansicht (Menü des Aktionsbereichs) &gt; Journale &gt; Arbeitsplanliste**.
 
 Ein neues Arbeitsplanlistenjournal wird mit drei Zeilen erstellt.

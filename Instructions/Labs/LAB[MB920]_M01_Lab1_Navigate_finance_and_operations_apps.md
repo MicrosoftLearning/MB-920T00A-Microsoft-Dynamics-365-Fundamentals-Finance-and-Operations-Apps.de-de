@@ -27,10 +27,15 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
     - Kennwort: `pass@word1`
 
+1.  Dieses Lab wurde so konfiguriert, dass Ihr Administratorbenutzerkonto automatisch bereitgestellt wird. Nach Abschluss des Vorgangs wird Edge automatisch geöffnet und fordert Sie auf, sich anzumelden. Sie können sich mit den bereitgestellten Anmeldeinformationen anmelden, die auf der Registerkarte „Ressourcen“ zu finden sind. Falls dieser Vorgang fehlschlägt, lesen Sie bitte den nachstehenden Hinweis. Andernfalls können Sie mit dem Lab fortfahren. 
+
+    >Doppelklicken Sie auf dem Desktop auf „AdminUserProvisioning“.
+Geben Sie im Feld „E-Mail-Adresse“ den Benutzernamen aus **Ressourcen** ein, und klicken Sie dann auf „Absenden“.
+Warten Sie, bis die Eingabeaufforderung angezeigt wird, dass der Administratorbenutzer erfolgreich aktualisiert wurde auf... ein, und klicken Sie dann auf OK.   
+
 1.  **Microsoft Edge**öffnet die „Finance & Operations“-URL: <https://usnconeboxax1aos.cloud.onebox.dynamics.com>
 
 1.  Melden Sie sich mit dem Benutzernamen und dem Kennwort an, der bzw. das im Menü **Ressourcen** angegeben ist. 
-
 
 ### In den Finance and Operations-Apps navigieren
 
@@ -50,7 +55,7 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
     - Oben rechts sehen Sie das Unternehmen, mit dem Sie gerade arbeiten, Benachrichtigungen, Einstellungen und Hilfelinks. Überprüfen Sie, ob das aufgeführte Unternehmen **USMF** ist.
 
-    ![Screenshot der auf der Dynamics 365 Finance and Operations-Startseite hervorgehobenen Bereiche](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-14.svg)
+    ![Screenshot der auf der Dynamics 365 Finance and Operations-Startseite hervorgehobenen Bereiche](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-13.svg)
 2.  Wählen Sie oben links das Hamburger-Menü **Navigationsbereich erweitern** aus.
 
 3.  Im Navigationsbereich finden Sie Sammlungen für Ihre **Favoriten**, **Aktuellen** Artikel, **Arbeitsbereiche** und **Module**.
@@ -67,7 +72,7 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
 9.  Wählen Sie auf der **Startseite** in der oberen rechten Ecke das Symbol **Einstellungen** und dann **Benutzeroptionen** aus.
 
-    ![Screenshot mit dem Symbol „Einstellungen“ und der Dropdownliste „Benutzeroptionen“](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-15.svg)
+    ![Screenshot mit dem Symbol „Einstellungen“ und der Dropdownliste „Benutzeroptionen“](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-14.svg)
 
 10. Verwenden Sie auf der Seite **Optionen** die Registerkarten, um verschiedene Einstellungen zu konfigurieren, die für Ihr Konto gelten.
 
@@ -87,13 +92,15 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
 18. Möglicherweise müssen Sie bei der ersten Suche nach einer Seite warten. Während des Suchvorgangs dreht sich ein kleiner Kreis rechts neben dem Suchfeld.
 
-19. 19. Die Seite **Alle Kunden** ist ein Beispiel für eine Listenseite. Die Listenseite enthält Stammdaten, die gelesen, erstellt, gelöscht und aktualisiert werden können. Weitere Funktionen sind über das Menüband oberhalb der Liste verfügbar.
+19. Die Seite **Alle Kunden** ist ein Beispiel für eine Listenseite. Die Listenseite enthält Stammdaten, die gelesen, erstellt, gelöscht und aktualisiert werden können. Weitere Funktionen sind über das Menüband oberhalb der Liste verfügbar.
 
-    ![Screenshot der Liste „Alle Kreditoren“ mit hervorgehobenen Menüfeatures](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-13.svg)
+    ![Screenshot der Liste „Alle Kreditoren“ mit hervorgehobenen Menüfeatures](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-15.svg)
 
 20. Markieren Sie eine Kundin oder einen Kunden aus der Liste und wählen Sie auf der rechten Seite das Menü **Zugehörige Informationen**, und überprüfen Sie die bereitgestellten Informationen.
 
-21. 21. In der **Kundenliste** wählen Sie **Contoso Retail San Dieg**.
+    ![Screenshot der Liste „Alle Kreditoren“ mit hervorgehobenen Menüfeatures](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-19.png)
+
+21. In der Liste **Kunden** wählen Sie **Contoso Retail San Diego**.
 
 22. Wählen Sie das Menü **Gruppe**, und wählen Sie dann den Spaltentitel **Debitorengruppe**.
 
@@ -105,9 +112,5 @@ Nachdem Sie sich mit den Finance and Operations-Apps vertraut gemacht haben, neh
 
     ![Screenshot des Menüs oben rechts auf der Listenseite mit zusätzlichen Features zum Herstellen einer Verbindung zu Power Apps und Office-Apps und die Schaltflächen „Dokumentanlage“, „Seite aktualisieren“, „In neuem Fenster öffnen“ und „Schließen“](./media/01-explore-the-core-capabilities-of-dynamics-365-finance-and-operations-apps-17.svg)
 
-25. Wählen Sie in der rechten oberen Ecke das Fragezeichensymbol **Hilfe** und dann **Hilfe** aus.
 
-26. Beachten Sie, dass sich die Hilfeinformationen auf die aktuelle Seite beziehen.
-
-27. Versuchen Sie, eine Arbeitsbereichskachel auszuwählen und überprüfen Sie dann die Hilfeinformationen für diesen Arbeitsbereich. Kehren Sie zum Abschluss zur **Startseite** zurück.
 

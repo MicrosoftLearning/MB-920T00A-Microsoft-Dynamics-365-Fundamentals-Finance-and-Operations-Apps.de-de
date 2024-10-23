@@ -59,7 +59,7 @@ In diesem Lab führen Sie die folgenden Aktivitäten aus:
 
     - Beginn des Geschäftsjahres: **30.9.2024**
 
-    - Ende des Geschäftsjahres: **1.10.2024**
+    - Ende des Geschäftsjahres: **1.10.2025**
 
     - Name des Geschäftsjahres: **2024–25**
 
@@ -87,7 +87,7 @@ Das System generiert 14 Zeiträume, einschließlich eines Eröffnungszeitraums u
 
     - Name: **Bargeld**
 
-    - Hauptausgabentyp: **Bilanz**
+    - Hauptkontotyp: **Bilanz**
 
     - Hauptkontokategorie: **BARGELD**
 
@@ -99,7 +99,7 @@ Das System generiert 14 Zeiträume, einschließlich eines Eröffnungszeitraums u
 
     - Name: **Umsatzerlös**
 
-    - Hauptkostentyp: **Umsatzerlös**
+    - Hauptkontotyp: **Umsatzerlös**
 
     - Hauptkontokategorie: **REV**
 
@@ -111,7 +111,7 @@ Das System generiert 14 Zeiträume, einschließlich eines Eröffnungszeitraums u
 
     - Name: **Reisekosten**
 
-    - Hauptkostentyp: **Expense**
+    - Hauptkontotyp: **Expense**
 
     - Hauptkontokategorie: **EXP**
 
@@ -125,7 +125,7 @@ Das System generiert 14 Zeiträume, einschließlich eines Eröffnungszeitraums u
 
     - Name: **CDS_Training**
 
-3. Wählen Sie im Aktionsbereich die Schaltfläche „Neu“ gefolgt vom Typ „Kostenstelle“ aus, und geben Sie folgenden Wert ein:
+3. Wählen Sie im Aktionsbereich die Schaltfläche **Neu** gefolgt vom Typ **Kostenstelle** aus, und geben Sie folgenden Wert ein:
 
     - Name: **CDS_Purchase**
 
@@ -179,7 +179,7 @@ Das System generiert 14 Zeiträume, einschließlich eines Eröffnungszeitraums u
 
 14. Wählen Sie im Inforegister **Segmente und zulässige Werte** die Schaltfläche **Hinzufügen**, um den **Hauptkontobereich 6000..9999** hinzuzufügen.
 
-15. Wählen Sie die Schaltfläche **Segment** im Inforegister **Segmente und zulässige Werte**.
+15. Wählen Sie die Schaltfläche **Segment hinzufügen** im Inforegister **Segmente und zulässige Werte**.
 
 16. m Dialog **Segment hinzufügen** wählen Sie **Kostenstelle** und anschließend die Schaltfläche **Segment hinzufügen**.
 
@@ -193,7 +193,7 @@ Das System generiert 14 Zeiträume, einschließlich eines Eröffnungszeitraums u
 
 2. Wählen Sie ggf. das Unternehmen aus und wählen Sie im Menü **CDS**.
 
-3. Wählen Sie im linken Navigationsbereich von Dynamics 365 Finance **Module** > **Finanzbuchhaltung &gt;Einrichten &gt;Sachkonto-Seite** und konfigurieren Sie Folgendes:
+3. Wählen Sie im linken Navigationsbereich von Dynamics 365 Finance **Module** > **Finanzbuchhaltung &gt;Sachkonto einrichten &gt; Sachkonto-Seite** aus und konfigurieren Sie Folgendes:
 
     - Kontenplan: **Demosysteme**
 
@@ -208,6 +208,8 @@ Das System generiert 14 Zeiträume, einschließlich eines Eröffnungszeitraums u
     - Budget-Wechselkurstyp: **Budget**
 
 4. Wählen Sie im Inforegister **Kontenstruktur** die Schaltfläche **Hinzufügen**, um die Kontenstruktur **CDS_BS** hinzuzufügen.
+
+> Wählen Sie bei Bedarf **Ja** aus, um eine Kontostruktur hinzuzufügen.
 
 5. Fügen Sie zwei weitere Kontostrukturen hinzu: **CDS_Revenue** und **CDS_Expense**.
 
