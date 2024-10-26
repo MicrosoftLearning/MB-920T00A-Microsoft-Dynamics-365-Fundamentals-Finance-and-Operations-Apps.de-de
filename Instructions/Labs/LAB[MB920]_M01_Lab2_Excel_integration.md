@@ -28,7 +28,7 @@ Nachdem Sie sich mit den Finanz- und Betriebs-Apps vertraut gemacht haben, nehme
 
 4.  Wählen Sie **Anbietergruppen** (usmf) aus, und laden Sie die Excel-Vorlage herunter.
 
-5.  Speichern Sie die heruntergeladene Excel-Vorlage, und öffnen Sie sie dann. Erlauben Sie bei Bedarf die Aktion „Schließen“, und wählen Sie **Bearbeitung aktivieren** aus. Stufen Sie dieses Add-In als vertrauenswürdig ein, und melden Sie sich dann an (mit denselben Anmeldeinformationen, sofern Sie gefragt werden).
+5.  Speichern Sie die heruntergeladene Excel-Vorlage und öffnen Sie sie. Erlauben Sie die Vorlage, falls nötig, schließen Sie die Aktivierung und wählen Sie **Bearbeitung aktivieren** aus. Stufen Sie dieses Add-In als vertrauenswürdig ein, und melden Sie sich dann an (mit denselben Anmeldeinformationen, sofern Sie gefragt werden).
 
     Alle in der Tabelle **Kreditorengruppe** enthaltenen Daten werden in der Excel-Tabelle angezeigt.
 

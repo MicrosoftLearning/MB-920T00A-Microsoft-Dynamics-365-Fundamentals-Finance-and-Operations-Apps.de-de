@@ -101,11 +101,13 @@ Varianten werden auf der Seite „Produktvarianten“ erstellt.
 
 32. Wählen Sie unten auf dieser Seite die Schaltfläche **Fertigstellen** aus.
 
-16. Wählen Sie im Navigationsbereich **Module** und dann **Produktinformationsverwaltung** aus. Wählen Sie dann im Menü **Produkte** die Option **Freigegebene Produkte** aus.
+33. Wechseln Sie oben rechts als juristische Person zu **USMF**.
+
+34. Wählen Sie im Navigationsbereich **Module** und dann **Produktinformationsverwaltung** aus. Wählen Sie dann im Menü **Produkte** die Option **Freigegebene Produkte** aus.
 
 33. Auf der Seite **Produkte freigeben** suchen Sie den neuen Artikel **SH001** im Raster.
 
-34. Wählen Sie den Produktlink aus, und navigieren Sie zur Seite **Produktdetails**.
+34. Wählen Sie den Produktlink aus und navigieren Sie zur Seite **Freigegebene Produktdetails**.
 
 35. Im Inforegister **Allgemein** geben Sie Folgendes ein:
 
